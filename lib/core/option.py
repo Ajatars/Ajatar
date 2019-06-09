@@ -85,7 +85,7 @@ def urlRegister(args):
 	urlconfig.plugin = args.plugin
 	urlconfig.diyPlugin = [urlconfig.plugin]
 
-	if url.startswith("@"):#判断是否是文件
+	if url.startswith("$"):#判断是否是文件
 		urlconfig.mutiurl = True
 		filename = url[1:] #取文件名
 		try:

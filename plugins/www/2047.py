@@ -9,10 +9,10 @@ refer     :  http://www.wooyun.org/bugs/wooyun-2015-0103446
 
 
 """
-from urllib.parse import urlparse
+import urlparse
 def assign(service, arg):
     if service == 'www':
-        arr = urlparse(arg)
+        arr = urlparse.urlparse(arg)
         return True, '%s://%s/' % (arr.scheme, arr.netloc)
 def audit(arg):
     

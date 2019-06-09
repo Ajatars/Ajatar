@@ -1,8 +1,0 @@
-[16:58:24] [*] Set threadnum:10
-[16:58:24] [*] ScanStart Target:http://www.baidu.com/
-[16:58:24] [-] load plugin error:Unicode-objects must be encoded before hashing service:www filename:bcrpscan.py
-[16:58:24] [-] load plugin error:cannot import name 'quote' from 'urllib' (C:\Users\admin\AppData\Local\Programs\Python\Python37\lib\urllib\__init__.py) service:www filename:Error_sqlinj.py
-[16:58:24] [-] load plugin error:cannot import name 'quote' from 'urllib' (C:\Users\admin\AppData\Local\Programs\Python\Python37\lib\urllib\__init__.py) service:www filename:Str_sqlinj.py
-[16:58:24] [-] load plugin error:invalid character in identifier (<string>, line 1) service:www filename:1182.py
-[16:58:24] [-] load plugin error:'hex' is not a text encoding; use codecs.decode() to handle arbitrary codecs service:www filename:heartbeat.py
-[16:58:29] [-] Running plugin error:'function' object has no attribute 'urlparse' service:www filename:411.py

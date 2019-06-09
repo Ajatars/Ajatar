@@ -1,19 +1,19 @@
 # Embedded file name: sfi.py
 import re
-from urllib.parse import urlparse
-import urllib.parse
+import urlparse
+import urllib
 import os
 
 
 def assign(service, arg):
     if service != "www":
         return
-    I1IiI = urlparse(arg)
-    o0OOO = urllib.parse.parse_qsl(I1IiI.query)
+    I1IiI = urlparse.urlparse(arg)
+    o0OOO = urlparse.parse_qsl(I1IiI.query)
     for iIiiiI, Iii1ii1II11i in o0OOO:
         arg = arg.replace(Iii1ii1II11i, iIiiiI)
 
-    if urlparse(arg).query.find('''=''') == -1 or len(o0OOO) > 6:
+    if urlparse.urlparse(arg).query.find('''=''') == -1 or len(o0OOO) > 6:
         return
     return (True, arg)
 
@@ -73,13 +73,13 @@ def oo(action, query, k, v, files, suffix, flags):
 
 def audit(arg):
     I1I11I1I1I = arg
-    I1IiI = urlparse(I1I11I1I1I)
+    I1IiI = urlparse.urlparse(I1I11I1I1I)
     Oo000 = urlparse.urlunsplit((I1IiI.scheme,
                                  I1IiI.netloc,
                                  I1IiI.path,
                                  "",
                                  ""))
-    o0OOO = urllib.parse.parse_qsl(I1IiI.query)
+    o0OOO = urlparse.parse_qsl(I1IiI.query)
     IIiIi11i1 = ["__VIEWSTATE", "IbtnEnter.x", "IbtnEnter.y"]
     iIii1, oOOoO0, o0O0o0Oo, iiI1IiI, iiI1IiI = curl.curl(Oo000)
     for iIiiiI, Iii1ii1II11i in o0OOO:

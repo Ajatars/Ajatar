@@ -1,43 +1,0 @@
-[18:10:59] [*] Set threadnum:10
-[18:10:59] [*] ScanStart Target:http://www.baidu.com/
-[18:11:11] [*] ('www.a.shifen.com', ['www.baidu.com'], ['112.80.248.75', '112.80.248.76'])
-[18:11:11] [*] ('mail.maillb.baidu.com', ['mail.baidu.com'], ['111.202.115.87'])
-[18:11:11] [*] ('pop.baidu.com', [], ['10.99.145.36'])
-[18:11:11] [*] ('wap.n.shifen.com', ['m.baidu.com'], ['163.177.151.99', '163.177.151.98'])
-[18:11:11] [*] ('mail.maillb.baidu.com', ['autodiscover.baidu.com', 'email.baidu.com'], ['111.202.115.87'])
-[18:11:11] [*] ('admin.baidu.com', [], ['10.26.109.19'])
-[18:11:11] [*] ('post.n.shifen.com', ['bbs.baidu.com', 'post.baidu.com'], ['163.177.151.76'])
-[18:11:11] [*] ('crowdtestatmp.n.shifen.com', ['test.baidu.com'], ['61.135.185.109'])
-[18:11:11] [*] ('mx.baidu.com', [], ['61.135.163.61'])
-[18:11:11] [*] ('mail.maillb.baidu.com', ['email.baidu.com'], ['111.202.115.87'])
-[18:11:11] [*] ('wap.n.shifen.com', ['wap.baidu.com'], ['163.177.151.99', '163.177.151.98'])
-[18:11:11] [*] ('ns1.baidu.com', [], ['202.108.22.220'])
-[18:11:11] [*] ('vpn.n.shifen.com', ['vpn.baidu.com'], ['61.135.165.126'])
-[18:11:11] [*] ('ns2.baidu.com', [], ['220.181.33.31'])
-[18:11:11] [*] ('www2.e.shifen.com', ['www2.baidu.com'], ['111.206.37.231'])
-[18:11:11] [*] ('mysql.baidu.com', [], ['10.105.97.153'])
-[18:11:12] [*] ('developer-portal.n.shifen.com', ['dev.baidu.com'], ['112.34.111.60'])
-[18:11:12] [*] ('news.n.shifen.com', ['news.baidu.com'], ['111.202.114.151', '123.125.115.141', '153.3.236.50', '202.108.23.82'])
-[18:11:12] [*] ('orp.n.shifen.com', ['shop.baidu.com'], ['123.125.115.15'])
-[18:11:12] [*] ('appc.n.shifen.com', ['mobile.baidu.com'], ['112.80.255.227'])
-[18:11:12] [*] ('web.baidu.com', [], ['10.48.30.87'])
-[18:11:12] [*] ('Sip.n.shifen.com', ['sip.baidu.com'], ['61.135.165.108'])
-[18:11:12] [*] ('www.a.shifen.com', ['www1.baidu.com', 'www.baidu.com'], ['112.80.248.76', '112.80.248.75'])
-[18:11:13] [*] ('static.n.shifen.com', ['img.baidu.com'], ['61.135.186.152'])
-[18:11:13] [*] ('pheonest.e.shifen.com', ['support.baidu.com'], ['112.80.248.234', '163.177.151.145', '202.108.23.221'])
-[18:11:13] [*] ('orp.n.shifen.com', ['media.baidu.com'], ['123.125.115.15'])
-[18:11:13] [*] ('files.baidu.com', [], ['10.65.43.129'])
-[18:11:13] [*] ('opencdn.jomodns.com', ['e.baidu.com', 'e.baidu.com.a.bdydns.com'], ['211.91.255.35', '61.240.205.35'])
-[18:11:13] [-] Running plugin error:cannot use a string pattern on a bytes-like object service:www filename:w9_buildtwith.py
-[18:11:13] [*] ('video.n.shifen.com', ['video.baidu.com'], ['111.206.37.59', '123.125.114.32'])
-[18:11:13] [*] ('appc.n.shifen.com', ['app.baidu.com'], ['112.80.255.227'])
-[18:11:13] [*] ('my.n.shifen.com', ['my.baidu.com'], ['111.206.223.136'])
-[18:11:13] [*] ('crm.baidu.com', [], ['39.156.66.150', '180.149.144.54', '123.125.115.43'])
-[18:11:13] [*] ('portal.baidu.com', [], ['172.22.1.82'])
-[18:11:13] [*] ('demo.baidu.com', [], ['10.73.191.38'])
-[18:11:14] [*] ('api.e.shifen.com', ['api.baidu.com'], ['111.206.37.233', '123.125.115.11'])
-[18:11:14] [*] ('beta.n.shifen.com', ['beta.baidu.com'], ['111.206.37.130'])
-[18:11:14] [*] ('lyncextweb.n.shifen.com', ['lyncdiscover.baidu.com'], ['61.135.165.111'])
-[18:11:14] [*] ('dns.baidu.com', [], ['202.108.22.220'])
-[18:11:14] [*] ('domain-offline.baidu.com', ['images.baidu.com'], ['182.61.62.50'])
-[18:11:14] [*] ('db.baidu.com', [], ['10.26.109.19'])

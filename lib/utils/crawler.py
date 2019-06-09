@@ -3,9 +3,8 @@
 #爬虫模块
 # 爬到的文件丢给任务'spider_file' 爬虫完丢给任务`spider_end`
 
-import re
+import re,urlparse
 from thirdparty import hackhttp
-from urllib.parse import urlparse
 from lib.core.data import Ajatar_hash_pycode,logger
 from lib.utils import until
 from lib.core.data import urlconfig
@@ -48,7 +47,7 @@ class SpiderMain(object):
 		self.deep = 0
 		self.maxdeep = urlconfig.deepMax #爬虫最大深度
 		self.SIMILAR_SET = set()
-		self.domain = urlparse(root).netloc
+		self.domain = urlparse.urlparse(root).netloc
 		self.IGNORE_EXT = ['jpg','png','gif','rar','pdf','doc'] #不爬取的文件
 
 	def craw(self):
@@ -77,7 +76,7 @@ class SpiderMain(object):
 		return _news
 
 	def _judge(self,url):
-		netloc = urlparse(url).netloc
+		netloc = urlparse.urlparse(url).netloc
 		#判断是否是主站url
 		if (self.domain != netloc):
 			return False
@@ -86,7 +85,7 @@ class SpiderMain(object):
 			return False
 
 		#指定后缀判断
-		ext = urlparse(url)[2].split('.')[-1]
+		ext = urlparse.urlparse(url)[2].split('.')[-1]
 		if ext in self.IGNORE_EXT:
 			return False
 		return True
@@ -94,7 +93,7 @@ class SpiderMain(object):
 	def url_similar_check(self,url):
 		#URL相似度分析当url路径和参数键值类似时，则判为重复
 		
-		url_struct = urlparse(url)
+		url_struct = urlparse.urlparse(url)
 		#参数排序
 		query_key = '|'.join(sorted([i.split('=')[0] for i in url_struct.query.split('&')]))
 		#根据hash比较相似度
@@ -113,7 +112,7 @@ class SpiderMain(object):
 
 	def _get_new_urls(self, page_url, links):
 		#添加爬取到的新url
-		new_url = set()
+		new_urls = set()
 		for link in links:
 			new_url = link
 			new_full_url = urlparse.urljoin(page_url, new_url)
@@ -124,7 +123,7 @@ class SpiderMain(object):
 
 def check(url,html = ''):
 	#从字典中获取插件,进行爬虫
-	for k, v in Ajatar_hash_pycode.items():
+	for k, v in Ajatar_hash_pycode.iteritems():
 		try:
 			pluginObj = v["pluginObj"]
 			service = v["service"]
@@ -134,7 +133,7 @@ def check(url,html = ''):
 			logger.error("spider plugin:%s errinfo:%s url:%s"%(k,errinfo,url))
 
 def check_end():
-	for k, v in Ajatar_hash_pycode.items():
+	for k, v in Ajatar_hash_pycode.iteritems():
 		try:
 			pluginObj = v["pluginObj"]
 			service = v["service"]

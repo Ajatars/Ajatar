@@ -9,12 +9,10 @@ import socket
 import time
 import select
 import re
-import codecs
 
 
 def h2bin(x):
-    a = x.replace(' ', '').replace('\n', '')
-    return codecs.decode(a,'hex')
+    return x.replace(' ', '').replace('\n', '').decode('hex')
 
 hello = h2bin('''
 16 03 02 00  dc 01 00 00 d8 03 02 53
@@ -46,7 +44,7 @@ def hexdump(s):
         pdat += ''.join((c if 32 <= ord(c) <= 126 else '.' )for c in lin)
  
     s =  '%s' % (pdat.replace('......', ''),)
-    print(s)
+    print s
     return s
 
 def recvall(s, length, timeout=5):

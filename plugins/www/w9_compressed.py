@@ -1,5 +1,5 @@
 # Embedded file name: compressed_file.py
-from urllib.parse import urlparse
+import urlparse
 import re
 
 
@@ -7,7 +7,7 @@ def assign(service, arg):
     if service != "www":
         return
 
-    url_info = urlparse(arg)
+    url_info = urlparse.urlparse(arg)
     url_paths = url_info.path.split("/")
     path_num = len(url_paths)
     url_list = []

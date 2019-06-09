@@ -8,10 +8,10 @@ Author    :  foxhack
 QQ        :  278563291
 Desc      :  [CVE-2015-2080] Jetty web server 远程共享缓冲区泄漏会话信息
 """
-from urllib.parse import urlparse
+import urlparse
 def assign(service, arg):
     if service == 'www':
-        arr = urlparse(arg)
+        arr = urlparse.urlparse(arg)
         return True, '%s://%s/' % (arr.scheme, arr.netloc)
 
 

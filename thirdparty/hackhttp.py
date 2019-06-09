@@ -1,30 +1,25 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
-import http.client
+import Queue
+import urlparse
+import httplib
 import ssl
 import zlib
 import gzip
+import StringIO
 import re
 import threading
-import email
+import mimetools
+import Cookie
+import cookielib
+import copy
 import time
 import string
-import sys
-import copy
-from http import cookies
-from http import cookiejar
-from io import StringIO
-from urllib.parse import urlparse
-#兼容python23
-if sys.version > '3':
-    import queue as Queue
-else:
-    import Queue
 
-class httpheader(email.message.Message):
+
+class httpheader(mimetools.Message):
     def __init__(self, fp, seekable=1):
-        email.message.Message.__init__(self, fp, seekable)
+        mimetools.Message.__init__(self, fp, seekable)
 
     def isheader(self, line):
         i = line.find(':')
@@ -44,7 +39,7 @@ class Compatibleheader(str):
         return self.dict.get(key, d)
 
 
-class MorselHook(cookies.Morsel):
+class MorselHook(Cookie.Morsel):
     """
     Support ":" in Cookie key.
 
@@ -59,10 +54,11 @@ class MorselHook(cookies.Morsel):
     """
     def set(
         self, key, val, coded_val,
-            LegalChars=cookies._LegalChars + ':',
-            idmap=r"!\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}~", translate=str.translate):
+            LegalChars=Cookie._LegalChars + ':',
+            idmap=string._idmap, translate=string.translate):
         return super(MorselHook, self).set(
             key, val, coded_val, LegalChars, idmap, translate)
+
 
 class httpconpool():
     # 创建的连接总数, key 为 conhash
@@ -92,11 +88,11 @@ class httpconpool():
     def _make_connect(self, https, host, port, proxy=None):
         if not https:
             if proxy:
-                con = http.client.HTTPConnection(
+                con = httplib.HTTPConnection(
                     proxy[0], proxy[1], timeout=self.timeout)
                 con.set_tunnel(host, port)
             else:
-                con = http.client.HTTPConnection(host, port, timeout=self.timeout)
+                con = httplib.HTTPConnection(host, port, timeout=self.timeout)
             # con .set_debuglevel(2) #?
             con.connect()
             return con
@@ -105,16 +101,16 @@ class httpconpool():
             try:
                 if proxy:
 
-                    con = http.client.HTTPSConnection(
+                    con = httplib.HTTPSConnection(
                         proxy[0], proxy[1], context=context,
                         timeout=self.timeout)
                     con.set_tunnel(host, port)
                 else:
-                    con = http.client.HTTPSConnection(
+                    con = httplib.HTTPSConnection(
                         host, port, context=context, timeout=self.timeout)
                 con.connect()
                 return con
-            except ssl.SSLError as e:
+            except ssl.SSLError, e:
                 # print e,protocol
                 pass
         raise Exception('connect err')
@@ -169,8 +165,8 @@ class hackhttp():
             self.conpool = httpconpool(10)
         else:
             self.conpool = conpool
-        cookies.Morsel = MorselHook
-        self.initcookie = cookies.SimpleCookie()
+        Cookie.Morsel = MorselHook
+        self.initcookie = Cookie.SimpleCookie()
         if cookie_str:
             if not cookie_str.endswith(';'):
                 cookie_str += ";"
@@ -183,7 +179,7 @@ class hackhttp():
         self.headers = headers
 
     def _get_urlinfo(self, url):
-        p = urlparse(url)
+        p = urlparse.urlparse(url)
         scheme = p.scheme.lower()
         if scheme != 'http' and scheme != 'https':
             raise Exception('http/https only')
@@ -331,9 +327,9 @@ class hackhttp():
         proxy = kwargs.get('proxy', None)
         if not post:
             post = kwargs.get('data', None)
-        if type(post) == str:
+        if type(post) == unicode:
             post = post.encode('utf-8', 'ignore')
-        if type(raw) == str:
+        if type(raw) == unicode:
             raw = raw.encode('utf-8', 'ignore')
         cookcookie = kwargs.get('cookcookie', True)
         location = kwargs.get('location', True)
@@ -345,7 +341,7 @@ class hackhttp():
         if self.user_agent is not None and kwargs.get('user_agent', None) is None:
             kwargs["user_agent"] = self.user_agent
 
-        if headers and (isinstance(headers, str) or isinstance(headers, str)):
+        if headers and (isinstance(headers, str) or isinstance(headers, unicode)):
             headers = httpheader(StringIO.StringIO(headers), 0).dict
         for arg_key, h in[
                 ('cookie', 'Cookie'),
@@ -414,7 +410,7 @@ class hackhttp():
                     if not expires:
                         continue
                     # check cookie expires time
-                    if cookiejar.http2time(expires) < time.time():
+                    if cookielib.http2time(expires) < time.time():
                         del c[k]
                 cookie_str = c.output(attrs=[], header='', sep=';').strip()
                 if cookie_str:
@@ -449,7 +445,7 @@ class hackhttp():
             if cookcookie and "set-cookie" in rep.msg.dict:
                 c = self.cookiepool[host]
                 c.load(rep.msg.dict['set-cookie'])
-        except http.client.ImproperConnectionState:
+        except httplib.ImproperConnectionState:
             conerr = True
             raise
         except:

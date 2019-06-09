@@ -3,17 +3,13 @@
 # CVE-2014-6278
 # Shellshock cgi test
 # https://github.com/nccgroup/shocker
-from urllib.parse import urlparse
-import sys
-if sys.version > '3':
-	import queue as Queue
-else:
-	import Queue
+import urlparse
+import Queue
 
 
 def assign(service,arg):
     if service=='www':
-        p=urlparse(arg)
+        p=urlparse.urlparse(arg)
         if  p.path.endswith('cgi'):
             return True,'%s://%s%s'%(p.scheme,p.netloc,p.path)
         else:

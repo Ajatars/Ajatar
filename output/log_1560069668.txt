@@ -1,18 +1,0 @@
-[16:41:08] [*] Set threadnum:10
-[16:41:08] [*] ScanStart Target:http://www.baidu.com/
-[16:41:08] [-] load plugin error:Unicode-objects must be encoded before hashing service:www filename:bcrpscan.py
-[16:41:08] [-] load plugin error:cannot import name 'quote' from 'urllib' (C:\Users\admin\AppData\Local\Programs\Python\Python37\lib\urllib\__init__.py) service:www filename:Error_sqlinj.py
-[16:41:08] [-] load plugin error:cannot import name 'quote' from 'urllib' (C:\Users\admin\AppData\Local\Programs\Python\Python37\lib\urllib\__init__.py) service:www filename:Str_sqlinj.py
-[16:41:08] [-] load plugin error:invalid character in identifier (<string>, line 1) service:www filename:1182.py
-[16:41:08] [-] load plugin error:'hex' is not a text encoding; use codecs.decode() to handle arbitrary codecs service:www filename:heartbeat.py
-[16:41:08] [-] load plugin error:'function' object has no attribute 'parse_qsl' service:www filename:w9_sfi.py
-[16:41:08] [-] load plugin error:'function' object has no attribute 'parse_qsl' service:www filename:w9_urlredict.py
-[16:41:08] [-] load plugin error:'function' object has no attribute 'parse_qsl' service:www filename:w9_xss.py
-[16:41:13] [-] Running plugin error:name 'unicode' is not defined service:www filename:411.py
-[16:41:19] [-] Running plugin error:a bytes-like object is required, not 'str' service:www filename:cve-2017-7269.py
-[16:41:19] [-] Running plugin error:name 'unicode' is not defined service:www filename:fingeros.py
-[16:41:20] [-] Running plugin error:name 'unicode' is not defined service:www filename:struts.py
-[16:41:20] [*] ('www.a.shifen.com', ['www.baidu.com'], ['112.80.248.75', '112.80.248.76'])
-[16:41:20] [*] ('mail.maillb.baidu.com', ['mail.baidu.com'], ['111.202.115.87'])
-[16:41:20] [*] ('pop.baidu.com', [], ['10.99.145.36'])
-[16:41:20] [*] ('wap.n.shifen.com', ['m.baidu.com'], ['163.177.151.98', '163.177.151.99'])

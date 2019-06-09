@@ -88,7 +88,7 @@ class ColorizingStreamHandler(logging.StreamHandler):
         def output_colorized(self, message):
             import ctypes
 
-            parts = self.ansi_esc.split(message.decode('utf-8'))
+            parts = self.ansi_esc.split(message)
             write = self.stream.write
             h = None
             fd = getattr(self.stream, 'fileno', None)

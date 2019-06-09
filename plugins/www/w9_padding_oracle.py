@@ -1,11 +1,11 @@
 #Embedded file name: padding_oracle.py
 import re
-from urllib.parse import urlparse
+import urlparse
 import time
 
 def assign(service, arg):
     if service == "www":
-        oo000 = urlparse(arg)
+        oo000 = urlparse.urlparse(arg)
         return (True, '''%s://%s/WebResource.axd''' % (oo000.scheme, oo000.netloc))
 
 

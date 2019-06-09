@@ -1,28 +1,26 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-#url ip 处理文件
-
 __author__ = 'VER007'
 
+import urlparse
 import re
 import os
 import copy
 import urllib
 import difflib
-from urllib.parse import urlparse
+import urllib2
 from posixpath import normpath, splitext
-from html.parser import HTMLParser
+from sgmllib import SGMLParser
 
 _reserved = ';/?:@&=$|'
 _unreserved_marks = "-_.!~*'()"
-always_safe = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789_.-"
-_safe_chars = always_safe + '%' + _reserved + _unreserved_marks
+_safe_chars = urllib.always_safe + '%' + _reserved + _unreserved_marks
 
-def Ajatar_get(url):
-    # w9scan function for get requests
-    req = urllib.request.Request(url)
+def w9_get(url):
+    #function for get requests
+    req = urllib2.Request(url)
     req.add_header('User-Agent', 'Mozilla/5.0 (Windows NT 6.2; rv:16.0) Gecko/20100101 Firefox/16.0')
-    s = urllib.request.urlopen(req).read()
+    s = urllib2.urlopen(req).read()
     return s
 
 def is_ipaddr(varObj):
@@ -98,7 +96,7 @@ def unicode_to_str(text, encoding=None, errors='strict'):
 
     if encoding is None:
         encoding = 'utf-8'
-    if isinstance(text, str):
+    if isinstance(text, unicode):
         return text.encode(encoding, errors)
     return text
 
@@ -12666,7 +12664,7 @@ def list_from_file(path):
 
 
 def get_url_host(url):
-    host = urlparse(url)[1]
+    host = urlparse.urlparse(url)[1]
     if ':' in host:
         host = host[:host.find(':')]
     return host
@@ -12687,7 +12685,7 @@ def get_domain_root(url):
     global _TLDS
 
     if url.startswith('http://') or url.startswith('https://'):
-        host = urlparse(url)[1]
+        host = urlparse.urlparse(url)[1]
     else:
         host = url
 
@@ -12730,7 +12728,7 @@ def load_remote_dict(url):
     if _G['dict'].has_key(url):
         return _G['dict'][url]
     try:
-        data = urllib.request.urlopen(url, timeout=10).read()
+        data = urllib2.urlopen(url, timeout=10).read()
     except:
         pass
 
@@ -12830,7 +12828,7 @@ def get_fuzzpage(page):
 
     """
 
-    r = urlparse(page)
+    r = urlparse.urlparse(page)
     is_dir = False
     dir, filename = os.path.split(r.path)
     if not filename:
@@ -13202,7 +13200,7 @@ def makeurl(url):
     prox = "http://"
     if(url.startswith("https://")):
         prox = "https://"
-    url_info = urlparse(url)
+    url_info = urlparse.urlparse(url)
     u = prox + url_info.netloc + "/"
     return u
 
@@ -13217,14 +13215,14 @@ def html2text(body, head=''):
 
     """
 
-    class Html2txt(HTMLParser):
+    class Html2txt(SGMLParser):
         skip = ['style']
 
         def reset(self):
             self.idx = 0
             self.text = ''
             self.inbody = False
-            HTMLParser.reset(self)
+            SGMLParser.reset(self)
 
         def handle_data(self, text):
             if self.idx == 0:
@@ -13262,6 +13260,6 @@ if __name__ == '__main__':
     #     print get_fuzzpage('http://tu.6.cn/PMA/')
     #
 
-    print(get_domain_root('https://abcde.co.uk/asfazxcaaa/zxczzzz.php?azxcaa=31231'))
-    print(get_domain_root('http://www.china.com.cn'))
-    print(get_host_keys('china.com.cn'))
+    print get_domain_root('https://abcde.co.uk/asfazxcaaa/zxczzzz.php?azxcaa=31231')
+    print get_domain_root('http://www.china.com.cn')
+    print get_host_keys('china.com.cn')

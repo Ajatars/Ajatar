@@ -1,83 +1,0 @@
-[18:45:44] [*] Set threadnum:10
-[18:45:44] [*] ScanStart Target:http://www.baidu.com/
-[18:45:56] [*] ('www.a.shifen.com', ['www.baidu.com'], ['112.80.248.75', '112.80.248.76'])
-[18:45:56] [*] ('mail.maillb.baidu.com', ['mail.baidu.com'], ['111.202.115.87'])
-[18:45:56] [*] ('pop.baidu.com', [], ['10.99.145.36'])
-[18:45:56] [*] ('wap.n.shifen.com', ['m.baidu.com'], ['163.177.151.99', '163.177.151.98'])
-[18:45:57] [*] ('mail.maillb.baidu.com', ['autodiscover.baidu.com', 'email.baidu.com'], ['111.202.115.87'])
-[18:45:57] [*] ('admin.baidu.com', [], ['10.26.109.19'])
-[18:45:57] [*] ('post.n.shifen.com', ['bbs.baidu.com', 'post.baidu.com'], ['163.177.151.76'])
-[18:45:57] [*] ('crowdtestatmp.n.shifen.com', ['test.baidu.com'], ['61.135.185.109'])
-[18:45:57] [*] ('mx.baidu.com', [], ['61.135.163.61'])
-[18:45:58] [*] ('mail.maillb.baidu.com', ['email.baidu.com'], ['111.202.115.87'])
-[18:45:58] [*] ('wap.n.shifen.com', ['wap.baidu.com'], ['163.177.151.99', '163.177.151.98'])
-[18:45:58] [*] ('ns1.baidu.com', [], ['202.108.22.220'])
-[18:45:58] [*] ('vpn.n.shifen.com', ['vpn.baidu.com'], ['61.135.165.126'])
-[18:45:58] [*] ('ns2.baidu.com', [], ['220.181.33.31'])
-[18:45:58] [-] Running plugin error:cannot use a string pattern on a bytes-like object service:www filename:w9_buildtwith.py
-[18:45:58] [*] ('www2.e.shifen.com', ['www2.baidu.com'], ['111.206.37.231'])
-[18:45:58] [*] ('mysql.baidu.com', [], ['10.105.97.153'])
-[18:45:59] [*] ('developer-portal.n.shifen.com', ['dev.baidu.com'], ['112.34.111.60'])
-[18:45:59] [*] ('news.n.shifen.com', ['news.baidu.com'], ['202.108.23.82', '153.3.236.50', '111.202.114.151', '123.125.115.141'])
-[18:45:59] [*] ('orp.n.shifen.com', ['shop.baidu.com'], ['123.125.115.15'])
-[18:45:59] [*] ('appc.n.shifen.com', ['mobile.baidu.com'], ['112.80.255.227'])
-[18:45:59] [*] ('web.baidu.com', [], ['10.48.30.87'])
-[18:46:00] [*] ('Sip.n.shifen.com', ['sip.baidu.com'], ['61.135.165.108'])
-[18:46:00] [*] ('www.a.shifen.com', ['www1.baidu.com', 'www.baidu.com'], ['112.80.248.75', '112.80.248.76'])
-[18:46:00] [*] ('static.n.shifen.com', ['img.baidu.com'], ['61.135.186.152'])
-[18:46:01] [*] ('pheonest.e.shifen.com', ['support.baidu.com'], ['163.177.151.145', '202.108.23.221', '112.80.248.234'])
-[18:46:01] [*] ('orp.n.shifen.com', ['media.baidu.com'], ['123.125.115.15'])
-[18:46:01] [*] ('files.baidu.com', [], ['10.65.43.129'])
-[18:46:01] [*] ('opencdn.jomodns.com', ['e.baidu.com', 'e.baidu.com.a.bdydns.com'], ['211.91.255.35', '61.240.205.35'])
-[18:46:01] [*] ('video.n.shifen.com', ['video.baidu.com'], ['123.125.114.32', '111.206.37.59'])
-[18:46:01] [*] ('appc.n.shifen.com', ['app.baidu.com'], ['112.80.255.227'])
-[18:46:02] [*] ('my.n.shifen.com', ['my.baidu.com'], ['111.206.223.136'])
-[18:46:02] [-] Running plugin error:sequence item 0: expected str instance, bytes found service:www filename:w9_gitleak.py
-[18:46:02] [*] ('crm.baidu.com', [], ['123.125.115.43', '180.149.144.54', '39.156.66.150'])
-[18:46:02] [*] ('portal.baidu.com', [], ['172.22.1.82'])
-[18:46:02] [*] ('demo.baidu.com', [], ['10.73.191.38'])
-[18:46:02] [*] ('api.e.shifen.com', ['api.baidu.com'], ['123.125.115.11', '111.206.37.233'])
-[18:46:02] [*] ('beta.n.shifen.com', ['beta.baidu.com'], ['111.206.37.130'])
-[18:46:02] [*] ('lyncextweb.n.shifen.com', ['lyncdiscover.baidu.com'], ['61.135.165.111'])
-[18:46:02] [*] ('dns.baidu.com', [], ['202.108.22.220'])
-[18:46:03] [*] ('domain-offline.baidu.com', ['images.baidu.com'], ['182.61.62.50'])
-[18:46:03] [*] ('db.baidu.com', [], ['10.26.109.19'])
-[18:46:03] [*] ('olimbos.e.shifen.com', ['info.baidu.com'], ['61.135.185.62', '111.206.223.208'])
-[18:46:03] [*] ('docs.baidu.com', [], ['10.99.57.42'])
-[18:46:03] [*] ('static.n.shifen.com', ['static.baidu.com'], ['61.135.186.152'])
-[18:46:03] [*] ('ns3.baidu.com', [], ['112.80.248.64'])
-[18:46:03] [*] ('forum.baidu.com', [], ['10.26.109.19'])
-[18:46:04] [*] ('cdn.jomodns.com', ['cdn.baidu.com'], ['10.36.3.156'])
-[18:46:04] [*] ('wap.n.shifen.com', ['pda.baidu.com'], ['163.177.151.98', '163.177.151.99'])
-[18:46:04] [*] ('dns1.baidu.com', [], ['220.181.38.10'])
-[18:46:04] [*] ('home.n.shifen.com', ['home.baidu.com'], ['202.106.2.51'])
-[18:46:04] [*] ('orp.n.shifen.com', ['online.baidu.com'], ['123.125.115.15'])
-[18:46:05] [*] ('office.baidu.com', [], ['10.99.72.22'])
-[18:46:05] [*] ('730.nuomi.n.shifen.com', ['t.baidu.com'], ['112.80.255.214', '153.37.235.12'])
-[18:46:05] [*] ('ns3.baidu.com', ['proxy.baidu.com'], ['112.80.248.64'])
-[18:46:06] [*] ('image.n.shifen.com', ['pic.baidu.com', 'image.baidu.com'], ['163.177.151.139'])
-[18:46:06] [*] ('open.a.shifen.com', ['edu.baidu.com'], ['112.80.248.27', '112.80.248.26', '157.255.77.17', '157.255.77.16'])
-[18:46:06] [*] ('ps_other.a.shifen.com', ['d.baidu.com'], ['123.125.114.144'])
-[18:46:06] [*] ('ns4.baidu.com', [], ['14.215.178.80'])
-[18:46:06] [*] ('codesearch.baidu.com', ['cs.baidu.com'], ['10.91.160.210'])
-[18:46:06] [*] ('b2b.e.shifen.com', ['b2b.baidu.com'], ['112.80.248.33', '157.255.77.23', '61.135.185.78'])
-[18:46:06] [*] ('orp.n.shifen.com', ['store.baidu.com'], ['123.125.115.15'])
-[18:46:07] [*] ('service.baidu.com', [], ['112.80.255.39', '112.34.111.183', '180.97.36.81', '112.80.255.43', '202.106.2.77', '117.185.16.213', '117.185.16.230', '180.97.33.42', '112.34.111.18', '202.106.2.78', '180.149.144.166', '180.149.144.165'])
-[18:46:07] [*] ('open.a.shifen.com', ['health.baidu.com'], ['112.80.248.27', '157.255.77.17', '112.80.248.26', '157.255.77.16'])
-[18:46:07] [*] ('help.baidu.com', [], ['117.185.16.213', '117.185.16.230', '180.149.144.165', '112.34.111.183', '180.149.144.166', '112.80.255.43', '180.97.33.42', '180.97.36.81', '202.106.2.77', '202.106.2.78', '112.34.111.18', '112.80.255.39'])
-[18:46:07] [*] ('vip.a.shifen.com', ['vip.baidu.com'], ['123.125.115.229'])
-[18:46:07] [*] ('news.n.shifen.com', ['finance.baidu.com'], ['123.125.115.141', '111.202.114.151', '202.108.23.82', '153.3.236.50'])
-[18:46:08] [*] ('email.n.shifen.com', ['owa.baidu.com'], ['111.202.115.84'])
-[18:46:08] [*] ('ads.baidu.com', [], ['10.42.4.225'])
-[18:46:09] [*] ('sc.baidu.com', [], ['10.207.6.39'])
-[18:46:10] [*] ('talent.n.shifen.com', ['hr.baidu.com', 'talent.baidu.com'], ['61.135.185.176'])
-[18:46:10] [*] ('sms.baidu.com', [], ['10.42.4.184'])
-[18:46:10] [*] ('game.n.shifen.com', ['game.baidu.com'], ['112.80.255.173', '123.125.115.219'])
-[18:46:10] [*] ('i.e.shifen.com', ['i.baidu.com'], ['61.135.185.67'])
-[18:46:10] [*] ('iyouxi.game.n.shifen.com', ['member.baidu.com'], ['112.80.255.173'])
-[18:46:10] [*] ('video.n.shifen.com', ['v.baidu.com'], ['123.125.114.32', '111.206.37.59'])
-[18:46:11] [*] ('asp.e.shifen.com', ['a.baidu.com'], ['112.80.248.124', '123.125.114.38'])
-[18:46:11] [*] ('ps_other.a.shifen.com', ['ww.baidu.com'], ['123.125.114.144'])
-[18:46:11] [*] ('post.n.shifen.com', ['live.baidu.com'], ['163.177.151.76'])
-[18:46:11] [*] ('im2.n.shifen.com', ['im.baidu.com'], ['111.202.114.169', '111.202.114.168'])
-[18:46:11] [-] Running plugin error:sequence item 0: expected str instance, bytes found service:www filename:w9_svncheck.py

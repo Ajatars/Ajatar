@@ -2,7 +2,7 @@ import sys
 import os
 import re
 import json
-import urllib.request
+import urllib2
 
 
 def builtwith(url, headers=None, html=None, user_agent='builtwith'):
@@ -30,17 +30,17 @@ def builtwith(url, headers=None, html=None, user_agent='builtwith'):
     # download content
     if None in (headers, html):
         try:
-            request = urllib.request.Request(url, None, {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'})
+            request = urllib2.Request(url, None, {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36'})
             if html:
                 # already have HTML so just need to make HEAD request for headers
                 request.get_method = lambda: 'HEAD'
-            response = urllib.request.urlopen(request)
+            response = urllib2.urlopen(request)
             if headers is None:
                 headers = response.headers
             if html is None:
                 html = response.read()
-        except Exception as e:
-            print('Error:',e)
+        except Exception, e:
+            print 'Error:', e
             request = None
 
     # check headers

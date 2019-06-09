@@ -1,13 +1,14 @@
+#!/usr/bin/env python
 # -*- coding: utf-8 -*-
-
+#__author__ = 'ontheway'
 import re
-from urllib.parse import urlparse
-import hashlib
+import urlparse
+import md5
 
 def assign(service, arg):
     if service == "www":
-        host = urlparse(arg).netloc
-        arg = urlparse(arg).scheme + "://" + host
+        host = urlparse.urlparse(arg).netloc
+        arg = urlparse.urlparse(arg).scheme + "://" + host
         return True, arg ,host
     
 def audit(arg):

@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+#coding:utf-8
 #form POC-T
 #扫描器日志记录文件
 

@@ -27,7 +27,7 @@ def pluginScan():
 		time.sleep(0.01)
 	endTime = time.clock()
 	urlconfig.runningTime = endTime - startTime
-	#e.report()
+	e.report()
 	sys.exit()
 
 def webScan():
@@ -47,4 +47,4 @@ def webScan():
 		time.sleep(0.1)
 	endTime = time.clock()
 	urlconfig.runningTime = endTime - startTime
-	#e.report()
+	e.report()

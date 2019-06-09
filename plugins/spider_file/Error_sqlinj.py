@@ -3,10 +3,10 @@
 # 寻找SQL报错语句
 
 from dummy import *
-from urllib.parse import urlparse
+import urlparse
 import hashlib
-from urllib.parse import quote as urlencode
-from urllib.parse import unquote as urldecode
+from urllib import quote as urlencode
+from urllib import unquote as urldecode
 import re
 import os
 
@@ -34,7 +34,7 @@ def assign(service, arg):
         return True, arg
 
 def audit(url,html):
-    parse = urlparse(url)
+    parse = urlparse.urlparse(url)
     if not parse.query:
         return
 
@@ -54,8 +54,8 @@ def audit(url,html):
                     msg += match2.group(0)  + '". The error was found '
                     #res.append( (sql_regex, match.group(0), dbms_type) )
                     security_hole(log["request"].replace(os.linesep,'[/br]'),"Error_sqlinj dbms_type:%s url:%s"%(dbms_type,url,match2.group(0)))
-        except Exception as e:
-            print(e)
+        except Exception,e:
+            print e
             
             
 

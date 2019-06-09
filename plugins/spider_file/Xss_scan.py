@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 #-*- coding:utf-8 -*-
-from urllib.parse import urlparse
-from urllib.parse import quote as urlencode
+import urlparse
+from urllib import quote as urlencode
 import os
 
 def assign(service, arg):
@@ -9,7 +9,7 @@ def assign(service, arg):
         return True, arg
 
 def audit(url,html):
-    parse = urlparse(url)
+    parse = urlparse.urlparse(url)
     if not parse.query:
         return
     

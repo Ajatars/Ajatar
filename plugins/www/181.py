@@ -2,11 +2,11 @@
 #-*- encoding:utf-8 -*-
 #__author__ = '0x3D'
 #CVE: 2010-2263
-from urllib.parse import urlparse
+import urlparse
 import re
 def assign(service, arg):
     if service == 'www':
-        arr = urlparse(arg)
+        arr = urlparse.urlparse(arg)
         return True, '%s://%s/' % (arr.scheme, arr.netloc)
 
 def audit(arg):

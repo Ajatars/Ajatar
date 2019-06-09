@@ -106,6 +106,7 @@ def guideRegister(args):
 	#有url 没选插件参数时
 	if args.u and not args.plugin:
 		inputUrl = args.u
+		print('xsss')
 		urlconfig.url.append(makeurl(inputUrl))
 		printMessage('[Prompt] URL has been loaded:%d' % len(urlconfig.url))
 		urlconfig.diyPlugin = ["find_service", "whatcms"] #插件选择
@@ -120,7 +121,7 @@ def guideRegister(args):
 		return False
 
 	#无url 和插件参数时
-	inputUrl = input('[1] Input url > ') 
+	inputUrl = raw_input('[1] Input url > ') 
 	if inputUrl == '':
 		raise ToolkitSystemException("You have to enter the url")
 
@@ -142,7 +143,7 @@ def guideRegister(args):
 	printMessage('[Prompt] URL has been loaded:%d' % len(urlconfig.url))
 	printMessage("[Prompt] You can select these plugins (%s) or select all" % (' '.join(LIST_PLUGINS)))
 
-	diyPlugin = input("[2] Please select the required plugins > ")
+	diyPlugin = raw_input("[2] Please select the required plugins > ")
 
 	if diyPlugin.lower() == 'all':
 		urlconfig.diyPlugin = LIST_PLUGINS #sessting里的设置插件
@@ -153,6 +154,6 @@ def guideRegister(args):
 	#是否开启端口和服务器信息扫描
 	if 'find_service' in urlconfig.diyPlugin:
 		urlconfig.find_service = True
-		input_scanport = input('[2.1] Need you scan all ports ?(Y/N) (default N)> ')
+		input_scanport = raw_input('[2.1] Need you scan all ports ?(Y/N) (default N)> ')
 		if input_scanport.lower() in ("y", "yes"):
 			urlconfig.scanport = True

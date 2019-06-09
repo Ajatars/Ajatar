@@ -8,10 +8,10 @@ Author    :  NoName
 """
 
 import  re
-from urllib.parse import urlparse
+import urlparse
 def assign(service, arg):
     if service == "www":
-        r = urlparse(arg)
+        r = urlparse.urlparse(arg)
         return True, '%s://%s/' % (r.scheme, r.netloc)
        
 def audit(arg):

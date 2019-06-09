@@ -1,11 +1,11 @@
 # Embedded file name: robots.py
 import re
-from urllib.parse import urlparse
+import urlparse
 
 
 def assign(service, arg):
     if service == "www":
-        url_info = urlparse(arg)
+        url_info = urlparse.urlparse(arg)
         return True, '''%s://%s/robots.txt''' % (url_info.scheme, url_info.netloc)
 
 

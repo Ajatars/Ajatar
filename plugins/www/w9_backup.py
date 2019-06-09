@@ -1,12 +1,12 @@
 # Embedded file name: backup_file.py
 import re
-from urllib.parse import urlparse
+import urlparse
 import time
 
 
 def assign(service, arg):
     if service == "www":
-        scheme, netloc, path, params, query, fragment = urlparse(arg)
+        scheme, netloc, path, params, query, fragment = urlparse.urlparse(arg)
         if path and path != "/" and path.find(".htm") == -1 and path.split("/")[-1].find(".") != -1:
             return True, "%s://%s%s" % (scheme, netloc, path)
 

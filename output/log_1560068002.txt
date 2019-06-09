@@ -1,23 +1,0 @@
-[16:13:22] [*] Set threadnum:10
-[16:13:22] [*] ScanStart Target:http://www.baidu.com/
-[16:13:22] [-] load plugin error:No module named 'urlparse' service:www filename:1674.py
-[16:13:22] [-] load plugin error:No module named 'urlparse' service:www filename:bcrpscan.py
-[16:13:22] [-] load plugin error:invalid syntax (<string>, line 57) service:www filename:Error_sqlinj.py
-[16:13:22] [-] load plugin error:No module named 'urlparse' service:www filename:fclude.py
-[16:13:22] [-] load plugin error:invalid syntax (<string>, line 39) service:www filename:Integer_sqlinj.py
-[16:13:22] [-] load plugin error:Missing parentheses in call to 'print'. Did you mean print("Hello")? (<string>, line 40) service:www filename:spider_struts.py
-[16:13:22] [-] load plugin error:invalid syntax (<string>, line 46) service:www filename:Str_sqlinj.py
-[16:13:22] [-] load plugin error:Missing parentheses in call to 'print'. Did you mean print("1")? (<string>, line 32) service:www filename:w9_errorFound.py
-[16:13:22] [-] load plugin error:No module named 'urlparse' service:www filename:w9_phpconfigproblem.py
-[16:13:22] [-] load plugin error:No module named 'urlparse' service:www filename:Xss_scan.py
-[16:13:22] [-] load plugin error:invalid character in identifier (<string>, line 1) service:www filename:1182.py
-[16:13:22] [-] load plugin error:No module named 'md5' service:www filename:299.py
-[16:13:22] [-] load plugin error:No module named 'Queue' service:www filename:3231.py
-[16:13:22] [-] load plugin error:name 'reload' is not defined service:www filename:3338.py
-[16:13:22] [-] load plugin error:Missing parentheses in call to 'print'. Did you mean print(s)? (<string>, line 47) service:www filename:heartbeat.py
-[16:13:22] [-] load plugin error:invalid syntax (<string>, line 42) service:www filename:w9_buildtwith.py
-[16:13:22] [-] load plugin error:'function' object has no attribute 'parse_qsl' service:www filename:w9_sfi.py
-[16:13:22] [-] load plugin error:'function' object has no attribute 'parse_qsl' service:www filename:w9_urlredict.py
-[16:13:22] [-] load plugin error:'function' object has no attribute 'parse_qsl' service:www filename:w9_xss.py
-[16:13:22] [-] load plugin error:No module named 'urlparse' service:www filename:whatcms.py
-[16:13:27] [-] Running plugin error:name 'unicode' is not defined service:www filename:411.py

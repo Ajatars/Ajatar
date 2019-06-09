@@ -1,10 +1,10 @@
 #Embedded file name: nginx.py
-from urllib.parse import urlparse
+import urlparse
 import re
 
 def assign(service, arg):
     if service == "www":
-        OO0o = urlparse(arg)
+        OO0o = urlparse.urlparse(arg)
         return (True, '''%s://%s/''' % (OO0o.scheme, OO0o.netloc))
 
 

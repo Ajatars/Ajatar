@@ -5,13 +5,13 @@
 #_PlugName_ = surfilter Plugin
 #_FileName_ = surfilter.py
 
-from urllib.parse import urlparse
+import urlparse
 import re
 
 
 def assign(service, arg):
     if service == "www":
-        arr = urlparse(arg)
+        arr = urlparse.urlparse(arg)
         return True, '%s://%s/' % (arr.scheme, arr.netloc)	
 
 def audit(arg):

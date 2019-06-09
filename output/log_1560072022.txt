@@ -1,21 +1,0 @@
-[17:20:22] [*] Set threadnum:10
-[17:20:22] [*] ScanStart Target:http://www.baidu.com/
-[17:20:22] [-] load plugin error:cannot import name 'quote' from 'urllib' (C:\Users\admin\AppData\Local\Programs\Python\Python37\lib\urllib\__init__.py) service:www filename:Error_sqlinj.py
-[17:20:22] [-] load plugin error:cannot import name 'quote' from 'urllib' (C:\Users\admin\AppData\Local\Programs\Python\Python37\lib\urllib\__init__.py) service:www filename:Str_sqlinj.py
-[17:20:23] [-] load plugin error:'str' object has no attribute 'decode' service:www filename:heartbeat.py
-[17:20:27] [-] Running plugin error:name 'copy' is not defined service:www filename:411.py
-[17:20:34] [-] Running plugin error:a bytes-like object is required, not 'str' service:www filename:cve-2017-7269.py
-[17:20:34] [-] Running plugin error:name 'copy' is not defined service:www filename:fingeros.py
-[17:20:34] [-] Running plugin error:name 'copy' is not defined service:www filename:struts.py
-[17:20:34] [*] ('www.a.shifen.com', ['www.baidu.com'], ['112.80.248.75', '112.80.248.76'])
-[17:20:34] [*] ('mail.maillb.baidu.com', ['mail.baidu.com'], ['111.202.115.87'])
-[17:20:34] [*] ('pop.baidu.com', [], ['10.99.145.36'])
-[17:20:35] [*] ('wap.n.shifen.com', ['m.baidu.com'], ['163.177.151.98', '163.177.151.99'])
-[17:20:35] [-] Running plugin error:cannot use a string pattern on a bytes-like object service:www filename:w9_buildtwith.py
-[17:20:35] [*] ('mail.maillb.baidu.com', ['autodiscover.baidu.com', 'email.baidu.com'], ['111.202.115.87'])
-[17:20:35] [*] ('admin.baidu.com', [], ['10.26.109.19'])
-[17:20:35] [*] ('post.n.shifen.com', ['bbs.baidu.com', 'post.baidu.com'], ['163.177.151.76'])
-[17:20:35] [*] ('crowdtestatmp.n.shifen.com', ['test.baidu.com'], ['61.135.185.109'])
-[17:20:35] [*] ('mx.baidu.com', [], ['61.135.163.61'])
-[17:20:36] [*] ('mail.maillb.baidu.com', ['email.baidu.com'], ['111.202.115.87'])
-[17:20:36] [*] ('wap.n.shifen.com', ['wap.baidu.com'], ['163.177.151.98', '163.177.151.99'])

@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import re
-from urllib.parse import urlparse
+import urlparse
 
 
 def assign(service, arg):

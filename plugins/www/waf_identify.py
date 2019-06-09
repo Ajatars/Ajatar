@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 import re
-from urllib.parse import urlparse
+import urlparse
 from dummy import *
 
 dna = '''WAF:Topsec-Waf|index|index|<META NAME="Copyright" CONTENT="Topsec Network Security Technology Co.,Ltd"/>|<META NAME="DESCRIPTION" CONTENT="Topsec web UI"/>

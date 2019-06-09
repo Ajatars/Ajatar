@@ -3,10 +3,10 @@
 # 只寻找字符型的注入点
 
 from dummy import *
-from urllib.parse import urlparse
+import urlparse
 import hashlib
-from urllib.parse import quote as urlencode
-from urllib.parse import unquote as urldecode
+from urllib import quote as urlencode
+from urllib import unquote as urldecode
 import os
 def md5(src):
     m2 = hashlib.md5()
@@ -18,7 +18,7 @@ def assign(service, arg):
         return True, arg
 
 def audit(url,html):
-    parse = urlparse(url)
+    parse = urlparse.urlparse(url)
     if not parse.query:
         return
 
@@ -43,8 +43,8 @@ def audit(url,html):
                         res_md5_2 = md5(html)
                         code, head, html, redirect_url, log = hackhttp.http(url_2)
                         res_md5_3 = md5(html)
-                    except Exception as e:
-                        print(e)
+                    except Exception,e:
+                        print e
                         res_md5_1 = res_md5_2 = res_md5_3 = 0
                     if ( res_md5_1 == res_md5_3 ) and res_md5_1 != res_md5_2:
                         security_hole(log["request"].replace(os.linesep,'[/br]'),'String SQL injection:' + url)

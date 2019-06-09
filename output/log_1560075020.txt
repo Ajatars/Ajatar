@@ -1,2 +1,0 @@
-[18:10:20] [*] Set threadnum:10
-[18:10:20] [*] ScanStart Target:http://www.baidu.com/

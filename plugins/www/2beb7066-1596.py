@@ -4,7 +4,7 @@
 #refer:http://blog.csdn.net/cnbird2008/article/details/45080055
 
 import re
-from urllib.parse import urlparse
+import urlparse
 
 def assign(service, arg):
     if service == 'www':

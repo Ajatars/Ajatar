@@ -1,16 +1,0 @@
-[17:37:46] [*] Set threadnum:10
-[17:37:46] [*] ScanStart Target:http://www.baidu.com/
-[17:37:46] [-] load plugin error:'str' object has no attribute 'decode' service:www filename:heartbeat.py
-[17:37:51] [-] Running plugin error:sequence item 0: expected str instance, bytes found service:www filename:411.py
-[17:37:57] [-] Running plugin error:a bytes-like object is required, not 'str' service:www filename:cve-2017-7269.py
-[17:37:57] [-] Running plugin error:Request-sent service:www filename:fingeros.py
-[17:37:57] [-] Running plugin error:Request-sent service:www filename:struts.py
-[17:37:57] [*] ('www.a.shifen.com', ['www.baidu.com'], ['112.80.248.76', '112.80.248.75'])
-[17:37:57] [*] ('mail.maillb.baidu.com', ['mail.baidu.com'], ['111.202.115.87'])
-[17:37:58] [*] ('pop.baidu.com', [], ['10.99.145.36'])
-[17:37:58] [*] ('wap.n.shifen.com', ['m.baidu.com'], ['163.177.151.98', '163.177.151.99'])
-[17:37:58] [*] ('mail.maillb.baidu.com', ['autodiscover.baidu.com', 'email.baidu.com'], ['111.202.115.87'])
-[17:37:58] [*] ('admin.baidu.com', [], ['10.26.109.19'])
-[17:37:58] [*] ('post.n.shifen.com', ['bbs.baidu.com', 'post.baidu.com'], ['163.177.151.76'])
-[17:37:58] [*] ('crowdtestatmp.n.shifen.com', ['test.baidu.com'], ['61.135.185.109'])
-[17:37:58] [*] ('mx.baidu.com', [], ['61.135.163.61'])

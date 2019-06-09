@@ -1,0 +1,4 @@
+[00:41:10] [*] Set threadnum:10
+[00:41:10] [*] ScanStart Target:http://www.baidu.com/
+[00:41:12] [*] Prepare for building result...
+[00:41:12] [*] success saved :C:\Users\admin\Desktop\Ajatar\output\baidu.com_1560098472.html

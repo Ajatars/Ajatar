@@ -1,722 +1,0 @@
-[18:24:18] [*] Set threadnum:10
-[18:24:18] [*] ScanStart Target:http://www.baidu.com/
-[18:24:30] [*] ('www.a.shifen.com', ['www.baidu.com'], ['112.80.248.75', '112.80.248.76'])
-[18:24:30] [*] ('mail.maillb.baidu.com', ['mail.baidu.com'], ['111.202.115.87'])
-[18:24:30] [*] ('pop.baidu.com', [], ['10.99.145.36'])
-[18:24:30] [*] ('wap.n.shifen.com', ['m.baidu.com'], ['163.177.151.98', '163.177.151.99'])
-[18:24:31] [*] ('mail.maillb.baidu.com', ['autodiscover.baidu.com', 'email.baidu.com'], ['111.202.115.87'])
-[18:24:31] [*] ('admin.baidu.com', [], ['10.26.109.19'])
-[18:24:31] [*] ('post.n.shifen.com', ['bbs.baidu.com', 'post.baidu.com'], ['163.177.151.76'])
-[18:24:31] [*] ('crowdtestatmp.n.shifen.com', ['test.baidu.com'], ['61.135.185.109'])
-[18:24:31] [*] ('mx.baidu.com', [], ['61.135.163.61'])
-[18:24:31] [*] ('mail.maillb.baidu.com', ['email.baidu.com'], ['111.202.115.87'])
-[18:24:31] [*] ('wap.n.shifen.com', ['wap.baidu.com'], ['163.177.151.99', '163.177.151.98'])
-[18:24:32] [*] ('ns1.baidu.com', [], ['202.108.22.220'])
-[18:24:32] [*] ('vpn.n.shifen.com', ['vpn.baidu.com'], ['61.135.165.126'])
-[18:24:32] [*] ('ns2.baidu.com', [], ['220.181.33.31'])
-[18:24:32] [*] ('www2.e.shifen.com', ['www2.baidu.com'], ['111.206.37.231'])
-[18:24:32] [*] ('mysql.baidu.com', [], ['10.105.97.153'])
-[18:24:32] [*] ('developer-portal.n.shifen.com', ['dev.baidu.com'], ['112.34.111.60'])
-[18:24:32] [*] ('news.n.shifen.com', ['news.baidu.com'], ['153.3.236.50', '111.202.114.151', '123.125.115.141', '202.108.23.82'])
-[18:24:32] [*] ('orp.n.shifen.com', ['shop.baidu.com'], ['123.125.115.15'])
-[18:24:32] [*] ('appc.n.shifen.com', ['mobile.baidu.com'], ['112.80.255.227'])
-[18:24:32] [*] ('web.baidu.com', [], ['10.48.30.87'])
-[18:24:32] [*] ('Sip.n.shifen.com', ['sip.baidu.com'], ['61.135.165.108'])
-[18:24:32] [-] Running plugin error:cannot use a string pattern on a bytes-like object service:www filename:w9_buildtwith.py
-[18:24:33] [*] ('www.a.shifen.com', ['www1.baidu.com', 'www.baidu.com'], ['112.80.248.75', '112.80.248.76'])
-[18:24:33] [*] ('static.n.shifen.com', ['img.baidu.com'], ['61.135.186.152'])
-[18:24:33] [*] ('pheonest.e.shifen.com', ['support.baidu.com'], ['112.80.248.234', '163.177.151.145', '202.108.23.221'])
-[18:24:33] [*] ('orp.n.shifen.com', ['media.baidu.com'], ['123.125.115.15'])
-[18:24:33] [*] ('files.baidu.com', [], ['10.65.43.129'])
-[18:24:33] [*] ('opencdn.jomodns.com', ['e.baidu.com', 'e.baidu.com.a.bdydns.com'], ['61.240.205.35', '211.91.255.35'])
-[18:24:33] [*] ('video.n.shifen.com', ['video.baidu.com'], ['111.206.37.59', '123.125.114.32'])
-[18:24:33] [*] ('appc.n.shifen.com', ['app.baidu.com'], ['112.80.255.227'])
-[18:24:34] [*] ('my.n.shifen.com', ['my.baidu.com'], ['111.206.223.136'])
-[18:24:34] [*] ('crm.baidu.com', [], ['123.125.115.43', '180.149.144.54', '39.156.66.150'])
-[18:24:34] [*] ('portal.baidu.com', [], ['172.22.1.82'])
-[18:24:34] [*] ('demo.baidu.com', [], ['10.73.191.38'])
-[18:24:34] [*] ('api.e.shifen.com', ['api.baidu.com'], ['111.206.37.233', '123.125.115.11'])
-[18:24:34] [*] ('beta.n.shifen.com', ['beta.baidu.com'], ['111.206.37.130'])
-[18:24:34] [*] ('lyncextweb.n.shifen.com', ['lyncdiscover.baidu.com'], ['61.135.165.111'])
-[18:24:34] [*] ('dns.baidu.com', [], ['202.108.22.220'])
-[18:24:34] [*] ('domain-offline.baidu.com', ['images.baidu.com'], ['182.61.62.50'])
-[18:24:34] [*] ('db.baidu.com', [], ['10.26.109.19'])
-[18:24:34] [*] ('olimbos.e.shifen.com', ['info.baidu.com'], ['111.206.223.208', '61.135.185.62'])
-[18:24:34] [*] ('docs.baidu.com', [], ['10.99.57.42'])
-[18:24:34] [*] ('static.n.shifen.com', ['static.baidu.com'], ['61.135.186.152'])
-[18:24:35] [*] ('ns3.baidu.com', [], ['112.80.248.64'])
-[18:24:35] [*] ('forum.baidu.com', [], ['10.26.109.19'])
-[18:24:35] [*] ('cdn.jomodns.com', ['cdn.baidu.com'], ['10.36.3.156'])
-[18:24:35] [*] ('wap.n.shifen.com', ['pda.baidu.com'], ['163.177.151.98', '163.177.151.99'])
-[18:24:35] [*] ('dns1.baidu.com', [], ['220.181.38.10'])
-[18:24:35] [-] Running plugin error:Request-sent service:www filename:w9_gitleak.py
-[18:24:35] [*] ('home.n.shifen.com', ['home.baidu.com'], ['202.106.2.51'])
-[18:24:35] [*] ('orp.n.shifen.com', ['online.baidu.com'], ['123.125.115.15'])
-[18:24:35] [*] ('office.baidu.com', [], ['10.99.72.22'])
-[18:24:36] [*] ('730.nuomi.n.shifen.com', ['t.baidu.com'], ['153.37.235.12', '112.80.255.214'])
-[18:24:36] [*] ('ns3.baidu.com', ['proxy.baidu.com'], ['112.80.248.64'])
-[18:24:36] [*] ('image.n.shifen.com', ['pic.baidu.com', 'image.baidu.com'], ['163.177.151.139'])
-[18:24:36] [*] ('open.a.shifen.com', ['edu.baidu.com'], ['112.80.248.27', '157.255.77.16', '157.255.77.17', '112.80.248.26'])
-[18:24:36] [*] ('ps_other.a.shifen.com', ['d.baidu.com'], ['123.125.114.144'])
-[18:24:36] [*] ('ns4.baidu.com', [], ['14.215.178.80'])
-[18:24:36] [*] ('codesearch.baidu.com', ['cs.baidu.com'], ['10.91.160.210'])
-[18:24:36] [*] ('b2b.e.shifen.com', ['b2b.baidu.com'], ['112.80.248.33', '61.135.185.78', '157.255.77.23'])
-[18:24:36] [*] ('orp.n.shifen.com', ['store.baidu.com'], ['123.125.115.15'])
-[18:24:37] [*] ('service.baidu.com', [], ['180.149.144.166', '180.149.144.165', '112.80.255.39', '112.34.111.183', '180.97.36.81', '112.80.255.43', '202.106.2.77', '117.185.16.213', '117.185.16.230', '180.97.33.42', '112.34.111.18', '202.106.2.78'])
-[18:24:37] [*] ('open.a.shifen.com', ['health.baidu.com'], ['157.255.77.16', '112.80.248.26', '157.255.77.17', '112.80.248.27'])
-[18:24:37] [*] ('help.baidu.com', [], ['112.80.255.39', '180.97.36.81', '112.80.255.43', '202.106.2.78', '180.149.144.165', '180.149.144.166', '112.34.111.18', '202.106.2.77', '117.185.16.230', '180.97.33.42', '117.185.16.213', '112.34.111.183'])
-[18:24:37] [*] ('vip.a.shifen.com', ['vip.baidu.com'], ['123.125.115.229'])
-[18:24:37] [*] ('news.n.shifen.com', ['finance.baidu.com'], ['111.202.114.151', '202.108.23.82', '123.125.115.141', '153.3.236.50'])
-[18:24:37] [*] ('email.n.shifen.com', ['owa.baidu.com'], ['111.202.115.84'])
-[18:24:38] [*] ('ads.baidu.com', [], ['10.42.4.225'])
-[18:24:38] [*] ('sc.baidu.com', [], ['10.207.6.39'])
-[18:24:38] [*] ('talent.n.shifen.com', ['hr.baidu.com', 'talent.baidu.com'], ['61.135.185.176'])
-[18:24:38] [*] ('sms.baidu.com', [], ['10.42.4.184'])
-[18:24:38] [*] ('game.n.shifen.com', ['game.baidu.com'], ['123.125.115.219', '112.80.255.173'])
-[18:24:39] [*] ('i.e.shifen.com', ['i.baidu.com'], ['61.135.185.67'])
-[18:24:39] [*] ('iyouxi.game.n.shifen.com', ['member.baidu.com'], ['112.80.255.173'])
-[18:24:39] [*] ('video.n.shifen.com', ['v.baidu.com'], ['123.125.114.32', '111.206.37.59'])
-[18:24:39] [*] ('asp.e.shifen.com', ['a.baidu.com'], ['123.125.114.38', '112.80.248.124'])
-[18:24:39] [*] ('ps_other.a.shifen.com', ['ww.baidu.com'], ['123.125.114.144'])
-[18:24:39] [*] ('post.n.shifen.com', ['live.baidu.com'], ['163.177.151.76'])
-[18:24:39] [*] ('im2.n.shifen.com', ['im.baidu.com'], ['111.202.114.169', '111.202.114.168'])
-[18:24:39] [*] ('lvyou.n.shifen.com', ['go.baidu.com', 'lvyou.baidu.com'], ['111.206.223.162'])
-[18:24:39] [*] ('wap.n.shifen.com', ['3g.baidu.com'], ['163.177.151.99', '163.177.151.98'])
-[18:24:50] [*] ('security.baidu.com', [], ['10.58.121.74'])
-[18:24:50] [-] Running plugin error:sequence item 0: expected str instance, bytes found service:www filename:w9_svncheck.py
-[18:24:50] [-] Running plugin error:Request-sent service:www filename:waf_identify.py
-[18:24:50] [*] ('lyncextweb.n.shifen.com', ['meet.baidu.com'], ['61.135.165.111'])
-[18:24:50] [-] Running plugin error:'dict_keys' object has no attribute 'sort' service:www filename:whatcms.py
-[18:24:50] [*] ('ps_other.a.shifen.com', ['w.baidu.com'], ['123.125.114.144'])
-[18:24:54] [*] ('image.n.shifen.com', ['image.baidu.com'], ['163.177.151.139'])
-[18:24:54] [*] ('other.a.shifen.com', ['hk.baidu.com'], ['123.125.114.144'])
-[18:24:58] [*] ('exchange.baidu.com', [], ['10.26.109.19'])
-[18:24:58] [*] ('so.baidu.com', [], ['106.12.34.143'])
-[18:24:58] [*] ('yuzhou.n.shifen.com', ['cp.baidu.com'], ['111.206.37.177'])
-[18:24:58] [*] ('bce.baidu.n.shifen.com', ['cloud.baidu.com'], ['163.177.151.200', '112.80.255.170'])
-[18:25:02] [*] ('domain-offline.baidu.com', ['ad.baidu.com'], ['182.61.62.50'])
-[18:25:02] [*] ('access.baidu.com', [], ['10.94.49.39'])
-[18:25:02] [*] ('open.a.shifen.com', ['job.baidu.com'], ['112.80.248.26', '157.255.77.16', '112.80.248.27', '157.255.77.17'])
-[18:25:06] [*] ('lib.baidu.com', [], ['10.40.20.46'])
-[18:25:06] [*] ('tools.baidu.com', [], ['10.48.30.110'])
-[18:25:06] [*] ('wt.baidu.com', [], ['10.94.40.19'])
-[18:25:06] [*] ('ask.baidu.com', [], ['10.58.222.200'])
-[18:25:10] [*] ('ns5.baidu.com', [], ['220.181.33.63'])
-[18:25:10] [*] ('u.e.shifen.com', ['u.baidu.com'], ['111.206.37.231'])
-[18:25:11] [*] ('vc.wshifen.com', ['vc.baidu.com'], ['61.135.165.169'])
-[18:25:11] [*] ('hb.n.shifen.com', ['hb.baidu.com'], ['180.97.33.29'])
-[18:25:11] [*] ('sp.baidu.com', [], ['10.143.188.18'])
-[18:25:15] [*] ('svn.baidu.com', [], ['10.65.211.174'])
-[18:25:19] [*] ('metrics.baidu.com', [], ['10.42.7.60'])
-[18:25:19] [*] ('mx2.baidu.com', [], ['61.135.163.62'])
-[18:25:19] [*] ('bapp.n.shifen.com', ['hd.baidu.com'], ['180.149.131.33'])
-[18:25:19] [*] ('httpsproxy.a.shifen.com', ['ss.baidu.com'], ['61.135.186.173', '153.3.236.95'])
-[18:25:19] [*] ('qaatmp.n.shifen.com', ['qa.baidu.com'], ['220.181.107.197'])
-[18:25:19] [*] ('bjwebproxy.baidu.ttplayer.com', ['dj.baidu.com'], ['180.76.141.217', '180.76.183.17'])
-[18:25:23] [*] ('bapp.n.shifen.com', ['file.baidu.com'], ['180.149.131.33'])
-[18:25:23] [*] ('project.baidu.com', [], ['10.40.61.49'])
-[18:25:23] [*] ('cpro.e.shifen.com', ['feeds.baidu.com'], ['111.202.114.36'])
-[18:25:26] [*] ('appc.n.shifen.com', ['IN.baidu.com'], ['112.80.255.227'])
-[18:25:27] [*] ('news.n.shifen.com', ['ent.baidu.com', 'yule.baidu.com'], ['153.3.236.50', '111.202.114.151', '202.108.23.82', '123.125.115.141'])
-[18:25:27] [*] ('ws.baidu.com', [], ['10.94.35.35'])
-[18:25:27] [*] ('update.baidu.n.shifen.com', ['update.baidu.com'], ['112.80.255.221'])
-[18:25:27] [*] ('baidu.zongheng.com', ['book.baidu.com'], ['111.13.108.110'])
-[18:25:27] [*] ('appc.n.shifen.com', ['as.baidu.com'], ['112.80.255.227'])
-[18:25:28] [*] ('gb.baidu.com', [], ['10.94.39.59'])
-[18:25:31] [*] ('lab.e.shifen.com', ['lab.baidu.com'], ['180.149.144.192', '180.149.132.122'])
-[18:25:31] [*] ('baifubao-bfe.n.shifen.com', ['1.baidu.com'], ['111.206.223.244', '61.135.186.115', '112.80.255.31'])
-[18:25:31] [*] ('dx.baidu.com', [], ['180.76.177.224'])
-[18:25:31] [*] ('js.n.shifen.com', ['js.baidu.com'], ['202.106.2.14', '202.106.2.53'])
-[18:25:31] [*] ('bk.n.shifen.com', ['b.baidu.com', 'bk.baidu.com'], ['153.37.235.134', '153.37.235.133'])
-[18:25:35] [*] ('trust.e.shifen.com', ['auth.baidu.com'], ['111.206.37.69'])
-[18:25:35] [*] ('other.a.shifen.com', ['tw.baidu.com'], ['123.125.114.144'])
-[18:25:35] [*] ('preview.baidu.com', [], ['10.50.14.162'])
-[18:25:39] [*] ('git.baidu.com', [], ['10.42.4.104'])
-[18:25:39] [*] ('e11065.a.akamaiedge.net', ['ir.baidu.com', 'baidu.gcs-web.com', 'wildcard.gcs-web.com', 'wildcard.gcs-web.edgekey.net'], ['23.67.181.121'])
-[18:25:43] [*] ('monitor.baidu.com', [], ['10.91.161.200'])
-[18:25:43] [*] ('backup.baidu.com', [], ['10.143.145.28'])
-[18:25:43] [*] ('image.n.shifen.com', ['photos.baidu.com', 'image.baidu.com'], ['163.177.151.139'])
-[18:25:43] [*] ('game.n.shifen.com', ['games.baidu.com'], ['112.80.255.173', '123.125.115.219'])
-[18:25:47] [*] ('security.baidu.com', ['ssl.baidu.com'], ['10.58.121.74'])
-[18:25:57] [*] ('research.baidu.com', [], ['180.76.149.102'])
-[18:25:58] [*] ('search-br.wshifen.com', ['pt.baidu.com'], ['123.125.114.144'])
-[18:25:58] [*] ('ps_other.a.shifen.com', ['wwww.baidu.com'], ['123.125.114.144'])
-[18:25:58] [*] ('webproxy.baidu.ttplayer.com', ['music.baidu.com'], ['180.76.141.217'])
-[18:26:02] [*] ('open.a.shifen.com', ['open.baidu.com'], ['157.255.77.16', '112.80.248.27', '157.255.77.17', '112.80.248.26'])
-[18:26:02] [*] ('ntp.baidu.com', [], ['10.48.49.44'])
-[18:26:02] [*] ('ca.n.shifen.com', ['ca.baidu.com'], ['111.202.115.77'])
-[18:26:02] [*] ('map.n.shifen.com', ['map.baidu.com'], ['153.3.236.101', '112.80.248.48'])
-[18:26:06] [*] ('rd-service-gobfe.e.shifen.com', ['design.baidu.com'], ['111.202.114.68'])
-[18:26:06] [*] ('share.n.shifen.com', ['share.baidu.com'], ['111.206.37.189', '61.135.185.248'])
-[18:26:06] [*] ('search-th.wshifen.com', ['th.baidu.com'], ['123.125.114.144'])
-[18:26:06] [*] ('730.njsz.nuomi.n.shifen.com', ['house.baidu.com', 'jujia.nuomi.com'], ['112.80.255.214'])
-[18:26:07] [*] ('appc.n.shifen.com', ['in.baidu.com'], ['112.80.255.227'])
-[18:26:07] [*] ('cloudcam.baidubce.com', ['x.baidu.com'], ['180.76.177.109'])
-[18:26:07] [*] ('labs.baidu.com', [], ['10.48.37.38'])
-[18:26:10] [*] ('open.a.shifen.com', ['education.baidu.com'], ['157.255.77.17', '157.255.77.16', '112.80.248.27', '112.80.248.26'])
-[18:26:11] [*] ('global.wshifen.com', ['global.baidu.com'], ['103.235.46.83'])
-[18:26:11] [*] ('brand-bfe.e.shifen.com', ['f.baidu.com'], ['112.80.255.125'])
-[18:26:12] [*] ('gh.n.shifen.com', ['gh.baidu.com'], ['111.206.37.184'])
-[18:26:12] [*] ('bavhome.wshifen.com', ['sd.baidu.com'], ['103.235.46.69'])
-[18:26:12] [*] ('www5.a.shifen.com', ['www5.baidu.com'], ['61.135.169.105', '61.135.169.125'])
-[18:26:12] [*] ('offlinea.shifen.bae.baidu.com', ['rt.baidu.com', 'realtime.offlinea.bae.baidu.com'], ['10.26.3.49', '10.36.3.27'])
-[18:26:13] [*] ('open.a.shifen.com', ['weather.baidu.com'], ['157.255.77.16', '112.80.248.26', '157.255.77.17', '112.80.248.27'])
-[18:26:16] [*] ('newsletter.baidu.com', [], ['180.76.185.16'])
-[18:26:19] [*] ('cache.a.shifen.com', ['cache.baidu.com'], ['157.255.77.55', '157.255.77.56'])
-[18:26:20] [*] ('new.rms.baidu.com', ['rms.baidu.com'], ['10.57.13.63', '10.65.211.49'])
-[18:26:20] [*] ('mx1.baidu.com', [], ['61.135.165.120', '220.181.50.185'])
-[18:26:20] [*] ('bapp.n.shifen.com', ['feedback.baidu.com'], ['180.149.131.33'])
-[18:26:20] [*] ('aiib-01.n.shifen.com', ['fz.baidu.com'], ['153.37.235.93', '61.135.185.20'])
-[18:26:20] [*] ('reports.a.shifen.com', ['reports.baidu.com'], ['123.125.115.13', '112.80.255.158', '163.177.151.157'])
-[18:26:20] [*] ('news.n.shifen.com', ['auto.baidu.com', 'news.baidu.com'], ['111.202.114.151', '153.3.236.50', '202.108.23.82', '123.125.115.141'])
-[18:26:24] [*] ('lvyou.n.shifen.com', ['travel.baidu.com', 'lvyou.baidu.com'], ['111.206.223.162'])
-[18:26:24] [*] ('cm.pos.e.shifen.com', ['cm.baidu.com'], ['111.202.114.35'])
-[18:26:24] [*] ('origin.baidu.com', [], ['10.26.5.60', '10.50.14.165'])
-[18:26:24] [*] ('cn.hao123.n.shifen.com', ['site.baidu.com'], ['123.125.114.5'])
-[18:26:24] [*] ('noah.baidu.com', ['cc.baidu.com', 'ccs.baidu.com'], ['10.169.42.152', '10.26.7.113'])
-[18:26:27] [*] ('iknow.n.shifen.com', ['p.baidu.com', 'zhidao.baidu.com', 'iknow.baidu.com'], ['61.135.185.172'])
-[18:26:28] [*] ('open.a.shifen.com', ['vote.baidu.com'], ['157.255.77.17', '112.80.248.27', '157.255.77.16', '112.80.248.26'])
-[18:26:28] [*] ('ems.baidu.com', [], ['10.38.75.31'])
-[18:26:32] [*] ('partner.baidu.com', [], ['61.135.185.112', '220.181.33.224', '112.34.113.34'])
-[18:26:32] [*] ('spam.maillb.baidu.com', ['spam.baidu.com'], ['172.31.63.13'])
-[18:26:32] [*] ('user.baidu.com', [], ['10.242.113.33'])
-[18:26:32] [*] ('tuan.n.shifen.com', ['tg.baidu.com'], ['61.135.162.145'])
-[18:26:32] [*] ('unionsug.a.shifen.com', ['sg.baidu.com', 'unionsug.baidu.com'], ['123.125.114.39'])
-[18:26:36] [*] ('lvyou.n.shifen.com', ['ly.baidu.com', 'lvyou.baidu.com'], ['111.206.223.162'])
-[18:26:36] [*] ('fs.baidu.com', [], ['10.42.8.186'])
-[18:26:36] [*] ('datamarket.e.shifen.com', ['dm.baidu.com'], ['115.239.211.48'])
-[18:26:40] [*] ('www.a.shifen.com', ['abc.baidu.com'], ['112.80.248.76', '112.80.248.75'])
-[18:26:40] [*] ('brand.e.shifen.com', ['brand.baidu.com'], ['39.156.66.125', '117.185.16.100'])
-[18:26:51] [*] ('assets.baidu.com', [], ['10.214.34.19'])
-[18:26:51] [*] ('wwwyq.n.shifen.com', ['0.baidu.com'], ['111.206.223.136'])
-[18:26:51] [*] ('news.n.shifen.com', ['money.baidu.com'], ['123.125.115.141', '153.3.236.50', '111.202.114.151', '202.108.23.82'])
-[18:26:51] [*] ('sales.baidu.com.baidu-itm.com', ['sales.baidu.com'], ['106.12.89.132'])
-[18:26:55] [*] ('tuan.n.shifen.com', ['tuan.baidu.com'], ['61.135.162.145'])
-[18:26:55] [*] ('marketing.baidu.com', [], ['180.101.212.81', '61.135.185.96', '36.152.44.78'])
-[18:26:55] [*] ('fankui.icafe.baidu.com', ['bugs.baidu.com'], ['10.42.4.177'])
-[18:26:55] [*] ('dy.baidu.com', [], ['10.212.6.239'])
-[18:26:59] [*] ('bapp.n.shifen.com', ['code.baidu.com'], ['180.149.131.33'])
-[18:26:59] [*] ('f.duoku.com', ['g.baidu.com', 'g.baidu-mgame.com'], ['180.76.174.103', '106.12.147.225', '180.76.187.73', '180.76.121.198', '180.76.58.249'])
-[18:26:59] [*] ('search-br.wshifen.com', ['br.baidu.com'], ['123.125.114.144'])
-[18:27:13] [*] ('jj.baidu.com', [], ['10.36.7.47'])
-[18:27:13] [*] ('wp.baidu.com', [], ['10.26.3.173'])
-[18:27:17] [*] ('union.e.shifen.com', ['union.baidu.com'], ['123.125.115.133'])
-[18:27:17] [*] ('pm.baidu.com', [], ['10.36.7.163', '10.42.6.246'])
-[18:27:20] [*] ('zhizhou.n.shifen.com', ['kb.baidu.com'], ['112.80.255.203'])
-[18:27:21] [*] ('map.n.shifen.com', ['maps.baidu.com', 'map.baidu.com'], ['153.3.236.101', '112.80.248.48'])
-[18:27:21] [*] ('cb.e.shifen.com', ['pos.baidu.com'], ['123.125.115.99'])
-[18:27:25] [*] ('gxt.n.shifen.com', ['ce.baidu.com'], ['111.202.114.187'])
-[18:27:25] [*] ('jira.baidu.com', [], ['10.65.45.121', '10.26.138.15'])
-[18:27:28] [*] ('ssp.bfe.e.shifen.com', ['adm.baidu.com'], ['123.125.115.122'])
-[18:27:29] [*] ('webproxy.baidu.ttplayer.com', ['flash.baidu.com'], ['180.76.141.217'])
-[18:27:29] [*] ('developer-portal.n.shifen.com', ['developer.baidu.com'], ['112.34.111.60'])
-[18:27:29] [*] ('rss.baidu.com', [], ['115.239.211.32'])
-[18:27:30] [*] ('log.baidu.com', [], ['10.26.39.14'])
-[18:27:33] [*] ('cas.e.shifen.com', ['cas.baidu.com'], ['111.206.37.231'])
-[18:27:33] [*] ('webb.jomodns.com', ['webdev.baidu.com', 'openweb.baidu.com', 'openweb.baidu.com.a.jomodns.com'], ['61.240.205.48'])
-[18:27:45] [*] ('tiantian.e.shifen.com', ['q.baidu.com'], ['61.135.185.207'])
-[18:27:45] [*] ('ks.zongheng.com', ['ks.baidu.com'], ['111.13.108.103', '118.26.21.72'])
-[18:27:45] [*] ('bc.baidu.com', [], ['10.23.250.192'])
-[18:27:45] [*] ('iyouxi.game.n.shifen.com', ['hy.baidu.com'], ['112.80.255.173'])
-[18:27:45] [*] ('news.n.shifen.com', ['tech.baidu.com', 'news.baidu.com'], ['202.108.23.82', '123.125.115.141', '153.3.236.50', '111.202.114.151'])
-[18:27:49] [*] ('updates.baidu.com', [], ['10.26.109.19'])
-[18:27:49] [*] ('art.baidu.com', [], ['10.42.137.45'])
-[18:27:53] [*] ('usa.baidu.com', [], ['107.180.84.128'])
-[18:27:53] [*] ('hao.baidu.com', [], ['10.42.161.60'])
-[18:27:57] [*] ('tc.router.n.shifen.com', ['ag.baidu.com'], ['202.108.23.198', '202.108.23.199'])
-[18:27:57] [*] ('dc.baidu.com', [], ['10.92.149.22'])
-[18:28:00] [*] ('image.n.shifen.com', ['tu.baidu.com'], ['163.177.151.139'])
-[18:28:01] [*] ('tuiguang.e.shifen.com', ['sj.baidu.com'], ['111.206.223.208', '61.135.185.62'])
-[18:28:01] [*] ('im2.n.shifen.com', ['space.baidu.com', 'hi.baidu.com', 'im.baidu.com'], ['111.202.114.168', '111.202.114.169'])
-[18:28:04] [*] ('mis.baidu.com', [], ['10.46.150.64', '10.42.79.56'])
-[18:28:05] [*] ('hermes.baidu.com', [], ['10.95.117.30'])
-[18:28:05] [*] ('ip.baidu.com', [], ['10.42.61.42', '10.92.143.21', '10.42.94.12', '10.92.143.22'])
-[18:28:09] [*] ('client.baidu.com', [], ['10.242.112.16'])
-[18:28:09] [*] ('news.n.shifen.com', ['sports.baidu.com', 'news.baidu.com'], ['153.3.236.50', '111.202.114.151', '202.108.23.82', '123.125.115.141'])
-[18:28:12] [*] ('kr.baidu.com', [], ['10.95.39.53'])
-[18:28:23] [*] ('open.a.shifen.com', ['sy.baidu.com'], ['112.80.248.27', '157.255.77.17', '112.80.248.26', '157.255.77.16'])
-[18:28:23] [*] ('www.a.shifen.com', ['mms.baidu.com', 'www.baidu.com'], ['112.80.248.76', '112.80.248.75'])
-[18:28:27] [*] ('hotel.map.n.shifen.com', ['hotel.baidu.com'], ['112.80.255.182'])
-[18:28:27] [*] ('pheonest.e.shifen.com', ['pro.baidu.com'], ['202.108.23.221', '163.177.151.145', '112.80.248.234'])
-[18:28:27] [*] ('wenku.n.shifen.com', ['doc.baidu.com', 'wenku.baidu.com'], ['163.177.151.59'])
-[18:28:27] [*] ('crowdfunding.baidu.com', ['cf.baidu.com'], ['111.206.37.138'])
-[18:28:31] [*] ('whois.n.shifen.com', ['whois.baidu.com'], ['123.125.114.172'])
-[18:28:31] [*] ('baifubao-bfe.n.shifen.com', ['life.baidu.com'], ['112.80.255.31', '61.135.186.115', '111.206.223.244'])
-[18:28:31] [*] ('search-ar.wshifen.com', ['ae.baidu.com'], ['123.125.114.144'])
-[18:28:31] [*] ('sts.baidu.com', [], ['10.94.49.38'])
-[18:28:31] [*] ('game.n.shifen.com', ['mp.baidu.com'], ['123.125.115.219', '112.80.255.173'])
-[18:28:35] [*] ('eap-fe.n.shifen.com', ['id.baidu.com'], ['111.202.114.169', '111.202.114.168'])
-[18:28:35] [*] ('push.site.n.shifen.com', ['push.baidu.com'], ['123.125.115.34'])
-[18:28:35] [*] ('pilou.e.shifen.com', ['enterprise.baidu.com', 'tag.baidu.com'], ['112.80.255.48', '163.177.151.63', '111.206.37.204'])
-[18:28:35] [*] ('idp.e.shifen.com', ['idp.baidu.com'], ['10.206.6.159', '10.126.82.49', '10.206.6.158'])
-[18:28:39] [*] ('prod.baidu.com', [], ['10.65.25.83'])
-[18:28:39] [*] ('www.a.shifen.com', ['top.baidu.com'], ['112.80.248.75', '112.80.248.76'])
-[18:28:39] [*] ('speech.n.shifen.com', ['yy.baidu.com'], ['153.3.236.85'])
-[18:28:39] [*] ('orp.n.shifen.com', ['zw.baidu.com'], ['123.125.115.15'])
-[18:28:39] [*] ('developer-portal.n.shifen.com', ['edm.baidu.com'], ['112.34.111.60'])
-[18:28:43] [*] ('linux.baidu.com', [], ['10.99.31.43'])
-[18:28:44] [*] ('net.baidu.com', [], ['10.242.123.17'])
-[18:28:44] [*] ('iknow.n.shifen.com', ['z.baidu.com', 'iknow.baidu.com'], ['61.135.185.172'])
-[18:28:44] [*] ('ml.baidu.com', [], ['10.26.140.39'])
-[18:28:45] [*] ('manager.baidu.com', [], ['10.26.109.19'])
-[18:28:46] [*] ('mars.baidu.com', [], ['10.91.160.191'])
-[18:28:46] [*] ('campus.baidu.com', [], ['180.76.155.81'])
-[18:28:49] [*] ('ee.baidu.com', [], ['10.46.133.175'])
-[18:28:50] [*] ('dianquan.n.shifen.com', ['pay.baidu.com'], ['220.181.33.88'])
-[18:28:54] [*] ('nl.baidu.com', [], ['10.42.7.232'])
-[18:29:02] [*] ('news.n.shifen.com', ['stock.baidu.com'], ['123.125.115.141', '202.108.23.82', '153.3.236.50', '111.202.114.151'])
-[18:29:02] [*] ('video.n.shifen.com', ['movie.baidu.com'], ['123.125.114.32', '111.206.37.59'])
-[18:29:02] [*] ('bjwebproxy.baidu.ttplayer.com', ['fm.baidu.com'], ['180.76.183.17', '180.76.141.217'])
-[18:29:02] [*] ('mi.n.shifen.com', ['mi.baidu.com'], ['202.106.2.11'])
-[18:29:06] [*] ('product.e.shifen.com', ['product.baidu.com'], ['123.125.115.84'])
-[18:29:06] [*] ('ls.a.shifen.com', ['ls.baidu.com'], ['163.177.151.225', '202.106.2.43'])
-[18:29:06] [*] ('sb.baidu.com', [], ['10.46.248.42'])
-[18:29:06] [*] ('bapp.n.shifen.com', ['fb.baidu.com'], ['180.149.131.33'])
-[18:29:06] [*] ('qc.baidu.com', [], ['10.94.80.197'])
-[18:29:09] [*] ('cm.pos.e.shifen.com', ['em.baidu.com'], ['111.202.114.35'])
-[18:29:10] [*] ('dw.baidu.com', [], ['10.81.3.33'])
-[18:29:10] [*] ('cert.baidu.com', [], ['220.181.107.211'])
-[18:29:10] [*] ('fc.n.shifen.com', ['fc.baidu.com'], ['61.135.185.192'])
-[18:29:14] [*] ('bapp.n.shifen.com', ['md.baidu.com'], ['180.149.131.33'])
-[18:29:24] [*] ('image.n.shifen.com', ['stu.baidu.com'], ['163.177.151.139'])
-[18:29:24] [*] ('h.baidu.com', [], ['10.240.31.12'])
-[18:29:25] [*] ('asp.e.shifen.com', ['asp.baidu.com'], ['123.125.114.38', '112.80.248.124'])
-[18:29:28] [*] ('chuanke.n.shifen.com', ['zp.baidu.com'], ['182.61.200.216'])
-[18:29:29] [*] ('app.video.n.shifen.com', ['hz.baidu.com'], ['123.125.115.248'])
-[18:29:32] [*] ('pa.e.shifen.com', ['pa.baidu.com'], ['123.125.115.26'])
-[18:29:32] [*] ('iknow.n.shifen.com', ['power.baidu.com'], ['61.135.185.172'])
-[18:29:32] [*] ('open.a.shifen.com', ['history.baidu.com'], ['157.255.77.17', '112.80.248.27', '157.255.77.16', '112.80.248.26'])
-[18:29:32] [*] ('wenku.n.shifen.com', ['learning.baidu.com', 'gaokao.baidu.com'], ['163.177.151.59'])
-[18:29:36] [*] ('nc.baidu.com', [], ['180.97.104.48', '123.125.115.81', '112.34.111.20'])
-[18:29:36] [*] ('hb-su.n.shifen.com', ['edge.baidu.com'], ['153.37.235.71', '111.202.114.187'])
-[18:29:36] [*] ('lighthost.baidu.com', ['hub.baidu.com'], ['10.57.7.145'])
-[18:29:36] [*] ('ess.baidu.com', [], ['10.208.7.217', '10.42.8.121', '10.212.15.90'])
-[18:29:36] [*] ('yiyun.n.shifen.com', ['yun.baidu.com'], ['111.206.37.70'])
-[18:29:40] [*] ('www.a.shifen.com', ['123.baidu.com', 'bama.baidu.com'], ['112.80.248.76', '112.80.248.75'])
-[18:29:43] [*] ('ocs.baidu.com', [], ['10.57.13.112'])
-[18:29:47] [*] ('sh.api.int.n.shifen.com', ['lb.baidu.com'], ['10.202.6.208'])
-[18:29:47] [*] ('bce.baidu.n.shifen.com', ['market.baidu.com'], ['112.80.255.170', '163.177.151.200'])
-[18:29:51] [*] ('tk.baidu.com', [], ['10.46.129.37'])
-[18:29:51] [*] ('acc.baidu.com', [], ['10.48.46.62'])
-[18:29:51] [*] ('brand-bfe.e.shifen.com', ['jn.baidu.com'], ['112.80.255.125'])
-[18:29:51] [*] ('post.n.shifen.com', ['post.baidu.com'], ['163.177.151.76'])
-[18:29:55] [*] ('cis.baidu.com', [], ['172.22.1.22'])
-[18:29:55] [*] ('se.baidu.com', [], ['10.99.27.31'])
-[18:29:55] [*] ('inrouter.n.shifen.com', ['ops.baidu.com'], ['10.26.3.240', '10.46.7.36', '10.91.160.44'])
-[18:29:59] [*] ('bjwebproxy.baidu.ttplayer.com', ['y.baidu.com'], ['180.76.141.217', '180.76.183.17'])
-[18:29:59] [*] ('orion.baidu.com', [], ['10.26.5.201'])
-[18:29:59] [*] ('js.hm.e.shifen.com', ['j.baidu.com'], ['111.206.37.50'])
-[18:29:59] [*] ('mbrowser.n.shifen.com', ['mb.baidu.com'], ['163.177.151.168', '163.177.151.167', '112.80.248.134', '112.80.255.209', '202.108.23.180'])
-[18:30:02] [*] ('build.baidu.com', [], ['10.23.250.58'])
-[18:30:02] [*] ('developer-portal.n.shifen.com', ['developers.baidu.com'], ['112.34.111.60'])
-[18:30:06] [*] ('nb.e.shifen.com', ['nb.baidu.com'], ['123.125.115.174', '123.125.115.209'])
-[18:30:06] [*] ('ds.baidu.com', [], ['10.211.131.17'])
-[18:30:07] [*] ('ac.n.shifen.com', ['ac.baidu.com'], ['112.80.248.234', '202.108.23.221'])
-[18:30:07] [*] ('inrouter.n.shifen.com', ['mkt.baidu.com'], ['10.91.160.44', '10.26.3.240', '10.46.7.36'])
-[18:30:07] [*] ('ci.mi.n.shifen.com', ['ci.baidu.com'], ['202.106.2.11'])
-[18:30:07] [*] ('www.a.shifen.com', ['gate.baidu.com', 'www.baidu.com'], ['112.80.248.76', '112.80.248.75'])
-[18:30:08] [*] ('kf.baidu.com', [], ['180.149.144.111'])
-[18:30:08] [*] ('www7.a.shifen.com', ['www7.baidu.com'], ['61.135.169.105', '61.135.169.125'])
-[18:30:09] [*] ('imp.baidu.com', [], ['10.32.16.20'])
-[18:30:12] [*] ('ar.n.shifen.com', ['ar.baidu.com'], ['123.125.115.215'])
-[18:30:13] [*] ('insight.baidu.com', [], ['111.202.114.141', '106.120.159.114'])
-[18:30:13] [*] ('zhanzhang.n.shifen.com', ['zz.baidu.com'], ['123.125.115.62'])
-[18:30:13] [*] ('profile.baidu.com', [], ['10.58.177.42'])
-[18:30:17] [*] ('lvshi.baidu.com', ['law.baidu.com'], ['111.206.37.194'])
-[18:30:18] [*] ('eopa.n.shifen.com', ['act.baidu.com'], ['202.106.2.65', '163.177.151.90', '112.80.255.85'])
-[18:30:18] [*] ('astar2018.baidu.com', ['star.baidu.com'], ['106.39.162.214', '202.106.2.14', '111.13.105.153', '103.235.47.75'])
-[18:30:21] [*] ('orp.n.shifen.com', ['apollo.baidu.com'], ['123.125.115.15'])
-[18:30:26] [*] ('gd.baidu.com', [], ['10.57.239.38'])
-[18:30:26] [*] ('brand-bfe.e.shifen.com', ['sl.baidu.com'], ['112.80.255.125'])
-[18:30:26] [*] ('sk.baidu.com', [], ['10.26.95.45'])
-[18:30:30] [*] ('gate.n.shifen.com', ['mc.baidu.com'], ['61.135.185.17'])
-[18:30:30] [*] ('mrp4.n.shifen.com', ['xf.baidu.com'], ['123.125.112.68'])
-[18:30:31] [*] ('bio.baidu.com', [], ['10.36.7.104', '10.50.14.199'])
-[18:30:31] [*] ('bh.baidu.com', [], ['10.38.19.40', '10.36.155.42', '10.36.160.22'])
-[18:30:31] [*] ('news.n.shifen.com', ['earth.baidu.com'], ['123.125.115.141', '111.202.114.151', '202.108.23.82', '153.3.236.50'])
-[18:30:35] [*] ('xh.baidu.com', [], ['10.208.7.65'])
-[18:30:35] [*] ('ph.baidu.com', [], ['10.65.3.117'])
-[18:30:35] [*] ('wangmeng.e.shifen.com', ['wm.baidu.com'], ['112.80.255.110', '112.80.255.117'])
-[18:30:35] [*] ('wenku.n.shifen.com', ['study.baidu.com'], ['163.177.151.59'])
-[18:30:35] [*] ('japan.baidu.com', [], ['119.63.198.175'])
-[18:30:39] [*] ('wap.n.shifen.com', ['xs.baidu.com'], ['163.177.151.99', '163.177.151.98'])
-[18:30:39] [*] ('nagios.baidu.com', [], ['10.26.109.19'])
-[18:30:39] [*] ('conf.n.shifen.com', ['conf.baidu.com'], ['106.120.159.95'])
-[18:30:40] [*] ('zeus.baidu.com', [], ['10.46.229.22'])
-[18:30:40] [*] ('at.baidu.com', [], ['10.42.122.102'])
-[18:30:40] [*] ('bk.n.shifen.com', ['bk.baidu.com'], ['153.37.235.134', '153.37.235.133'])
-[18:30:41] [*] ('yiyun.n.shifen.com', ['pan.baidu.com'], ['111.206.37.70'])
-[18:30:42] [*] ('tool.baidu.com', [], ['10.48.30.110'])
-[18:30:42] [*] ('wenku.n.shifen.com', ['gl.baidu.com'], ['163.177.151.59'])
-[18:30:42] [*] ('ideas.baidu.com', [], ['172.18.116.93'])
-[18:30:43] [*] ('s2.baidu.com', [], ['10.46.167.37'])
-[18:30:47] [*] ('wwwyq.n.shifen.com', ['ie.baidu.com'], ['111.206.223.136'])
-[18:30:50] [*] ('athena.baidu.com', [], ['10.91.161.102'])
-[18:30:50] [*] ('bd.baidu.com', [], ['172.18.100.200'])
-[18:30:50] [*] ('ceshi.baidu.com', [], ['10.26.109.19'])
-[18:30:54] [*] ('offlinea.shifen.bae.baidu.com', ['up.baidu.com'], ['10.26.3.49', '10.36.3.27'])
-[18:30:55] [*] ('red.baidu.com', [], ['10.42.4.86', '10.91.160.44', '10.26.3.240', '10.36.4.130'])
-[18:30:59] [*] ('gps.baidu.com', [], ['10.242.116.21'])
-[18:30:59] [*] ('bapp.n.shifen.com', ['film.baidu.com'], ['180.149.131.33'])
-[18:31:00] [*] ('nt.baidu.com', [], ['10.99.83.43'])
-[18:31:04] [*] ('pluto.baidu.com', [], ['10.99.218.166'])
-[18:31:04] [*] ('sdc.baidu.com', [], ['10.48.21.83'])
-[18:31:04] [*] ('www6.a.shifen.com', ['www6.baidu.com'], ['61.135.169.105', '61.135.169.125'])
-[18:31:08] [*] ('mt.baidu.com', [], ['10.208.6.11'])
-[18:31:08] [*] ('mmsvg.n.shifen.com', ['voice.baidu.com'], ['163.177.151.53'])
-[18:31:09] [*] ('noah.baidu.com', ['ccs.baidu.com'], ['10.26.7.113', '10.169.42.152'])
-[18:31:09] [*] ('dh.n.shifen.com', ['dh.baidu.com'], ['111.206.223.136'])
-[18:31:09] [*] ('opencdn.jomodns.com', ['blue.baidu.com', 'blue.baidu.com.a.bdydns.com'], ['61.240.205.35', '211.91.255.35'])
-[18:31:10] [*] ('its.baidu.com', [], ['10.48.30.110'])
-[18:31:10] [*] ('phoenix.baidu.com', [], ['10.83.128.22'])
-[18:31:10] [*] ('l.n.shifen.com', ['l.baidu.com'], ['111.206.223.136'])
-[18:31:15] [*] ('dnsproxy.baidu.ttplayer.com', ['play.baidu.com'], ['180.76.141.217'])
-[18:31:15] [*] ('ims.baidu.com', [], ['10.42.186.12'])
-[18:31:26] [*] ('engineering.baidu.com', [], ['10.100.46.52'])
-[18:31:26] [*] ('sun.baidu.com', [], ['10.46.11.23'])
-[18:31:30] [*] ('o.baidu.com', [], ['10.57.13.104'])
-[18:31:31] [*] ('sa.baidu.com', [], ['10.94.35.13'])
-[18:31:31] [*] ('eas.baidu.com', [], ['10.207.7.92'])
-[18:31:31] [*] ('webproxy.baidu.ttplayer.com', ['mp3.baidu.com'], ['180.76.141.217'])
-[18:31:36] [*] ('www8.a.shifen.com', ['www8.baidu.com'], ['61.135.169.105', '61.135.169.125'])
-[18:31:36] [*] ('router.n.shifen.com', ['router.baidu.com'], ['10.65.211.124'])
-[18:31:37] [*] ('gy.baidu.com', [], ['10.194.61.22', '10.194.61.37'])
-[18:31:38] [*] ('plus.baidu.com', [], ['10.212.6.106', '10.212.6.107'])
-[18:31:43] [*] ('bavhome.wshifen.com', ['antivirus.baidu.com'], ['103.235.46.69'])
-[18:31:43] [*] ('fanyi-bfe.n.shifen.com', ['cat.baidu.com'], ['111.202.114.53'])
-[18:31:43] [*] ('pg.baidu.com', [], ['10.48.48.31'])
-[18:31:44] [*] ('venus.baidu.com', [], ['10.94.52.44'])
-[18:31:44] [*] ('titan.baidu.com', [], ['10.99.31.41'])
-[18:31:44] [*] ('im2.n.shifen.com', ['hi.baidu.com', 'im.baidu.com'], ['111.202.114.168', '111.202.114.169'])
-[18:31:48] [*] ('dnsproxy.baidu.ttplayer.com', ['box.baidu.com'], ['180.76.141.217'])
-[18:31:48] [*] ('gupiao.n.shifen.com', ['portfolio.baidu.com'], ['61.135.186.182'])
-[18:31:48] [*] ('player.video.n.shifen.com', ['vod.baidu.com'], ['111.202.114.114'])
-[18:31:49] [*] ('jinlin.e.shifen.com', ['jl.baidu.com'], ['10.26.96.44'])
-[18:31:50] [*] ('passport.n.shifen.com', ['msg.baidu.com'], ['153.37.235.26', '112.80.248.182'])
-[18:31:50] [*] ('730.nuomi.n.shifen.com', ['hybrid.baidu.com'], ['112.80.255.214', '153.37.235.12'])
-[18:31:50] [*] ('la.baidu.com', [], ['10.83.128.238'])
-[18:31:58] [*] ('webapp.baidu.com', [], ['10.95.36.21'])
-[18:31:58] [*] ('km.baidu.com', [], ['10.42.7.54'])
-[18:31:59] [*] ('news.n.shifen.com', ['bank.baidu.com'], ['202.108.23.82', '153.3.236.50', '123.125.115.141', '111.202.114.151'])
-[18:31:59] [*] ('www9.a.shifen.com', ['www9.baidu.com'], ['61.135.169.105', '61.135.169.125'])
-[18:31:59] [*] ('wsj.baidu.com', [], ['10.26.25.253'])
-[18:31:59] [*] ('source.baidu.com', [], ['106.120.159.176'])
-[18:32:00] [*] ('ztc-new.n.shifen.com', ['lm.baidu.com'], ['153.37.235.91'])
-[18:32:01] [*] ('shopc.e.shifen.com', ['ht.baidu.com'], ['112.80.255.37', '111.202.114.143'])
-[18:32:02] [*] ('report.baidu.com', [], ['10.94.51.24'])
-[18:32:02] [*] ('dp.baidu.com', [], ['10.99.54.20'])
-[18:32:06] [*] ('news.n.shifen.com', ['lady.baidu.com', 'news.baidu.com'], ['153.3.236.50', '202.108.23.82', '111.202.114.151', '123.125.115.141'])
-[18:32:10] [*] ('platform.n.shifen.com', ['man.baidu.com'], ['10.227.73.168'])
-[18:32:10] [*] ('webserver.baidu.com', [], ['10.26.214.75'])
-[18:32:14] [*] ('zhanzhang.n.shifen.com', ['webmaster.baidu.com', 'zhanzhang.baidu.com'], ['123.125.115.62'])
-[18:32:22] [*] ('focus.baidu.com', [], ['10.57.13.25', '10.50.13.243'])
-[18:32:31] [*] ('cb.e.shifen.com', ['cb.baidu.com'], ['123.125.115.99'])
-[18:32:41] [*] ('sky.baidu.com', [], ['10.46.104.43'])
-[18:32:42] [*] ('logs.baidu.com', [], ['10.65.43.129'])
-[18:32:46] [*] ('jpaasne.e.shifen.com', ['banner.baidu.com'], ['112.80.248.186'])
-[18:32:46] [*] ('jr.e.shifen.com', ['jr.baidu.com'], ['112.80.255.186', '123.125.115.167'])
-[18:32:46] [*] ('ep.baidu.com', [], ['10.65.211.57'])
-[18:32:46] [*] ('jenkins.baidu.com', [], ['10.48.31.145'])
-[18:32:47] [*] ('nj.inrouter.n.shifen.com', ['tx.baidu.com'], ['10.208.6.173', '10.208.6.174'])
-[18:32:47] [*] ('news.n.shifen.com', ['gold.baidu.com'], ['202.108.23.82', '123.125.115.141', '153.3.236.50', '111.202.114.151'])
-[18:32:48] [*] ('fanyi-bfe.n.shifen.com', ['translate.baidu.com'], ['111.202.114.53'])
-[18:32:52] [*] ('bapp.n.shifen.com', ['sr.baidu.com'], ['180.149.131.33'])
-[18:32:52] [*] ('rd-service-gobfe.e.shifen.com', ['sn.baidu.com'], ['111.202.114.68'])
-[18:32:53] [*] ('apbr.n.shifen.com', ['ap.baidu.com'], ['111.202.114.63'])
-[18:32:54] [*] ('vcs.wshifen.com', ['vcs.baidu.com'], ['61.135.165.170'])
-[18:32:54] [*] ('solar.baidu.com', [], ['10.99.54.20'])
-[18:32:55] [*] ('sftj.e.shifen.com', ['tm.baidu.com'], ['202.108.23.152'])
-[18:32:56] [*] ('news.n.shifen.com', ['internet.baidu.com', 'news.baidu.com'], ['123.125.115.141', '153.3.236.50', '111.202.114.151', '202.108.23.82'])
-[18:33:07] [*] ('xian.n.shifen.com', ['xian.baidu.com'], ['180.97.33.34', '220.181.33.27'])
-[18:33:08] [*] ('com.baidu.com', [], ['10.26.137.29'])
-[18:33:08] [*] ('static.n.shifen.com', ['ren.baidu.com'], ['61.135.186.152'])
-[18:33:08] [*] ('adv.baidu.com', [], ['10.99.57.42'])
-[18:33:09] [*] ('tb.baidu.com', [], ['10.143.152.18'])
-[18:33:09] [*] ('audit.baidu.com', [], ['10.42.3.128'])
-[18:33:09] [*] ('aiib-01.n.shifen.com', ['01.baidu.com'], ['61.135.185.20', '153.37.235.93'])
-[18:33:10] [*] ('mbdown.n.shifen.com', ['mo.baidu.com'], ['202.108.23.204', '111.206.37.217'])
-[18:33:10] [*] ('mse.n.shifen.com', ['mse.baidu.com'], ['115.239.211.137'])
-[18:33:14] [*] ('www.a.shifen.com', ['counter.baidu.com'], ['112.80.248.76', '112.80.248.75'])
-[18:33:14] [*] ('eagle.baidu.com', [], ['10.202.105.28'])
-[18:33:14] [*] ('bsrc.baidu.com', ['sec.baidu.com'], ['202.106.2.63'])
-[18:33:15] [*] ('check.baidu.com', [], ['10.46.11.136'])
-[18:33:25] [*] ('hf.baidu.com', [], ['10.99.49.60'])
-[18:33:26] [*] ('miniwww.n.shifen.com', ['hot.baidu.com', 'mini.baidu.com'], ['111.206.223.136'])
-[18:33:37] [*] ('kj.baidu.com', [], ['10.48.48.31'])
-[18:33:37] [*] ('wap.n.shifen.com', ['feed.baidu.com'], ['163.177.151.99', '163.177.151.98'])
-[18:33:37] [*] ('wap.n.shifen.com', ['m2.baidu.com'], ['163.177.151.99', '163.177.151.98'])
-[18:33:38] [*] ('miniwww.n.shifen.com', ['disk.baidu.com'], ['111.206.223.136'])
-[18:33:38] [*] ('lvyou.n.shifen.com', ['trip.baidu.com', 'lvyou.baidu.com'], ['111.206.223.162'])
-[18:33:38] [*] ('mbdown.n.shifen.com', ['mr.baidu.com'], ['202.108.23.204', '111.206.37.217'])
-[18:33:38] [*] ('ups.n.shifen.com', ['pics.baidu.com'], ['112.80.248.70', '111.206.223.91'])
-[18:33:39] [*] ('ping.a.shifen.com', ['ping.baidu.com'], ['123.125.114.106'])
-[18:33:39] [*] ('huiyan.map.n.shifen.com', ['cars.baidu.com'], ['112.80.255.107', '163.177.151.155', '111.206.37.227'])
-[18:33:39] [*] ('gp.n.shifen.com', ['gp.baidu.com'], ['61.135.186.182', '111.202.114.56'])
-[18:33:39] [*] ('wow.baidu.com', [], ['10.42.3.141'])
-[18:33:47] [*] ('che.n.shifen.com', ['che.baidu.com'], ['111.206.223.195'])
-[18:33:55] [*] ('system.baidu.com', [], ['10.26.109.19'])
-[18:33:55] [*] ('passport.n.shifen.com', ['passport.baidu.com'], ['112.80.248.182', '153.37.235.26'])
-[18:33:56] [*] ('baifubao-bfe.n.shifen.com', ['credit.baidu.com', 'xinyongka.baidu.com'], ['61.135.186.115', '111.206.223.244', '112.80.255.31'])
-[18:33:56] [*] ('chuanke.n.shifen.com', ['kk.baidu.com'], ['182.61.200.216'])
-[18:33:57] [*] ('mobsec.n.shifen.com', ['safe.baidu.com'], ['112.80.248.171', '153.37.235.67'])
-[18:34:00] [*] ('join.e.shifen.com', ['join.baidu.com'], ['111.206.223.53'])
-[18:34:00] [*] ('licai.e.shifen.com', ['lc.baidu.com'], ['123.125.115.217'])
-[18:34:08] [*] ('mx3.baidu.com', [], ['61.135.162.61'])
-[18:34:08] [*] ('moa.baidu.com', [], ['183.232.232.54', '202.106.2.51', '115.239.211.31'])
-[18:34:08] [*] ('flow.baidu.com', [], ['10.46.23.19'])
-[18:34:12] [*] ('miniwww.n.shifen.com', ['mini.baidu.com'], ['111.206.223.136'])
-[18:34:15] [*] ('8.n.shifen.com', ['8.baidu.com'], ['111.206.37.81', '112.80.255.131', '61.135.186.244'])
-[18:34:16] [*] ('wenku.n.shifen.com', ['gk.baidu.com'], ['163.177.151.59'])
-[18:34:16] [*] ('nwifi.n.shifen.com', ['wifi.baidu.com'], ['112.80.248.189'])
-[18:34:17] [*] ('webb.jomodns.com', ['orange.baidu.com', 'orange.baidu.com.a.jomodns.com'], ['61.240.205.48'])
-[18:34:22] [*] ('ns6.baidu.com', [], ['14.215.179.57'])
-[18:34:22] [*] ('nexus.baidu.com', [], ['10.40.8.67'])
-[18:34:26] [*] ('xmpp.wshifen.com', ['xmpp.baidu.com'], ['61.135.165.169'])
-[18:34:27] [*] ('ipv6.baidu.com', [], ['39.156.66.10', '220.181.38.148', '123.125.114.144', '220.181.38.251'])
-[18:34:27] [*] ('sem.baidu.com.cname.yunjiasu-cdn.net', ['sem.baidu.com'], ['42.236.94.1'])
-[18:34:31] [*] ('stj.e.shifen.com', ['retail.baidu.com', 'stj.baidu.com'], ['220.181.38.141'])
-[18:34:31] [*] ('lx.baidu.com', [], ['10.212.6.188'])
-[18:34:31] [*] ('op.e.shifen.com', ['op.baidu.com'], ['123.125.115.209', '123.125.115.174'])
-[18:34:32] [*] ('ares.baidu.com', [], ['10.208.7.183'])
-[18:34:32] [*] ('open.a.shifen.com', ['find.baidu.com'], ['157.255.77.17', '157.255.77.16', '112.80.248.26', '112.80.248.27'])
-[18:34:32] [*] ('alarm.n.shifen.com', ['alert.baidu.com', 'alarm.baidu.com'], ['202.106.2.100'])
-[18:34:32] [*] ('hm.e.shifen.com', ['hm.baidu.com'], ['202.108.23.152'])
-[18:34:33] [*] ('case.baidu.com', [], ['10.99.209.45'])
-[18:34:33] [*] ('nginx.baidu.com', [], ['10.36.5.156'])
-[18:34:37] [*] ('tiger.baidu.com', [], ['10.46.28.36'])
-[18:34:42] [*] ('open.a.shifen.com', ['fang.baidu.com'], ['157.255.77.16', '112.80.248.27', '112.80.248.26', '157.255.77.17'])
-[18:34:42] [*] ('ab.n.shifen.com', ['ab.baidu.com'], ['61.135.185.81', '61.135.185.90'])
-[18:34:43] [*] ('mms.n.shifen.com', ['advertising.baidu.com'], ['112.80.248.40'])
-[18:34:43] [*] ('domain-offline.baidu.com', ['nm.baidu.com'], ['182.61.62.50'])
-[18:34:47] [*] ('elastic.baidu.com', [], ['111.206.37.160'])
-[18:34:47] [*] ('nvideo.n.shifen.com', ['sv.baidu.com'], ['153.3.236.40'])
-[18:34:47] [*] ('www10.a.shifen.com', ['www10.baidu.com'], ['61.135.169.105', '61.135.169.125'])
-[18:34:47] [*] ('amp.baidu.com', [], ['10.26.5.60', '10.50.14.165'])
-[18:34:48] [*] ('game.n.shifen.com', ['yt.baidu.com', 'youxi.baidu.com'], ['123.125.115.219', '112.80.255.173'])
-[18:34:48] [*] ('www12.a.shifen.com', ['www12.baidu.com'], ['61.135.169.125', '61.135.169.105'])
-[18:34:48] [*] ('moon.baidu.com', [], ['10.57.44.52'])
-[18:34:49] [*] ('wa.baidu.com', [], ['10.207.7.95'])
-[18:34:49] [*] ('ka.e.shifen.com', ['ka.baidu.com'], ['10.42.3.102', '10.81.211.194'])
-[18:34:50] [*] ('www.chuanke.com', ['ck.baidu.com'], ['106.120.159.243'])
-[18:34:51] [*] ('csr.baidu.com', [], ['180.76.178.149'])
-[18:34:51] [*] ('bus.map.n.shifen.com', ['bus.baidu.com'], ['123.125.112.68', '112.80.248.40'])
-[18:34:55] [*] ('alcfeedback.jomodns.com', ['fk.baidu.com'], ['119.39.204.37'])
-[18:34:59] [*] ('wd.baidu.com', [], ['10.57.13.230'])
-[18:35:03] [*] ('hydra.n.shifen.com', ['hydra.baidu.com'], ['163.177.151.25'])
-[18:35:04] [*] ('api.jt.map.n.shifen.com', ['city.baidu.com'], ['180.97.33.90'])
-[18:35:08] [*] ('galaxy.baidu.com', [], ['10.81.11.241'])
-[18:35:12] [*] ('database.baidu.com', [], ['10.26.109.19'])
-[18:35:16] [*] ('pv.baidu.com', [], ['10.210.193.19'])
-[18:35:17] [*] ('robot.n.shifen.com', ['robot.baidu.com'], ['111.206.223.16'])
-[18:35:17] [*] ('et.baidu.com', [], ['10.206.217.30'])
-[18:35:17] [*] ('traffic.baidu.com', [], ['10.242.15.216'])
-[18:35:21] [*] ('wap.n.shifen.com', ['m1.baidu.com'], ['163.177.151.99', '163.177.151.98'])
-[18:35:22] [*] ('cmp.baidu.com', [], ['10.242.76.34'])
-[18:35:27] [*] ('ai.n.shifen.com', ['ai.baidu.com'], ['111.202.114.47'])
-[18:35:28] [*] ('li.baidu.com', [], ['10.91.160.188'])
-[18:35:28] [*] ('fun.e.shifen.com', ['fun.baidu.com'], ['123.125.115.149', '112.80.248.125'])
-[18:35:32] [*] ('editor.e.shifen.com', ['editor.baidu.com'], ['112.80.255.70'])
-[18:35:32] [*] ('rds.baidu.com', [], ['10.26.88.12'])
-[18:35:33] [*] ('df.baidu.com', [], ['10.36.4.130'])
-[18:35:34] [*] ('ko.e.shifen.com', ['ko.baidu.com'], ['112.80.248.190', '111.202.114.61'])
-[18:35:34] [*] ('mbd.n.shifen.com', ['ext.baidu.com'], ['112.80.248.204'])
-[18:35:39] [*] ('open.a.shifen.com', ['expert.baidu.com'], ['112.80.248.26', '157.255.77.17', '112.80.248.27', '157.255.77.16'])
-[18:35:39] [*] ('knowledge.baidu.com', [], ['111.206.37.169', '10.88.46.23'])
-[18:35:39] [*] ('mbdown.n.shifen.com', ['po.baidu.com'], ['202.108.23.204', '111.206.37.217'])
-[18:35:43] [*] ('speed.baidu.com', [], ['10.65.18.22'])
-[18:35:43] [*] ('lj.baidu.com', [], ['10.202.6.134'])
-[18:35:43] [*] ('iknow.n.shifen.com', ['pi.baidu.com', 'zhidao.baidu.com', 'iknow.baidu.com'], ['61.135.185.172'])
-[18:35:44] [*] ('proxycp.n.shifen.com', ['touch.baidu.com'], ['111.202.114.50'])
-[18:35:48] [*] ('io.baidu.com', [], ['10.46.104.43'])
-[18:35:51] [*] ('soc.baidu.com', [], ['10.215.7.49'])
-[18:35:51] [*] ('index.baidu.com', [], ['111.202.114.69', '220.181.107.164'])
-[18:35:52] [*] ('jpaasmatrix.e.shifen.com', ['11.baidu.com'], ['202.108.23.222', '61.135.186.230'])
-[18:35:53] [*] ('abs.n.shifen.com', ['abs.baidu.com'], ['111.206.37.14'])
-[18:35:53] [*] ('aiib-01.n.shifen.com', ['healthcare.baidu.com'], ['61.135.185.20', '153.37.235.93'])
-[18:35:57] [*] ('orpstatic.n.shifen.com', ['lian.baidu.com'], ['123.125.115.30'])
-[18:36:01] [*] ('vega.e.shifen.com', ['vega.baidu.com'], ['10.26.5.60', '10.50.14.165'])
-[18:36:05] [*] ('news.n.shifen.com', ['2012.baidu.com'], ['153.3.236.50', '123.125.115.141', '111.202.114.151', '202.108.23.82'])
-[18:36:05] [*] ('oc.baidu.com', [], ['10.207.6.76'])
-[18:36:10] [*] ('wapwenku.n.shifen.com', ['wk.baidu.com'], ['163.177.151.59'])
-[18:36:15] [*] ('rules.baidu.com', ['policy.baidu.com'], ['123.125.115.231', '180.101.212.24', '183.232.232.53'])
-[18:36:19] [*] ('aries.baidu.com', [], ['10.95.34.44'])
-[18:36:19] [*] ('news.n.shifen.com', ['yule.baidu.com'], ['123.125.115.141', '153.3.236.50', '202.108.23.82', '111.202.114.151'])
-[18:36:23] [*] ('news.n.shifen.com', ['2014.baidu.com'], ['123.125.115.141', '111.202.114.151', '202.108.23.82', '153.3.236.50'])
-[18:36:23] [*] ('domain-offline.baidu.com', ['chang.baidu.com'], ['182.61.62.50'])
-[18:36:24] [*] ('inrouter.n.shifen.com', ['ecs.baidu.com'], ['10.46.7.36', '10.91.160.44', '10.26.3.240'])
-[18:36:28] [*] ('mon.baidu.com', [], ['10.65.211.16'])
-[18:36:29] [*] ('jpaas-matrix.baidu.com', ['pulse.baidu.com'], ['10.42.4.219', '10.57.8.26'])
-[18:36:29] [*] ('dcs.baidu.com', [], ['10.52.102.56'])
-[18:36:33] [*] ('care.baidu.com', [], ['10.46.104.43'])
-[18:36:34] [*] ('msa.baidu.com', [], ['10.26.7.88'])
-[18:36:37] [*] ('bridge.baidu.com', [], ['10.42.7.117'])
-[18:36:37] [*] ('news.n.shifen.com', ['civil.baidu.com', 'news.baidu.com'], ['111.202.114.151', '153.3.236.50', '123.125.115.141', '202.108.23.82'])
-[18:36:37] [*] ('lvyou.n.shifen.com', ['lv.baidu.com', 'lvyou.baidu.com'], ['111.206.223.162'])
-[18:36:41] [*] ('sea.baidu.com', [], ['10.62.141.21'])
-[18:36:49] [*] ('mf.n.shifen.com', ['mf.baidu.com'], ['112.80.248.15'])
-[18:36:54] [*] ('cds.baidu.com', [], ['10.226.81.12'])
-[18:36:54] [*] ('er.baidu.com', [], ['10.58.182.14'])
-[18:36:55] [*] ('isis.baidu.com', [], ['10.215.7.119'])
-[18:36:59] [*] ('esp.baidu.com', [], ['10.65.21.177'])
-[18:36:59] [*] ('visa.baidu.com', [], ['10.207.7.95'])
-[18:37:03] [*] ('sss.baidu.com', [], ['10.141.80.96'])
-[18:37:03] [*] ('rd.zz.baidu.com', ['piwik.baidu.com'], ['10.95.28.33'])
-[18:37:04] [*] ('callback.e.shifen.com', ['callback.baidu.com'], ['123.125.115.174', '123.125.115.209'])
-[18:37:04] [*] ('bp.baidu.com', [], ['10.46.129.37'])
-[18:37:08] [*] ('pheonest.e.shifen.com', ['page.baidu.com'], ['163.177.151.145', '112.80.248.234', '202.108.23.221'])
-[18:37:12] [*] ('offline.shifen.new.bae.baidu.com', ['football.baidu.com'], ['10.36.7.221', '10.81.211.74'])
-[18:37:20] [*] ('verify.a.shifen.com', ['verify.baidu.com'], ['123.125.114.156'])
-[18:37:32] [*] ('gupiao.n.shifen.com', ['trade.baidu.com'], ['61.135.186.182'])
-[18:37:33] [*] ('caiwu.e.shifen.com', ['caiwu.baidu.com'], ['123.125.114.68'])
-[18:37:34] [*] ('aurora.baidu.com', [], ['10.26.26.28'])
-[18:37:42] [*] ('ocean.baidu.com', [], ['10.26.3.48'])
-[18:37:45] [*] ('mx4.baidu.com', [], ['61.135.162.62'])
-[18:37:45] [*] ('gw1.baidu.com', [], ['172.16.1.2'])
-[18:37:50] [*] ('plan.baidu.com', [], ['10.36.155.43'])
-[18:38:02] [*] ('charon.jomodns.com', ['t7.baidu.com'], ['119.39.204.48'])
-[18:38:02] [*] ('zabbix.baidu.com', [], ['10.42.3.13'])
-[18:38:10] [*] ('darwin.baidu.com', [], ['10.95.44.43'])
-[18:38:11] [*] ('open.a.shifen.com', ['vs.baidu.com'], ['157.255.77.16', '112.80.248.26', '112.80.248.27', '157.255.77.17'])
-[18:38:15] [*] ('comic.baidu.com', [], ['10.65.45.219'])
-[18:38:15] [*] ('neo.baidu.com', [], ['10.26.26.220'])
-[18:38:16] [*] ('cap.baidu.com', [], ['180.97.104.99', '61.135.185.242'])
-[18:38:16] [*] ('bk.n.shifen.com', ['wz.baidu.com'], ['153.37.235.134', '153.37.235.133'])
-[18:38:24] [*] ('imc.baidu.com', [], ['182.61.62.50'])
-[18:38:24] [*] ('fin.baidu.com', [], ['10.48.31.126'])
-[18:38:28] [*] ('janus.baidu.com', [], ['10.206.7.110', '10.26.26.214'])
-[18:38:32] [*] ('idm.baidu.com', [], ['10.207.7.147'])
-[18:38:36] [*] ('miop.n.shifen.com', ['dss.baidu.com', 'miop.baidu.com'], ['10.65.211.95'])
-[18:38:40] [*] ('browser0.wshifen.com', ['spark.baidu.com'], ['103.235.46.26'])
-[18:38:40] [*] ('mx15.baidu.com', [], ['220.181.50.182'])
-[18:38:41] [*] ('ssp.bfe.e.shifen.com', ['ssp.baidu.com'], ['123.125.115.122'])
-[18:38:41] [*] ('su.baidu.com.cname.yunjiasu-cdn.net', ['su.baidu.com'], ['42.236.94.1'])
-[18:38:41] [*] ('talent.n.shifen.com', ['talent.baidu.com'], ['61.135.185.176'])
-[18:38:52] [*] ('csp.baidu.com', [], ['10.83.128.237'])
-[18:38:52] [*] ('search-br.wshifen.com', ['brazil.baidu.com'], ['123.125.114.144'])
-[18:38:53] [*] ('yc.baidu.com.baidu-itm.com', ['yc.baidu.com'], ['106.12.40.178'])
-[18:38:53] [*] ('ng.baidu.com', [], ['10.42.6.106', '10.57.8.161'])
-[18:38:54] [*] ('cpu.e.shifen.com', ['cu.baidu.com'], ['163.177.151.172'])
-[18:38:54] [*] ('zx.baidu.com', [], ['10.42.172.41'])
-[18:38:54] [*] ('iknow.n.shifen.com', ['zhidao.baidu.com', 'iknow.baidu.com'], ['61.135.185.172'])
-[18:38:59] [*] ('lion.baidu.com', [], ['10.242.112.16'])
-[18:39:00] [*] ('emp.baidu.com', [], ['10.81.211.188'])
-[18:39:00] [*] ('oem.baidu.com', [], ['10.94.21.21'])
-[18:39:04] [*] ('aps.baidu.com', [], ['10.46.248.42'])
-[18:39:05] [*] ('prism.baidu.com', [], ['10.26.5.199'])
-[18:39:05] [*] ('nj.api.int.n.shifen.com', ['qr.baidu.com'], ['10.207.7.202'])
-[18:39:09] [*] ('quality.baidu.com', [], ['10.100.81.72'])
-[18:39:10] [*] ('video.n.shifen.com', ['dv.baidu.com', 'video.baidu.com'], ['111.206.37.59', '123.125.114.32'])
-[18:39:14] [*] ('qt.baidu.com', [], ['10.199.7.14'])
-[18:39:14] [*] ('echarts.e.shifen.com', ['chart.baidu.com', 'echarts.baidu.com'], ['111.206.223.113'])
-[18:39:23] [*] ('notebook.baidu.com', [], ['10.199.28.35'])
-[18:39:24] [*] ('psdev64.a.shifen.com', ['np.baidu.com'], ['10.23.239.95', '10.23.239.99', '10.23.245.224'])
-[18:39:24] [*] ('bar.n.shifen.com', ['bar.baidu.com'], ['112.80.248.165'])
-[18:39:25] [*] ('pilou.e.shifen.com', ['tag.baidu.com'], ['112.80.255.48', '163.177.151.63', '111.206.37.204'])
-[18:39:25] [*] ('jpaas-ng.baidu.com', ['cdc.baidu.com'], ['10.26.5.60', '10.50.14.165'])
-[18:39:25] [*] ('mcp.n.shifen.com', ['mcp.baidu.com'], ['123.125.115.159'])
-[18:39:27] [*] ('scm.baidu.com', [], ['10.42.8.234'])
-[18:39:30] [*] ('avatar.baidu.com', [], ['10.26.137.29'])
-[18:39:31] [*] ('fast.baidu.com', [], ['10.48.32.110'])
-[18:39:32] [*] ('miniwww.n.shifen.com', ['wo.baidu.com'], ['111.206.223.136'])
-[18:39:36] [*] ('spa.baidu.com', [], ['10.26.23.36', '10.36.129.36', '10.23.23.42'])
-[18:39:39] [*] ('huiyan.map.n.shifen.com', ['xz.baidu.com'], ['163.177.151.155', '111.206.37.227', '112.80.255.107'])
-[18:39:40] [*] ('zt.map.n.shifen.com', ['zt.baidu.com'], ['112.80.248.210'])
-[18:39:40] [*] ('galileo.baidu.com', [], ['10.91.161.205', '10.46.8.70'])
-[18:39:40] [*] ('iam.baidu.com', [], ['10.44.55.50'])
-[18:39:44] [*] ('game.n.shifen.com', ['wan.baidu.com'], ['123.125.115.219', '112.80.255.173'])
-[18:39:44] [*] ('mbd.n.shifen.com', ['author.baidu.com'], ['112.80.248.204'])
-[18:39:45] [*] ('search-ar.wshifen.com', ['kw.baidu.com'], ['123.125.114.144'])
-[18:39:49] [*] ('agile.baidu.com', [], ['10.42.7.95'])
-[18:39:50] [*] ('ecom.baidu.com', [], ['172.18.0.180'])
-[18:39:58] [*] ('bjwebproxy.baidu.ttplayer.com', ['king.baidu.com'], ['180.76.183.17', '180.76.141.217'])
-[18:40:02] [*] ('pandora.baidu.com', [], ['10.40.8.112'])
-[18:40:03] [*] ('cs.e.shifen.com', ['company.baidu.com'], ['202.108.23.191', '153.3.236.48', '153.37.235.115'])
-[18:40:07] [*] ('domain-offline.baidu.com', ['cts.baidu.com'], ['182.61.62.50'])
-[18:40:19] [*] ('scan.baidu.com', [], ['10.58.119.76'])
-[18:40:23] [*] ('aim.baidu.com', [], ['180.101.212.84', '61.135.185.126', '111.45.3.15'])
-[18:40:24] [*] ('jpaas-ng.baidu.com', ['das.baidu.com'], ['10.50.14.165', '10.26.5.60'])
-[18:40:31] [*] ('rainbow.e.shifen.com', ['rainbow.baidu.com'], ['163.177.151.125', '163.177.151.130'])
-[18:40:35] [*] ('360.baidu.com', [], ['10.57.8.123'])
-[18:40:35] [*] ('olimbos.e.shifen.com', ['aq.baidu.com'], ['61.135.185.62', '111.206.223.208'])
-[18:40:36] [*] ('bk.n.shifen.com', ['baike.baidu.com', 'bk.baidu.com'], ['153.37.235.133', '153.37.235.134'])
-[18:40:36] [*] ('csm.n.shifen.com', ['csm.baidu.com'], ['111.206.223.136'])
-[18:40:37] [*] ('www.a.shifen.com', ['scholar.baidu.com'], ['112.80.248.75', '112.80.248.76'])
-[18:40:41] [*] ('common.baidu.com', [], ['10.50.82.58'])
-[18:40:45] [*] ('owl.baidu.com', [], ['10.94.43.18'])
-[18:40:46] [*] ('xy.baidu.com', [], ['123.125.115.231'])
-[18:40:46] [*] ('trust.e.shifen.com', ['trust.baidu.com'], ['111.206.37.69'])
-[18:40:47] [*] ('ada.e.shifen.com', ['ada.baidu.com'], ['111.202.114.60', '112.80.248.191', '163.177.151.160'])
-[18:40:48] [*] ('730.movie-missys.n.shifen.com', ['oscar.baidu.com'], ['112.80.248.40'])
-[18:40:48] [*] ('ota.n.shifen.com', ['ota.baidu.com'], ['112.80.248.250'])
-[18:40:48] [*] ('ziyuan.n.shifen.com', ['zy.baidu.com'], ['112.80.255.152', '123.125.115.59'])
-[18:40:49] [*] ('flight.n.shifen.com', ['flight.baidu.com'], ['163.177.151.26'])
-[18:40:50] [*] ('game.n.shifen.com', ['yx.baidu.com'], ['112.80.255.173', '123.125.115.219'])
-[18:40:50] [*] ('rec.baidu.com', [], ['10.26.3.75', '10.42.7.169'])
-[18:40:50] [*] ('wap.n.shifen.com', ['m3.baidu.com'], ['163.177.151.99', '163.177.151.98'])
-[18:40:50] [*] ('bk.n.shifen.com', ['bike.baidu.com', 'bk.baidu.com'], ['153.37.235.134', '153.37.235.133'])
-[18:40:55] [*] ('lcs.baidu.com', [], ['10.36.4.130', '10.42.4.86', '10.91.160.44', '10.26.3.240', '10.208.6.173'])
-[18:41:03] [*] ('prime.baidu.com', [], ['10.99.54.21'])
-[18:41:03] [*] ('cb.e.shifen.com', ['release.baidu.com'], ['123.125.115.99'])
-[18:41:07] [*] ('jpaasmatrix.e.shifen.com', ['quan.baidu.com'], ['202.108.23.222', '61.135.186.230'])
-[18:41:08] [*] ('yum.baidu.com', [], ['10.26.153.41'])
-[18:41:08] [*] ('mx11.baidu.com', [], ['111.202.115.74'])
-[18:41:12] [*] ('oms.e.shifen.com', ['oms.baidu.com'], ['111.202.114.185', '202.106.2.23'])
-[18:41:12] [*] ('baidulogo.bceapp.com', ['logo.baidu.com'], ['180.76.168.75'])
-[18:41:16] [*] ('gaia.baidu.com', [], ['10.86.36.51'])
-[18:41:20] [*] ('mx10.baidu.com', [], ['111.202.115.75'])
-[18:41:20] [*] ('sac.baidu.com', [], ['180.97.34.41', '180.97.34.42', '123.125.114.54', '123.125.114.52'])
-[18:41:25] [*] ('post.n.shifen.com', ['nba.baidu.com', 'tieba.baidu.com'], ['163.177.151.76'])
-[18:41:25] [*] ('search-ar.wshifen.com', ['eg.baidu.com'], ['123.125.114.144'])
-[18:41:26] [*] ('fly.baidu.com', [], ['10.99.25.43'])
-[18:41:30] [*] ('open.a.shifen.com', ['watch.baidu.com'], ['157.255.77.16', '112.80.248.27', '157.255.77.17', '112.80.248.26'])
-[18:41:30] [*] ('gitlab.baidu.com', [], ['10.44.64.103'])
-[18:41:30] [*] ('privacy.baidu.com', [], ['123.125.115.231'])
-[18:41:31] [*] ('ai.n.shifen.com', ['brain.baidu.com'], ['111.202.114.47'])
-[18:41:35] [*] ('bapp.n.shifen.com', ['root.baidu.com'], ['180.149.131.33'])
-[18:41:36] [*] ('lvyou.n.shifen.com', ['you.baidu.com', 'lvyou.baidu.com'], ['111.206.223.162'])
-[18:41:39] [*] ('adp.baidu.com', [], ['10.48.17.152'])
-[18:41:43] [*] ('thailand.baidu.com', [], ['103.235.46.165'])
-[18:41:43] [*] ('watson.baidu.com', [], ['10.211.6.64'])
-[18:41:44] [*] ('mx14.baidu.com', [], ['220.181.50.181'])
-[18:41:50] [*] ('itc.baidu.com', [], ['10.242.15.73'])
-[18:41:54] [*] ('lvyou.n.shifen.com', ['lu.baidu.com', 'lvyou.baidu.com'], ['111.206.223.162'])
-[18:42:06] [*] ('nova.baidu.com', [], ['10.26.26.89'])
-[18:42:10] [*] ('falcon.baidu.com', [], ['10.36.253.135', '10.26.26.88'])
-[18:42:10] [*] ('news.n.shifen.com', ['fashion.baidu.com'], ['111.202.114.151', '123.125.115.141', '153.3.236.50', '202.108.23.82'])
-[18:42:10] [*] ('url.baidu.com', [], ['10.99.57.42'])
-[18:42:14] [*] ('apis.n.shifen.com', ['apis.baidu.com'], ['180.149.144.74'])
-[18:42:14] [*] ('cafe.n.shifen.com', ['cafe.baidu.com'], ['123.125.115.189', '112.80.255.249'])
-[18:42:15] [*] ('platform.baidu.com', [], ['10.91.161.75'])
-[18:42:19] [*] ('uranus.baidu.com', [], ['10.57.8.220'])
-[18:42:31] [*] ('bao.baidu.com', [], ['39.156.69.32', '220.181.112.105', '123.125.142.73', '36.110.198.89'])
-[18:42:31] [*] ('cosmos.baidu.com', [], ['10.23.250.252'])
-[18:42:32] [*] ('simage.jomodns.com', ['t2.baidu.com'], ['61.240.205.48'])
-[18:42:33] [*] ('wedding.baidu.com', [], ['112.80.248.90'])
-[18:42:37] [*] ('yiyun.n.shifen.com', ['mai.baidu.com'], ['111.206.37.70'])
-[18:42:37] [*] ('email.n.shifen.com', ['ews.baidu.com'], ['111.202.115.84'])
-[18:42:37] [*] ('sugar.n.shifen.com', ['sugar.baidu.com'], ['111.206.223.214'])
-[18:42:38] [*] ('eopa.n.shifen.com', ['ucenter.baidu.com'], ['112.80.255.85', '202.106.2.65', '163.177.151.90'])
-[18:42:43] [*] ('beian.bce.baidu.n.shifen.com', ['beian.baidu.com'], ['111.206.223.209'])
-[18:42:43] [*] ('crs.n.shifen.com', ['crs.baidu.com'], ['123.125.114.205', '123.125.114.237'])
-[18:42:43] [*] ('xy.baidu.com', ['wall.baidu.com'], ['123.125.115.231'])
-[18:42:47] [*] ('private.baidu.com', [], ['10.58.178.41'])
-[18:42:51] [*] ('cmc.baidu.com', [], ['10.36.7.221'])
-[18:42:59] [*] ('mq.baidu.com', [], ['10.92.16.61'])
-[18:42:59] [*] ('netmon.baidu.com', [], ['10.91.161.212'])
-[18:43:03] [*] ('simage.jomodns.com', ['t1.baidu.com'], ['61.240.205.48'])
-[18:43:04] [*] ('hades.baidu.com', [], ['10.57.8.21'])
-[18:43:04] [*] ('radar.n.shifen.com', ['radar.baidu.com'], ['111.206.223.35'])
-[18:43:05] [*] ('wapwenku.n.shifen.com', ['yd.baidu.com'], ['163.177.151.59'])
-[18:43:13] [*] ('quantum.bceapp.com', ['quantum.baidu.com'], ['180.76.58.9'])
-[18:43:13] [*] ('cst.baidu.com', [], ['10.23.232.96'])
-[18:43:14] [*] ('yl.n.shifen.com', ['yl.baidu.com'], ['202.106.2.50'])
-[18:43:23] [*] ('mirrors.baidu.com', [], ['10.26.153.41'])
-[18:43:26] [*] ('key.baidu.com', [], ['10.99.36.20'])
-[18:43:26] [*] ('kg.baidu.com', [], ['10.50.13.175'])
-[18:43:26] [*] ('sta.baidu.com', [], ['10.46.136.15'])
-[18:43:31] [*] ('eopa.n.shifen.com', ['score.baidu.com'], ['163.177.151.90', '112.80.255.85', '202.106.2.65'])
-[18:43:39] [*] ('scp.baidu.com', [], ['10.99.86.52'])
-[18:43:39] [*] ('rd-service.e.shifen.com', ['ceres.baidu.com'], ['111.202.114.68'])
-[18:43:43] [*] ('rsa.baidu.com', [], ['183.232.232.54', '202.106.2.51', '115.239.211.31'])
-[18:43:43] [*] ('player.video.n.shifen.com', ['player.baidu.com'], ['111.202.114.114'])
-[18:43:48] [*] ('open.a.shifen.com', ['jia.baidu.com'], ['112.80.248.27', '157.255.77.17', '157.255.77.16', '112.80.248.26'])

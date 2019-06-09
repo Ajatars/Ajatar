@@ -1,6 +1,6 @@
 # coding=utf8
 import re
-from urllib.parse import urlparse
+import urlparse
 
 '''
 Automatically find the url with the suffix of `.do` `.action` to verify the vulnerability
@@ -17,14 +17,14 @@ def _get_new_urls(page_url, links):
     for link in links:
         new_url = link
         new_full_url = urlparse.urljoin(page_url, new_url)
-        OO0o = urlparse(new_full_url)
+        OO0o = urlparse.urlparse(new_full_url)
         if OO0o.path.endswith(".action") or OO0o.path.endswith(".do"):
             new_urls.add(new_full_url)
     return new_urls
 
 
 def audit(url, body):
-    p = urlparse(url)
+    p = urlparse.urlparse(url)
     arg = "%s://%s/" % (p.scheme, p.netloc)
     webreg = re.compile('''<a[^>]+href=["\'](.*?)["\']''', re.IGNORECASE)
     urls = webreg.findall(body)
@@ -37,4 +37,4 @@ def audit(url, body):
 if __name__ == '__main__':
     # import local simulation environment
     from dummy import *
-    print ("Hello")
+    print "Hello"

@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+#coding:utf-8
 
 import os
 import time
@@ -27,7 +28,7 @@ def updateProgram():
 
 	try:
 		#创建进程stdin,stdout,stderr：分别表示程序的标准输入、标准输出、标准错误,cwd：用于设置子进程的当前目录,locale.getpreferredencoding()获取本地编码。
-		process = subprocess.Popen("git checkout . && git pull %s HEAD" % GIT_REPOSITORY, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, cwd=paths.w9scan_ROOT_PATH.encode(locale.getpreferredencoding()))  # Reference: http://blog.stastnarodina.com/honza-en/spot/python-unicodeencodeerror/
+		process = subprocess.Popen("git checkout . && git pull %s HEAD" % GIT_REPOSITORY, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, cwd=paths.Ajatar_ROOT_PATH.encode(locale.getpreferredencoding()))  # Reference: http://blog.stastnarodina.com/honza-en/spot/python-unicodeencodeerror/
 		pollProcess(process,True) 
 		stdout,stderr = process.communicate() #Communicate()返回一个元组
 		success = not process.returncode #获取进程的返回值。如果进程还没有结束，返回None。

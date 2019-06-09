@@ -1,0 +1,422 @@
+[00:23:25] [*] Set threadnum:10
+[00:23:25] [*] ScanStart Target:http://www.baidu.com/
+[00:23:27] [*] 百度一下，你就知道
+[00:23:27] [*] {'url': 'http://www.baidu.com/.git', 'status_code': 200, 'length': 15852}
+[00:23:27] [*] {'url': 'http://www.baidu.com/.git/HEAD', 'status_code': 200, 'length': 15852}
+[00:23:27] [*] {'url': 'http://www.baidu.com/.git/index', 'status_code': 200, 'length': 15852}
+[00:23:27] [*] {'url': 'http://www.baidu.com/.git/config', 'status_code': 200, 'length': 15852}
+[00:23:27] [*] ('www.a.shifen.com', ['www.baidu.com'], ['112.80.248.76', '112.80.248.75'])
+[00:23:27] [*] {'url': 'http://www.baidu.com/.git/description', 'status_code': 200, 'length': 15852}
+[00:23:27] [*] {'url': 'http://www.baidu.com/README.MD', 'status_code': 200, 'length': 15852}
+[00:23:27] [*] ('mail.maillb.baidu.com', ['mail.baidu.com'], ['111.202.115.87'])
+[00:23:27] [*] {'url': 'http://www.baidu.com/README.md', 'status_code': 200, 'length': 15852}
+[00:23:27] [*] {'url': 'http://www.baidu.com/README', 'status_code': 200, 'length': 15852}
+[00:23:27] [*] ('pop.baidu.com', [], ['10.99.145.36'])
+[00:23:27] [*] ('wap.n.shifen.com', ['m.baidu.com'], ['163.177.151.99', '163.177.151.98'])
+[00:23:27] [*] {'url': 'http://www.baidu.com/.gitignore', 'status_code': 200, 'length': 15852}
+[00:23:27] [*] Cookie without Secure flag set
+[00:23:27] [*] Cookie without HttpOnly flag set
+[00:23:27] [*] Session Cookie are valid only on that Path: /
+[00:23:27] [*] Cookie Header contains multiple cookies
+[00:23:27] [*] X-XSS-Protection header missing
+[00:23:27] [*] Clickjacking: X-Frame-Options header missing
+[00:23:27] [*] Content-Type header missing
+[00:23:27] [*] Strict-Transport-Security header missing
+[00:23:27] [*] X-Content-Type-Options header missing
+[00:23:28] [*] {'url': 'http://www.baidu.com/.svn', 'status_code': 200, 'length': 15852}
+[00:23:28] [*] {'url': 'http://www.baidu.com/.svn/wc.db', 'status_code': 200, 'length': 15852}
+[00:23:28] [*] {'url': 'http://www.baidu.com/.svn/entries', 'status_code': 200, 'length': 15852}
+[00:23:28] [*] {'url': 'http://www.baidu.com/user.php.bak', 'status_code': 200, 'length': 15852}
+[00:23:28] [*] {'url': 'http://www.baidu.com/.hg', 'status_code': 200, 'length': 15852}
+[00:23:28] [*] {'url': 'http://www.baidu.com/.DS_store', 'status_code': 200, 'length': 15852}
+[00:23:28] [*] {'url': 'http://www.baidu.com/WEB-INF/web.xml', 'status_code': 200, 'length': 15852}
+[00:23:28] [*] {'url': 'http://www.baidu.com/WEB-INF/src/', 'status_code': 200, 'length': 15852}
+[00:23:28] [*] ('mail.maillb.baidu.com', ['autodiscover.baidu.com', 'email.baidu.com'], ['111.202.115.87'])
+[00:23:28] [*] {'url': 'http://www.baidu.com/WEB-INF/classes', 'status_code': 200, 'length': 15852}
+[00:23:28] [*] ('admin.baidu.com', [], ['10.26.109.19'])
+[00:23:28] [*] {'url': 'http://www.baidu.com/WEB-INF/lib', 'status_code': 200, 'length': 15852}
+[00:23:28] [*] ('post.n.shifen.com', ['bbs.baidu.com', 'post.baidu.com'], ['163.177.151.76'])
+[00:23:28] [*] {'url': 'http://www.baidu.com/WEB-INF/database.propertie', 'status_code': 200, 'length': 15852}
+[00:23:28] [*] ('crowdtestatmp.n.shifen.com', ['test.baidu.com'], ['61.135.185.109'])
+[00:23:28] [*] {'url': 'http://www.baidu.com/CVS/Root', 'status_code': 200, 'length': 15852}
+[00:23:28] [*] http://www.baidu.com/['html']
+[00:23:28] [*] {'url': 'http://www.baidu.com/CVS/Entries', 'status_code': 200, 'length': 15852}
+[00:23:29] [*] ('mx.baidu.com', [], ['61.135.163.61'])
+[00:23:29] [*] {'url': 'http://www.baidu.com/.bzr/', 'status_code': 200, 'length': 15852}
+[00:23:29] [*] {'url': 'http://www.baidu.com/%3f', 'status_code': 200, 'length': 15852}
+[00:23:29] [*] {'url': 'http://www.baidu.com/%3f~', 'status_code': 200, 'length': 15852}
+[00:23:29] [*] {'url': 'http://www.baidu.com/.%3f.swp', 'status_code': 200, 'length': 15852}
+[00:23:29] [*] {'url': 'http://www.baidu.com/.%3f.swo', 'status_code': 200, 'length': 15852}
+[00:23:29] [*] {'url': 'http://www.baidu.com/.%3f.swn', 'status_code': 200, 'length': 15852}
+[00:23:29] [*] {'url': 'http://www.baidu.com/.%3f.swm', 'status_code': 200, 'length': 15852}
+[00:23:29] [*] {'url': 'http://www.baidu.com/.%3f.swl', 'status_code': 200, 'length': 15852}
+[00:23:29] [*] {'url': 'http://www.baidu.com/_viminfo', 'status_code': 200, 'length': 15852}
+[00:23:29] [*] {'url': 'http://www.baidu.com/.viminfo', 'status_code': 200, 'length': 15852}
+[00:23:29] [*] {'url': 'http://www.baidu.com/%3f~', 'status_code': 200, 'length': 15852}
+[00:23:29] [*] {'url': 'http://www.baidu.com/%3f~1~', 'status_code': 200, 'length': 15852}
+[00:23:29] [*] {'url': 'http://www.baidu.com/%3f~2~', 'status_code': 200, 'length': 15852}
+[00:23:29] [*] {'url': 'http://www.baidu.com/%3f~3~', 'status_code': 200, 'length': 15852}
+[00:23:30] [*] {'url': 'http://www.baidu.com/%3f.save', 'status_code': 200, 'length': 15852}
+[00:23:30] [*] {'url': 'http://www.baidu.com/%3f.save1', 'status_code': 200, 'length': 15852}
+[00:23:30] [*] {'url': 'http://www.baidu.com/%3f.save2', 'status_code': 200, 'length': 15852}
+[00:23:30] [*] {'url': 'http://www.baidu.com/%3f.save3', 'status_code': 200, 'length': 15852}
+[00:23:30] [*] {'url': 'http://www.baidu.com/%3f.bak_Edietplus', 'status_code': 200, 'length': 15852}
+[00:23:30] [*] {'url': 'http://www.baidu.com/%3f.bak', 'status_code': 200, 'length': 15852}
+[00:23:30] [*] {'url': 'http://www.baidu.com/%3f.back', 'status_code': 200, 'length': 15852}
+[00:23:30] [*] {'url': 'http://www.baidu.com/phpinfo.php', 'status_code': 200, 'length': 194}
+[00:23:30] [*] {'url': 'http://www.baidu.com/robots.txt', 'status_code': 200, 'length': 2754}
+[00:23:30] [*] {'url': 'http://www.baidu.com/.htaccess', 'status_code': 200, 'length': 194}
+[00:23:30] [*] {'url': 'http://www.baidu.com/.bash_history', 'status_code': 200, 'length': 15852}
+[00:23:30] [*] {'url': 'http://www.baidu.com/.svn/', 'status_code': 200, 'length': 15852}
+[00:23:31] [*] {'url': 'http://www.baidu.com/.git/', 'status_code': 200, 'length': 15852}
+[00:23:31] [*] {'url': 'http://www.baidu.com/.index.php.swp', 'status_code': 200, 'length': 15852}
+[00:23:31] [*] {'url': 'http://www.baidu.com/index.php.swp', 'status_code': 200, 'length': 15852}
+[00:23:31] [*] {'url': 'http://www.baidu.com/index.php.bak', 'status_code': 200, 'length': 15852}
+[00:23:31] [*] {'url': 'http://www.baidu.com/.index.php~', 'status_code': 200, 'length': 15852}
+[00:23:31] [*] {'url': 'http://www.baidu.com/index.php.bak_Edietplus', 'status_code': 200, 'length': 15852}
+[00:23:31] [*] {'url': 'http://www.baidu.com/index.php.~', 'status_code': 200, 'length': 15852}
+[00:23:31] [*] {'url': 'http://www.baidu.com/index.php.~1~', 'status_code': 200, 'length': 15852}
+[00:23:31] [*] {'url': 'http://www.baidu.com/index.php', 'status_code': 200, 'length': 153443}
+[00:23:31] [*] {'url': 'http://www.baidu.com/index.php~', 'status_code': 200, 'length': 15852}
+[00:23:31] [*] {'url': 'http://www.baidu.com/index.php.rar', 'status_code': 200, 'length': 15852}
+[00:23:31] [*] {'url': 'http://www.baidu.com/index.php.zip', 'status_code': 200, 'length': 15852}
+[00:23:31] [*] {'url': 'http://www.baidu.com/index.php.7z', 'status_code': 200, 'length': 15852}
+[00:23:31] [*] {'url': 'http://www.baidu.com/index.php.tar.gz', 'status_code': 200, 'length': 15852}
+[00:23:32] [*] {'url': 'http://www.baidu.com/index.php.txt', 'status_code': 200, 'length': 15852}
+[00:23:32] [*] {'url': 'http://www.baidu.com/login.php', 'status_code': 200, 'length': 194}
+[00:23:32] [*] {'url': 'http://www.baidu.com/register.php', 'status_code': 200, 'length': 194}
+[00:23:32] [*] ('mail.maillb.baidu.com', ['email.baidu.com'], ['111.202.115.87'])
+[00:23:32] [*] {'url': 'http://www.baidu.com/test.php', 'status_code': 200, 'length': 194}
+[00:23:32] [*] ('wap.n.shifen.com', ['wap.baidu.com'], ['163.177.151.99', '163.177.151.98'])
+[00:23:32] [*] {'url': 'http://www.baidu.com/upload.php', 'status_code': 200, 'length': 194}
+[00:23:32] [*] {'url': 'http://www.baidu.com/phpinfo.php', 'status_code': 200, 'length': 194}
+[00:23:32] [*] {'url': 'http://www.baidu.com/t.php', 'status_code': 200, 'length': 194}
+[00:23:32] [*] {'url': 'http://www.baidu.com/www.zip', 'status_code': 200, 'length': 15852}
+[00:23:32] [*] {'url': 'http://www.baidu.com/www.rar', 'status_code': 200, 'length': 15852}
+[00:23:32] [*] {'url': 'http://www.baidu.com/www.zip', 'status_code': 200, 'length': 15852}
+[00:23:32] [*] ('ns1.baidu.com', [], ['202.108.22.220'])
+[00:23:32] [*] {'url': 'http://www.baidu.com/www.7z', 'status_code': 200, 'length': 15852}
+[00:23:32] [*] {'url': 'http://www.baidu.com/www.tar.gz', 'status_code': 200, 'length': 15852}
+[00:23:32] [*] ('vpn.n.shifen.com', ['vpn.baidu.com'], ['61.135.165.126'])
+[00:23:32] [*] {'url': 'http://www.baidu.com/www.tar', 'status_code': 200, 'length': 15852}
+[00:23:32] [*] {'url': 'http://www.baidu.com/web.zip', 'status_code': 200, 'length': 15852}
+[00:23:33] [*] {'url': 'http://www.baidu.com/web.rar', 'status_code': 200, 'length': 15852}
+[00:23:33] [*] {'url': 'http://www.baidu.com/web.zip', 'status_code': 200, 'length': 15852}
+[00:23:33] [*] {'url': 'http://www.baidu.com/web.7z', 'status_code': 200, 'length': 15852}
+[00:23:33] [*] {'url': 'http://www.baidu.com/web.tar.gz', 'status_code': 200, 'length': 15852}
+[00:23:33] [*] {'url': 'http://www.baidu.com/web.tar', 'status_code': 200, 'length': 15852}
+[00:23:33] [*] {'url': 'http://www.baidu.com/plus', 'status_code': 200, 'length': 15852}
+[00:23:33] [*] {'url': 'http://www.baidu.com/qq.txt', 'status_code': 200, 'length': 15852}
+[00:23:33] [*] {'url': 'http://www.baidu.com/log.txt', 'status_code': 200, 'length': 15852}
+[00:23:33] [*] {'url': 'http://www.baidu.com/wwwroot.rar', 'status_code': 200, 'length': 15852}
+[00:23:33] [*] {'url': 'http://www.baidu.com/web.rar', 'status_code': 200, 'length': 15852}
+[00:23:33] [*] {'url': 'http://www.baidu.com/dede', 'status_code': 200, 'length': 15852}
+[00:23:33] [*] {'url': 'http://www.baidu.com/admin', 'status_code': 200, 'length': 15852}
+[00:23:33] [*] {'url': 'http://www.baidu.com/edit', 'status_code': 200, 'length': 15852}
+[00:23:33] [*] {'url': 'http://www.baidu.com/Fckeditor', 'status_code': 200, 'length': 15852}
+[00:23:33] [*] {'url': 'http://www.baidu.com/ewebeditor', 'status_code': 200, 'length': 15852}
+[00:23:34] [*] {'url': 'http://www.baidu.com/bbs', 'status_code': 200, 'length': 15852}
+[00:23:34] [*] {'url': 'http://www.baidu.com/Editor', 'status_code': 200, 'length': 15852}
+[00:23:34] [*] {'url': 'http://www.baidu.com/manage', 'status_code': 200, 'length': 15852}
+[00:23:34] [*] {'url': 'http://www.baidu.com/shopadmin', 'status_code': 200, 'length': 15852}
+[00:23:34] [*] {'url': 'http://www.baidu.com/web_Fckeditor', 'status_code': 200, 'length': 15852}
+[00:23:34] [*] {'url': 'http://www.baidu.com/login', 'status_code': 200, 'length': 15852}
+[00:23:34] [*] {'url': 'http://www.baidu.com/webadmin', 'status_code': 200, 'length': 15852}
+[00:23:34] [*] {'url': 'http://www.baidu.com/admin/WebEditor', 'status_code': 200, 'length': 15852}
+[00:23:34] [*] {'url': 'http://www.baidu.com/admin/daili/webedit', 'status_code': 200, 'length': 15852}
+[00:23:34] [*] {'url': 'http://www.baidu.com/login/', 'status_code': 200, 'length': 15852}
+[00:23:34] [*] {'url': 'http://www.baidu.com/database/', 'status_code': 200, 'length': 15852}
+[00:23:34] [*] {'url': 'http://www.baidu.com/tmp/', 'status_code': 200, 'length': 15852}
+[00:23:34] [*] {'url': 'http://www.baidu.com/manager/', 'status_code': 200, 'length': 15852}
+[00:23:34] [*] {'url': 'http://www.baidu.com/manage/', 'status_code': 200, 'length': 15852}
+[00:23:35] [*] {'url': 'http://www.baidu.com/web/', 'status_code': 200, 'length': 15852}
+[00:23:35] [*] {'url': 'http://www.baidu.com/admin/', 'status_code': 200, 'length': 15852}
+[00:23:35] [*] {'url': 'http://www.baidu.com/shopadmin/', 'status_code': 200, 'length': 15852}
+[00:23:35] [*] {'url': 'http://www.baidu.com/wp-includes/', 'status_code': 200, 'length': 15852}
+[00:23:35] [*] {'url': 'http://www.baidu.com/edit/', 'status_code': 200, 'length': 15852}
+[00:23:35] [*] {'url': 'http://www.baidu.com/editor/', 'status_code': 200, 'length': 15852}
+[00:23:35] [*] {'url': 'http://www.baidu.com/user/', 'status_code': 200, 'length': 194}
+[00:23:35] [*] {'url': 'http://www.baidu.com/users/', 'status_code': 200, 'length': 15852}
+[00:23:35] [*] {'url': 'http://www.baidu.com/admin/', 'status_code': 200, 'length': 15852}
+[00:23:35] [*] {'url': 'http://www.baidu.com/home/', 'status_code': 200, 'length': 14484}
+[00:23:35] [*] {'url': 'http://www.baidu.com/test/', 'status_code': 200, 'length': 15852}
+[00:23:35] [*] {'url': 'http://www.baidu.com/administrator/', 'status_code': 200, 'length': 15852}
+[00:23:35] [*] {'url': 'http://www.baidu.com/houtai/', 'status_code': 200, 'length': 15852}
+[00:23:35] [*] ('ns2.baidu.com', [], ['220.181.33.31'])
+[00:23:35] [*] {'url': 'http://www.baidu.com/backdoor/', 'status_code': 200, 'length': 15852}
+[00:23:36] [*] {'url': 'http://www.baidu.com/flag/', 'status_code': 200, 'length': 15852}
+[00:23:36] [*] ('www2.e.shifen.com', ['www2.baidu.com'], ['111.206.37.231'])
+[00:23:36] [*] {'url': 'http://www.baidu.com/upload/', 'status_code': 200, 'length': 15852}
+[00:23:36] [*] {'url': 'http://www.baidu.com/uploads/', 'status_code': 200, 'length': 15852}
+[00:23:36] [*] ('mysql.baidu.com', [], ['10.105.97.153'])
+[00:23:36] [*] {'url': 'http://www.baidu.com/download/', 'status_code': 200, 'length': 15852}
+[00:23:36] [*] {'url': 'http://www.baidu.com/downloads/', 'status_code': 200, 'length': 15852}
+[00:23:36] [*] {'url': 'http://www.baidu.com/manager/', 'status_code': 200, 'length': 15852}
+[00:23:36] [*] {'url': 'http://www.baidu.com/root.zip', 'status_code': 200, 'length': 15852}
+[00:23:36] [*] ('developer-portal.n.shifen.com', ['dev.baidu.com'], ['112.34.111.60'])
+[00:23:36] [*] {'url': 'http://www.baidu.com/root.rar', 'status_code': 200, 'length': 15852}
+[00:23:36] [*] {'url': 'http://www.baidu.com/wwwroot.zip', 'status_code': 200, 'length': 15852}
+[00:23:36] [*] ('news.n.shifen.com', ['news.baidu.com'], ['123.125.115.141', '111.202.114.151', '202.108.23.82', '153.3.236.50'])
+[00:23:36] [*] {'url': 'http://www.baidu.com/wwwroot.rar', 'status_code': 200, 'length': 15852}
+[00:23:36] [*] {'url': 'http://www.baidu.com/backup.zip', 'status_code': 200, 'length': 15852}
+[00:23:36] [*] {'url': 'http://www.baidu.com/backup.rar', 'status_code': 200, 'length': 15852}
+[00:23:36] [*] {'url': 'http://www.baidu.com/.svn/entries', 'status_code': 200, 'length': 15852}
+[00:23:36] [*] ('orp.n.shifen.com', ['shop.baidu.com'], ['123.125.115.15'])
+[00:23:36] [*] {'url': 'http://www.baidu.com/.git/config', 'status_code': 200, 'length': 15852}
+[00:23:37] [*] {'url': 'http://www.baidu.com/.ds_store', 'status_code': 200, 'length': 15852}
+[00:23:37] [*] {'url': 'http://www.baidu.com/flag.php', 'status_code': 200, 'length': 194}
+[00:23:37] [*] {'url': 'http://www.baidu.com/fl4g.php', 'status_code': 200, 'length': 194}
+[00:23:37] [*] {'url': 'http://www.baidu.com/f1ag.php', 'status_code': 200, 'length': 194}
+[00:23:37] [*] {'url': 'http://www.baidu.com/f14g.php', 'status_code': 200, 'length': 194}
+[00:23:37] [*] {'url': 'http://www.baidu.com/admin.php', 'status_code': 200, 'length': 194}
+[00:23:37] [*] {'url': 'http://www.baidu.com/4dmin.php', 'status_code': 200, 'length': 194}
+[00:23:37] [*] {'url': 'http://www.baidu.com/adm1n.php', 'status_code': 200, 'length': 194}
+[00:23:37] [*] {'url': 'http://www.baidu.com/4dm1n.php', 'status_code': 200, 'length': 194}
+[00:23:37] [*] {'url': 'http://www.baidu.com/admin1.php', 'status_code': 200, 'length': 194}
+[00:23:37] [*] {'url': 'http://www.baidu.com/admin2.php', 'status_code': 200, 'length': 194}
+[00:23:37] [*] {'url': 'http://www.baidu.com/adminlogin.php', 'status_code': 200, 'length': 194}
+[00:23:37] [*] {'url': 'http://www.baidu.com/administrator.php', 'status_code': 200, 'length': 194}
+[00:23:37] [*] {'url': 'http://www.baidu.com/login.php', 'status_code': 200, 'length': 194}
+[00:23:38] [*] {'url': 'http://www.baidu.com/register.php', 'status_code': 200, 'length': 194}
+[00:23:38] [*] {'url': 'http://www.baidu.com/upload.php', 'status_code': 200, 'length': 194}
+[00:23:38] [*] {'url': 'http://www.baidu.com/log.php', 'status_code': 200, 'length': 194}
+[00:23:38] [*] {'url': 'http://www.baidu.com/logs.php', 'status_code': 200, 'length': 194}
+[00:23:38] [*] {'url': 'http://www.baidu.com/config.php', 'status_code': 200, 'length': 194}
+[00:23:38] [*] {'url': 'http://www.baidu.com/member.php', 'status_code': 200, 'length': 194}
+[00:23:38] [*] {'url': 'http://www.baidu.com/user.php', 'status_code': 200, 'length': 194}
+[00:23:38] [*] {'url': 'http://www.baidu.com/users.php', 'status_code': 200, 'length': 194}
+[00:23:38] [*] {'url': 'http://www.baidu.com/robots.php', 'status_code': 200, 'length': 194}
+[00:23:38] [*] {'url': 'http://www.baidu.com/info.php', 'status_code': 200, 'length': 194}
+[00:23:38] [*] {'url': 'http://www.baidu.com/phpinfo.php', 'status_code': 200, 'length': 194}
+[00:23:38] [*] {'url': 'http://www.baidu.com/backdoor.php', 'status_code': 200, 'length': 194}
+[00:23:38] [*] {'url': 'http://www.baidu.com/fm.php', 'status_code': 200, 'length': 194}
+[00:23:38] [*] {'url': 'http://www.baidu.com/example.php', 'status_code': 200, 'length': 194}
+[00:23:38] [*] {'url': 'http://www.baidu.com/mysql.bak', 'status_code': 200, 'length': 15852}
+[00:23:39] [*] {'url': 'http://www.baidu.com/a.sql', 'status_code': 200, 'length': 15852}
+[00:23:39] [*] {'url': 'http://www.baidu.com/b.sql', 'status_code': 200, 'length': 15852}
+[00:23:39] [*] {'url': 'http://www.baidu.com/db.sql', 'status_code': 200, 'length': 15852}
+[00:23:39] [*] {'url': 'http://www.baidu.com/bdb.sql', 'status_code': 200, 'length': 15852}
+[00:23:39] [*] {'url': 'http://www.baidu.com/ddb.sql', 'status_code': 200, 'length': 15852}
+[00:23:39] [*] {'url': 'http://www.baidu.com/users.sql', 'status_code': 200, 'length': 15852}
+[00:23:39] [*] {'url': 'http://www.baidu.com/dump.sql', 'status_code': 200, 'length': 15852}
+[00:23:39] [*] {'url': 'http://www.baidu.com/data.sql', 'status_code': 200, 'length': 15852}
+[00:23:39] [*] {'url': 'http://www.baidu.com/backup.sql', 'status_code': 200, 'length': 15852}
+[00:23:39] [*] {'url': 'http://www.baidu.com/backup.sql.gz', 'status_code': 200, 'length': 15852}
+[00:23:39] [*] {'url': 'http://www.baidu.com/backup.sql.bz2', 'status_code': 200, 'length': 15852}
+[00:23:39] [*] {'url': 'http://www.baidu.com/backup.zip', 'status_code': 200, 'length': 15852}
+[00:23:40] [*] ('appc.n.shifen.com', ['mobile.baidu.com'], ['112.80.255.227'])
+[00:23:40] [*] {'url': 'http://www.baidu.com/1.txt', 'status_code': 200, 'length': 15852}
+[00:23:40] [*] ('web.baidu.com', [], ['10.48.30.87'])
+[00:23:40] [*] {'url': 'http://www.baidu.com/sites/default/settings.php', 'status_code': 200, 'length': 15852}
+[00:23:40] [*] ('Sip.n.shifen.com', ['sip.baidu.com'], ['61.135.165.108'])
+[00:23:40] [*] {'url': 'http://www.baidu.com/config.php', 'status_code': 200, 'length': 194}
+[00:23:40] [*] {'url': 'http://www.baidu.com/config.inc.php', 'status_code': 200, 'length': 194}
+[00:23:40] [*] {'url': 'http://www.baidu.com/conf/_basic_config.php', 'status_code': 200, 'length': 15852}
+[00:23:40] [*] {'url': 'http://www.baidu.com/config/site.php', 'status_code': 200, 'length': 15852}
+[00:23:40] [*] {'url': 'http://www.baidu.com/system/config/default.php', 'status_code': 200, 'length': 15852}
+[00:23:40] [*] ('www.a.shifen.com', ['www1.baidu.com', 'www.baidu.com'], ['112.80.248.75', '112.80.248.76'])
+[00:23:40] [*] {'url': 'http://www.baidu.com/framework/conf/config.php', 'status_code': 200, 'length': 15852}
+[00:23:40] [*] {'url': 'http://www.baidu.com/mysite/_config.php', 'status_code': 200, 'length': 15852}
+[00:23:40] [*] Fingerprinted this host as a *nix system. Detection for this operating system is weak, "if not windows then linux".
+[00:23:40] [*] {'url': 'http://www.baidu.com/typo3conf/localconf.php', 'status_code': 200, 'length': 15852}
+[00:23:41] [*] {'url': 'http://www.baidu.com/config/config_global.php', 'status_code': 200, 'length': 15852}
+[00:23:41] [*] {'url': 'http://www.baidu.com/config/config_ucenter.php', 'status_code': 200, 'length': 15852}
+[00:23:41] [*] {'url': 'http://www.baidu.com/lib', 'status_code': 200, 'length': 15852}
+[00:23:41] [*] {'url': 'http://www.baidu.com/data/config.php', 'status_code': 200, 'length': 15852}
+[00:23:46] [*] {'url': 'http://www.baidu.com/data/config.inc.php', 'status_code': 200, 'length': 15852}
+[00:23:46] [*] ('static.n.shifen.com', ['img.baidu.com'], ['61.135.186.152'])
+[00:23:46] [*] {'url': 'http://www.baidu.com/data/common.inc.php', 'status_code': 200, 'length': 15852}
+[00:23:51] [*] {'url': 'http://www.baidu.com/caches/configs/database.php', 'status_code': 200, 'length': 15852}
+[00:23:51] [*] ('pheonest.e.shifen.com', ['support.baidu.com'], ['112.80.248.234', '202.108.23.221', '163.177.151.145'])
+[00:23:51] [*] {'url': 'http://www.baidu.com/caches/configs/system.php', 'status_code': 200, 'length': 15852}
+[00:23:52] [*] {'url': 'http://www.baidu.com/include/config.inc.php', 'status_code': 200, 'length': 15852}
+[00:23:52] [*] ('orp.n.shifen.com', ['media.baidu.com'], ['123.125.115.15'])
+[00:23:57] [*] ('files.baidu.com', [], ['10.65.43.129'])
+[00:23:57] [*] {'url': 'http://www.baidu.com/phpsso_server/caches/configs/database.php', 'status_code': 200, 'length': 15852}
+[00:23:57] [*] ('opencdn.jomodns.com', ['e.baidu.com', 'e.baidu.com.a.bdydns.com'], ['211.91.255.35', '61.240.205.35'])
+[00:23:57] [*] ('video.n.shifen.com', ['video.baidu.com'], ['123.125.114.32', '111.206.37.59'])
+[00:23:57] [*] {'url': 'http://www.baidu.com/phpsso_server/caches/configs/system.php', 'status_code': 200, 'length': 15852}
+[00:23:57] [*] ('appc.n.shifen.com', ['app.baidu.com'], ['112.80.255.227'])
+[00:23:57] [*] {'url': 'http://www.baidu.com/404.php', 'status_code': 200, 'length': 194}
+[00:23:57] [*] {'url': 'http://www.baidu.com/index.html', 'status_code': 200, 'length': 153664}
+[00:23:57] [*] {'javascript-frameworks': ['jQuery']}
+[00:23:57] [*] {'url': 'http://www.baidu.com/user/', 'status_code': 200, 'length': 194}
+[00:23:57] [*] {'url': 'http://www.baidu.com/users/', 'status_code': 200, 'length': 15852}
+[00:23:57] [*] ('my.n.shifen.com', ['my.baidu.com'], ['111.206.223.136'])
+[00:23:57] [*] {'url': 'http://www.baidu.com/admin/', 'status_code': 200, 'length': 15852}
+[00:23:57] [*] {'url': 'http://www.baidu.com/home/', 'status_code': 200, 'length': 14484}
+[00:23:58] [*] ('crm.baidu.com', [], ['123.125.115.43', '180.149.144.54', '39.156.66.150'])
+[00:23:58] [*] {'url': 'http://www.baidu.com/test/', 'status_code': 200, 'length': 15852}
+[00:23:58] [*] {'url': 'http://www.baidu.com/administrator/', 'status_code': 200, 'length': 15852}
+[00:23:58] [*] {'url': 'http://www.baidu.com/houtai/', 'status_code': 200, 'length': 15852}
+[00:23:58] [*] {'url': 'http://www.baidu.com/backdoor/', 'status_code': 200, 'length': 15852}
+[00:23:58] [*] {'url': 'http://www.baidu.com/flag/', 'status_code': 200, 'length': 15852}
+[00:23:58] [*] {'url': 'http://www.baidu.com/uploads/', 'status_code': 200, 'length': 15852}
+[00:23:58] [*] {'url': 'http://www.baidu.com/download/', 'status_code': 200, 'length': 15852}
+[00:23:58] [*] {'url': 'http://www.baidu.com/downloads/', 'status_code': 200, 'length': 15852}
+[00:23:58] [*] {'url': 'http://www.baidu.com/manager/', 'status_code': 200, 'length': 15852}
+[00:23:58] [*] {'url': 'http://www.baidu.com/phpmyadmin/', 'status_code': 200, 'length': 15852}
+[00:23:58] [*] {'url': 'http://www.baidu.com/phpMyAdmin/', 'status_code': 200, 'length': 15852}
+[00:23:58] [*] {'url': 'http://www.baidu.com/log/access.log', 'status_code': 200, 'length': 15852}
+[00:24:01] [*] ('portal.baidu.com', [], ['172.22.1.82'])
+[00:24:01] [*] ('demo.baidu.com', [], ['10.73.191.38'])
+[00:24:01] [*] ('api.e.shifen.com', ['api.baidu.com'], ['111.206.37.233', '123.125.115.11'])
+[00:24:01] [*] ('beta.n.shifen.com', ['beta.baidu.com'], ['111.206.37.130'])
+[00:24:04] [*] ('lyncextweb.n.shifen.com', ['lyncdiscover.baidu.com'], ['61.135.165.111'])
+[00:24:04] [*] ('dns.baidu.com', [], ['202.108.22.220'])
+[00:24:05] [*] ('domain-offline.baidu.com', ['images.baidu.com'], ['182.61.62.50'])
+[00:24:05] [*] ('db.baidu.com', [], ['10.26.109.19'])
+[00:24:05] [*] ('olimbos.e.shifen.com', ['info.baidu.com'], ['111.206.223.208', '61.135.185.62'])
+[00:24:05] [*] ('docs.baidu.com', [], ['10.99.57.42'])
+[00:24:08] [*] ('static.n.shifen.com', ['static.baidu.com'], ['61.135.186.152'])
+[00:24:08] [*] ('ns3.baidu.com', [], ['112.80.248.64'])
+[00:24:09] [*] ('forum.baidu.com', [], ['10.26.109.19'])
+[00:24:12] [*] ('cdn.jomodns.com', ['cdn.baidu.com'], ['10.36.3.156'])
+[00:24:12] [*] ('wap.n.shifen.com', ['pda.baidu.com'], ['163.177.151.99', '163.177.151.98'])
+[00:24:12] [*] ('dns1.baidu.com', [], ['220.181.38.10'])
+[00:24:12] [*] ('home.n.shifen.com', ['home.baidu.com'], ['202.106.2.51'])
+[00:24:16] [*] ('orp.n.shifen.com', ['online.baidu.com'], ['123.125.115.15'])
+[00:24:16] [*] ('office.baidu.com', [], ['10.99.72.22'])
+[00:24:19] [*] ('730.nuomi.n.shifen.com', ['t.baidu.com'], ['153.37.235.12', '112.80.255.214'])
+[00:24:23] [*] ('ns3.baidu.com', ['proxy.baidu.com'], ['112.80.248.64'])
+[00:24:23] [*] ('image.n.shifen.com', ['pic.baidu.com', 'image.baidu.com'], ['163.177.151.139'])
+[00:24:23] [*] ('open.a.shifen.com', ['edu.baidu.com'], ['112.80.248.26', '157.255.77.17', '112.80.248.27', '157.255.77.16'])
+[00:24:23] [*] ('ps_other.a.shifen.com', ['d.baidu.com'], ['123.125.114.144'])
+[00:24:23] [*] ('ns4.baidu.com', [], ['14.215.178.80'])
+[00:24:23] [*] ('codesearch.baidu.com', ['cs.baidu.com'], ['10.91.160.210'])
+[00:24:23] [*] ('b2b.e.shifen.com', ['b2b.baidu.com'], ['157.255.77.23', '112.80.248.33', '61.135.185.78'])
+[00:24:24] [*] ('orp.n.shifen.com', ['store.baidu.com'], ['123.125.115.15'])
+[00:24:27] [*] ('service.baidu.com', [], ['112.34.111.18', '180.149.144.166', '112.80.255.43', '180.97.36.81', '112.80.255.39', '117.185.16.213', '180.97.33.42', '112.34.111.183', '117.185.16.230', '202.106.2.77', '202.106.2.78', '180.149.144.165'])
+[00:24:30] [*] ('open.a.shifen.com', ['health.baidu.com'], ['157.255.77.16', '112.80.248.27', '157.255.77.17', '112.80.248.26'])
+[00:24:30] [*] ('help.baidu.com', [], ['180.97.33.42', '180.149.144.165', '112.80.255.43', '180.149.144.166', '117.185.16.230', '202.106.2.78', '202.106.2.77', '112.34.111.183', '180.97.36.81', '112.34.111.18', '117.185.16.213', '112.80.255.39'])
+[00:24:31] [*] ('vip.a.shifen.com', ['vip.baidu.com'], ['123.125.115.229'])
+[00:24:31] [*] ('news.n.shifen.com', ['finance.baidu.com'], ['202.108.23.82', '111.202.114.151', '123.125.115.141', '153.3.236.50'])
+[00:24:34] [*] ('email.n.shifen.com', ['owa.baidu.com'], ['111.202.115.84'])
+[00:24:35] [*] ('ads.baidu.com', [], ['10.42.4.225'])
+[00:24:35] [*] ('sc.baidu.com', [], ['10.207.6.39'])
+[00:24:39] [*] ('talent.n.shifen.com', ['hr.baidu.com', 'talent.baidu.com'], ['61.135.185.176'])
+[00:24:39] [*] ('sms.baidu.com', [], ['10.42.4.184'])
+[00:24:39] [*] ('game.n.shifen.com', ['game.baidu.com'], ['123.125.115.219', '112.80.255.173'])
+[00:24:39] [*] ('i.e.shifen.com', ['i.baidu.com'], ['61.135.185.67'])
+[00:24:43] [*] ('iyouxi.game.n.shifen.com', ['member.baidu.com'], ['112.80.255.173'])
+[00:24:43] [*] ('video.n.shifen.com', ['v.baidu.com'], ['111.206.37.59', '123.125.114.32'])
+[00:24:43] [*] ('asp.e.shifen.com', ['a.baidu.com'], ['123.125.114.38', '112.80.248.124'])
+[00:24:43] [*] ('ps_other.a.shifen.com', ['ww.baidu.com'], ['123.125.114.144'])
+[00:24:43] [*] ('post.n.shifen.com', ['live.baidu.com'], ['163.177.151.76'])
+[00:24:43] [*] ('im2.n.shifen.com', ['im.baidu.com'], ['111.202.114.169', '111.202.114.168'])
+[00:24:43] [*] ('lvyou.n.shifen.com', ['go.baidu.com', 'lvyou.baidu.com'], ['111.206.223.162'])
+[00:24:47] [*] ('wap.n.shifen.com', ['3g.baidu.com'], ['163.177.151.99', '163.177.151.98'])
+[00:24:58] [*] ('security.baidu.com', [], ['10.58.121.74'])
+[00:24:58] [*] ('lyncextweb.n.shifen.com', ['meet.baidu.com'], ['61.135.165.111'])
+[00:24:58] [*] ('ps_other.a.shifen.com', ['w.baidu.com'], ['123.125.114.144'])
+[00:24:59] [*] ('image.n.shifen.com', ['image.baidu.com'], ['163.177.151.139'])
+[00:24:59] [*] ('other.a.shifen.com', ['hk.baidu.com'], ['123.125.114.144'])
+[00:25:03] [*] ('exchange.baidu.com', [], ['10.26.109.19'])
+[00:25:03] [*] ('so.baidu.com', [], ['106.12.34.143'])
+[00:25:03] [*] ('yuzhou.n.shifen.com', ['cp.baidu.com'], ['111.206.37.177'])
+[00:25:03] [*] ('bce.baidu.n.shifen.com', ['cloud.baidu.com'], ['112.80.255.170', '163.177.151.200'])
+[00:25:07] [*] ('domain-offline.baidu.com', ['ad.baidu.com'], ['182.61.62.50'])
+[00:25:08] [*] ('access.baidu.com', [], ['10.94.49.39'])
+[00:25:08] [*] ('open.a.shifen.com', ['job.baidu.com'], ['112.80.248.26', '157.255.77.17', '157.255.77.16', '112.80.248.27'])
+[00:25:12] [*] ('lib.baidu.com', [], ['10.40.20.46'])
+[00:25:12] [*] ('tools.baidu.com', [], ['10.48.30.110'])
+[00:25:12] [*] ('wt.baidu.com', [], ['10.94.40.19'])
+[00:25:12] [*] ('ask.baidu.com', [], ['10.58.222.200'])
+[00:25:15] [*] ('ns5.baidu.com', [], ['220.181.33.63'])
+[00:25:16] [*] ('u.e.shifen.com', ['u.baidu.com'], ['111.206.37.231'])
+[00:25:16] [*] ('vc.wshifen.com', ['vc.baidu.com'], ['61.135.165.169'])
+[00:25:17] [*] ('hb.n.shifen.com', ['hb.baidu.com'], ['180.97.33.29'])
+[00:25:17] [*] ('sp.baidu.com', [], ['10.143.188.18'])
+[00:25:20] [*] ('svn.baidu.com', [], ['10.65.211.174'])
+[00:25:21] [*] ('metrics.baidu.com', [], ['10.42.7.60'])
+[00:25:21] [*] ('mx2.baidu.com', [], ['61.135.163.62'])
+[00:25:21] [*] ('bapp.n.shifen.com', ['hd.baidu.com'], ['180.149.131.33'])
+[00:25:21] [*] ('httpsproxy.a.shifen.com', ['ss.baidu.com'], ['153.3.236.95', '61.135.186.173'])
+[00:25:21] [*] ('qaatmp.n.shifen.com', ['qa.baidu.com'], ['220.181.107.197'])
+[00:25:24] [*] ('bjwebproxy.baidu.ttplayer.com', ['dj.baidu.com'], ['180.76.141.217', '180.76.183.17'])
+[00:25:25] [*] ('bapp.n.shifen.com', ['file.baidu.com'], ['180.149.131.33'])
+[00:25:25] [*] ('project.baidu.com', [], ['10.40.61.49'])
+[00:25:28] [*] ('cpro.e.shifen.com', ['feeds.baidu.com'], ['111.202.114.36'])
+[00:25:29] [*] ('appc.n.shifen.com', ['IN.baidu.com'], ['112.80.255.227'])
+[00:25:29] [*] ('news.n.shifen.com', ['ent.baidu.com', 'yule.baidu.com'], ['202.108.23.82', '123.125.115.141', '111.202.114.151', '153.3.236.50'])
+[00:25:29] [*] ('ws.baidu.com', [], ['10.94.35.35'])
+[00:25:29] [*] ('update.baidu.n.shifen.com', ['update.baidu.com'], ['112.80.255.221'])
+[00:25:29] [*] ('baidu.zongheng.com', ['book.baidu.com'], ['111.13.108.110'])
+[00:25:32] [*] ('appc.n.shifen.com', ['as.baidu.com'], ['112.80.255.227'])
+[00:25:33] [*] ('gb.baidu.com', [], ['10.94.39.59'])
+[00:25:33] [*] ('lab.e.shifen.com', ['lab.baidu.com'], ['180.149.132.122', '180.149.144.192'])
+[00:25:33] [*] ('baifubao-bfe.n.shifen.com', ['1.baidu.com'], ['61.135.186.115', '112.80.255.31', '111.206.223.244'])
+[00:25:33] [*] ('dx.baidu.com', [], ['180.76.177.224'])
+[00:25:33] [*] ('js.n.shifen.com', ['js.baidu.com'], ['202.106.2.14', '202.106.2.53'])
+[00:25:33] [*] ('bk.n.shifen.com', ['b.baidu.com', 'bk.baidu.com'], ['153.37.235.133', '153.37.235.134'])
+[00:25:37] [*] ('trust.e.shifen.com', ['auth.baidu.com'], ['111.206.37.69'])
+[00:25:40] [*] ('other.a.shifen.com', ['tw.baidu.com'], ['123.125.114.144'])
+[00:25:40] [*] ('preview.baidu.com', [], ['10.50.14.162'])
+[00:25:40] [*] ('git.baidu.com', [], ['10.42.4.104'])
+[00:25:41] [*] ('e11065.a.akamaiedge.net', ['ir.baidu.com', 'baidu.gcs-web.com', 'wildcard.gcs-web.com', 'wildcard.gcs-web.edgekey.net'], ['23.67.181.121'])
+[00:25:41] [*] ('monitor.baidu.com', [], ['10.91.161.200'])
+[00:25:44] [*] ('backup.baidu.com', [], ['10.143.145.28'])
+[00:25:45] [*] ('image.n.shifen.com', ['photos.baidu.com', 'image.baidu.com'], ['163.177.151.139'])
+[00:25:45] [*] ('game.n.shifen.com', ['games.baidu.com'], ['112.80.255.173', '123.125.115.219'])
+[00:25:48] [*] ('security.baidu.com', ['ssl.baidu.com'], ['10.58.121.74'])
+[00:25:59] [*] ('research.baidu.com', [], ['180.76.149.102'])
+[00:26:00] [*] ('search-br.wshifen.com', ['pt.baidu.com'], ['123.125.114.144'])
+[00:26:00] [*] ('ps_other.a.shifen.com', ['wwww.baidu.com'], ['123.125.114.144'])
+[00:26:01] [*] ('webproxy.baidu.ttplayer.com', ['music.baidu.com'], ['180.76.141.217'])
+[00:26:04] [*] ('open.a.shifen.com', ['open.baidu.com'], ['112.80.248.26', '112.80.248.27', '157.255.77.16', '157.255.77.17'])
+[00:26:07] [*] ('ntp.baidu.com', [], ['10.48.49.44'])
+[00:26:07] [*] ('ca.n.shifen.com', ['ca.baidu.com'], ['111.202.115.77'])
+[00:26:07] [*] ('map.n.shifen.com', ['map.baidu.com'], ['153.3.236.101', '112.80.248.48'])
+[00:26:07] [*] ('rd-service-gobfe.e.shifen.com', ['design.baidu.com'], ['111.202.114.68'])
+[00:26:07] [*] ('share.n.shifen.com', ['share.baidu.com'], ['111.206.37.189', '61.135.185.248'])
+[00:26:08] [*] ('search-th.wshifen.com', ['th.baidu.com'], ['123.125.114.144'])
+[00:26:08] [*] ('730.njsz.nuomi.n.shifen.com', ['house.baidu.com', 'jujia.nuomi.com'], ['112.80.255.214'])
+[00:26:08] [*] ('appc.n.shifen.com', ['IN.baidu.com'], ['112.80.255.227'])
+[00:26:08] [*] ('cloudcam.baidubce.com', ['x.baidu.com'], ['180.76.177.109'])
+[00:26:11] [*] ('labs.baidu.com', [], ['10.48.37.38'])
+[00:26:12] [*] ('open.a.shifen.com', ['education.baidu.com'], ['112.80.248.27', '112.80.248.26', '157.255.77.17', '157.255.77.16'])
+[00:26:13] [*] ('global.wshifen.com', ['global.baidu.com'], ['103.235.46.83'])
+[00:26:14] [*] ('brand-bfe.e.shifen.com', ['f.baidu.com'], ['112.80.255.125'])
+[00:26:14] [*] ('gh.n.shifen.com', ['gh.baidu.com'], ['111.206.37.184'])
+[00:26:14] [*] ('bavhome.wshifen.com', ['sd.baidu.com'], ['103.235.46.69'])
+[00:26:14] [*] ('www5.a.shifen.com', ['www5.baidu.com'], ['61.135.169.105', '61.135.169.125'])
+[00:26:14] [*] ('offlinea.shifen.bae.baidu.com', ['rt.baidu.com', 'realtime.offlinea.bae.baidu.com'], ['10.26.3.49', '10.36.3.27'])
+[00:26:18] [*] ('open.a.shifen.com', ['weather.baidu.com'], ['157.255.77.17', '112.80.248.27', '157.255.77.16', '112.80.248.26'])
+[00:26:18] [*] ('newsletter.baidu.com', [], ['180.76.185.16'])
+[00:26:21] [*] ('cache.a.shifen.com', ['cache.baidu.com'], ['157.255.77.56', '157.255.77.55'])
+[00:26:22] [*] ('new.rms.baidu.com', ['rms.baidu.com'], ['10.57.13.63', '10.65.211.49'])
+[00:26:22] [*] ('mx1.baidu.com', [], ['220.181.50.185', '61.135.165.120'])
+[00:26:22] [*] ('bapp.n.shifen.com', ['feedback.baidu.com'], ['180.149.131.33'])
+[00:26:22] [*] ('aiib-01.n.shifen.com', ['fz.baidu.com'], ['61.135.185.20', '153.37.235.93'])
+[00:26:25] [*] ('reports.a.shifen.com', ['reports.baidu.com'], ['112.80.255.158', '123.125.115.13', '163.177.151.157'])
+[00:26:26] [*] ('news.n.shifen.com', ['auto.baidu.com', 'news.baidu.com'], ['202.108.23.82', '123.125.115.141', '153.3.236.50', '111.202.114.151'])
+[00:26:26] [*] ('lvyou.n.shifen.com', ['travel.baidu.com', 'lvyou.baidu.com'], ['111.206.223.162'])
+[00:26:26] [*] ('cm.pos.e.shifen.com', ['cm.baidu.com'], ['111.202.114.35'])
+[00:26:26] [*] ('origin.baidu.com', [], ['10.50.14.165', '10.26.5.60'])
+[00:26:26] [*] ('cn.hao123.n.shifen.com', ['site.baidu.com'], ['123.125.114.5'])
+[00:26:26] [*] ('noah.baidu.com', ['cc.baidu.com', 'ccs.baidu.com'], ['10.26.7.113', '10.169.42.152'])
+[00:26:26] [*] ('iknow.n.shifen.com', ['p.baidu.com', 'zhidao.baidu.com', 'iknow.baidu.com'], ['61.135.185.172'])
+[00:26:30] [*] ('open.a.shifen.com', ['vote.baidu.com'], ['157.255.77.16', '112.80.248.26', '157.255.77.17', '112.80.248.27'])
+[00:26:30] [*] ('ems.baidu.com', [], ['10.38.75.31'])
+[00:26:33] [*] ('partner.baidu.com', [], ['220.181.33.224', '61.135.185.112', '112.34.113.34'])
+[00:26:34] [*] ('spam.maillb.baidu.com', ['spam.baidu.com'], ['172.31.63.13'])
+[00:26:34] [*] ('user.baidu.com', [], ['10.242.113.33'])
+[00:26:34] [*] ('tuan.n.shifen.com', ['tg.baidu.com'], ['61.135.162.145'])
+[00:26:34] [*] ('unionsug.a.shifen.com', ['sg.baidu.com', 'unionsug.baidu.com'], ['123.125.114.39'])
+[00:26:36] [*] ('lvyou.n.shifen.com', ['ly.baidu.com', 'lvyou.baidu.com'], ['111.206.223.162'])
+[00:26:36] [*] ('fs.baidu.com', [], ['10.42.8.186'])
+[00:26:36] [*] ('datamarket.e.shifen.com', ['dm.baidu.com'], ['115.239.211.48'])
+[00:26:40] [*] ('www.a.shifen.com', ['abc.baidu.com'], ['112.80.248.75', '112.80.248.76'])
+[00:26:40] [*] ('brand.e.shifen.com', ['brand.baidu.com'], ['39.156.66.125', '117.185.16.100'])
+[00:26:51] [*] ('assets.baidu.com', [], ['10.214.34.19'])
+[00:26:51] [*] ('wwwyq.n.shifen.com', ['0.baidu.com'], ['111.206.223.136'])
+[00:26:52] [*] ('news.n.shifen.com', ['money.baidu.com'], ['111.202.114.151', '123.125.115.141', '153.3.236.50', '202.108.23.82'])
+[00:26:52] [*] ('sales.baidu.com.baidu-itm.com', ['sales.baidu.com'], ['106.12.89.132'])
+[00:26:55] [*] ('tuan.n.shifen.com', ['tuan.baidu.com'], ['61.135.162.145'])
+[00:26:56] [*] ('marketing.baidu.com', [], ['36.152.44.78', '180.101.212.81', '61.135.185.96'])
+[00:26:56] [*] ('fankui.icafe.baidu.com', ['bugs.baidu.com'], ['10.42.4.177'])
+[00:26:56] [*] ('dy.baidu.com', [], ['10.212.6.239'])
+[00:26:59] [*] ('bapp.n.shifen.com', ['code.baidu.com'], ['180.149.131.33'])
+[00:27:00] [*] ('f.duoku.com', ['g.baidu.com', 'g.baidu-mgame.com'], ['180.76.58.249', '180.76.121.198', '180.76.187.73', '180.76.174.103', '106.12.147.225'])
+[00:27:01] [*] ('search-br.wshifen.com', ['br.baidu.com'], ['123.125.114.144'])
+[00:27:11] [*] ('jj.baidu.com', [], ['10.36.7.47'])

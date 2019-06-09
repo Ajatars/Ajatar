@@ -8,7 +8,7 @@
     Date:2015-07-25
 """
 import re
-from urllib.parse import urlparse
+import urlparse
 #识别脚本语言
 def getScript(url):
     app_suffix = []
@@ -48,7 +48,7 @@ def getScript(url):
 
 def assign(service, arg):
     if service == 'www':
-        arr = urlparse(arg)
+        arr = urlparse.urlparse(arg)
         return True, '%s://%s/' % (arr.scheme, arr.netloc)
 
 def audit(arg):

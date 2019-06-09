@@ -7,10 +7,10 @@ mail        :  a@lcx.cc
 Referer:	http://wooyun.org/bugs/wooyun-2010-080076
 """
 
-from urllib.parse import urlparse
+import urlparse
 def assign(service, arg):
     if service == 'www':
-        arr = urlparse(arg)
+        arr = urlparse.urlparse(arg)
         return True, '%s://%s/' % (arr.scheme, arr.netloc)
 
 def audit(arg):

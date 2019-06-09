@@ -10,17 +10,17 @@ try:
 except:
     pass
 
+import urlparse
 import urllib
 import base64
 import time
 import zlib
 import gzip
+import StringIO
+import Cookie
+import cookielib
 import shlex
 import argparse
-from io import StringIO
-from urllib.parse import urlparse
-from http import cookies
-from http import cookiejar
 from argparse import Namespace
 
 DEF_USER_AGENT = 'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 6.1)'
@@ -338,7 +338,7 @@ class Curl(object):
                     expires = m['expires']
                     if not expires:
                         continue
-                    if cookiejar.http2time(expires) < time.time():
+                    if cookielib.http2time(expires) < time.time():
                         del c[k]
 
                 cookie_str += c.output(attrs=[], header='', sep=';').strip()
@@ -409,7 +409,7 @@ class Curl(object):
                         if target in self._cookie_pool:
                             c = self._cookie_pool[target]
                         else:
-                            c = cookies.SimpleCookie()
+                            c = Cookie.SimpleCookie()
                             self._cookie_pool[target] = c
                         c.load(val)
                     elif key == 'keep-alive':
@@ -621,4 +621,4 @@ if __name__ == '__main__':
     s = Curl(log_func=logger)
 
     code, head, body, errcode, final_url = s.curl2('http://baidu.com', method='GET', location=True, connect_timeout=0.2)
-    print(code, head, body, errcode, final_url)
+    print code, head, body, errcode, final_url

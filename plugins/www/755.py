@@ -8,10 +8,10 @@
 # CVE-2015-2346
 # 可直接读取/etc/passwd文件
 
-from urllib.parse import urlparse
+import urlparse
 def assign(service, arg):
     if service == 'www':
-        arr = urlparse(arg)
+        arr = urlparse.urlparse(arg)
         return True, '%s://%s/' % (arr.scheme, arr.netloc)
 
 def audit(arg):

@@ -7,7 +7,8 @@ import time
 import traceback
 import random
 import sys
-#from lib.core.data import logger
+from lib.core.data import logger
+
 #兼容python23
 if sys.version > '3':
 	import queue as Queue
@@ -83,7 +84,7 @@ class Ajatar_threadpool:
 			except Exception:
 				errmsg = traceback.format_exc()
 				self.isContinue = False
-				logger.error(errormsg)
+				logger.error(errmsg)
 
 		# self.changeScanCount(-1)
 		self.changeThreadCount(-1)

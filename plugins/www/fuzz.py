@@ -1,12 +1,12 @@
 #renrensaoFuzz script
 #author:w8ay
 
-from urllib.parse import urlparse
+import urlparse
 import time
 
 def assign(service, arg):
     if service == "www":
-        h = urlparse(arg)
+        h = urlparse.urlparse(arg)
         return True,"%s://%s/"%(h.scheme,h.netloc)
 
 def audit(arg):

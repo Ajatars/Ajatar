@@ -13,6 +13,7 @@ from thirdparty.colorama.initialise import init as winowsColorInit
 from lib.utils.configfile import configFileParser
 from lib.core.option import initOption
 from lib.core.engine import pluginScan, webScan
+from lib.core.exception import (ToolkitMissingPrivileges,ToolkitPluginException, ToolkitSystemException,ToolkitUserQuitException)
 
 sys.dont_write_bytecode = True  # 不生成pyc
 
@@ -53,14 +54,14 @@ def main():
 	if IS_WIN == 'win32':#win 初始化
 		winowsColorInit()
 	#Banner()
-
 	try:
 		configFileParser(os.path.join(paths.Ajatar_ROOT_PATH, "config.conf")) #配置文件参数处理
 		initOption(args) #初始化参数
-		#pluginScan() #插件函数
+		pluginScan() #插件函数
 		webScan() #扫描函数
-	except Exception as e:
-		raise e
+	except ToolkitMissingPrivileges,e:
+		logger.error(e)
+		systemQuit(EXIT_STATUS.ERROR_EXIT)
 
 if __name__ == '__main__':
  	main() 

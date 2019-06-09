@@ -3,8 +3,7 @@
 # @Author: w8ay
 # @Date:   2017年12月20日 20:39:06
 
-import re
-from urllib.parse import urlparse
+import re,urlparse
 from lib.utils.cmsdata import cms_dict
 import hashlib
 
@@ -17,7 +16,7 @@ def makeurl(url):
     prox = "http://"
     if(url.startswith("https://")):
         prox = "https://"
-    url_info = urlparse(url)
+    url_info = urlparse.urlparse(url)
     url = prox + url_info.netloc + "/"
 
     return url

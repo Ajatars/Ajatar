@@ -10,10 +10,10 @@ Referer   : http://www.wooyun.org/bugs/wooyun-2015-0106774 http://www.wooyun.org
 在没有升级bash的服务器下，该地址是可以利用bash的远程命令执行漏洞
 """
 
-from urllib.parse import urlparse
+import urlparse
 def assign(service, arg):
     if service == 'www':
-        arr = urlparse(arg)
+        arr = urlparse.urlparse(arg)
         return True, '%s://%s/' % (arr.scheme, arr.netloc)
 
 def audit(arg):

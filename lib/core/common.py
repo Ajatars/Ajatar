@@ -2,8 +2,7 @@
 #coding:utf-8
 # 共同函数调用文件
 
-import sys,random,os,re,argparse,time
-from urllib.parse import urlparse
+import sys,random,os,re,argparse,time,urlparse
 from lib.core.settings import INVALID_UNICODE_CHAR_FORMAT#,banners
 from lib.core.data import paths,logger
 from lib.core.convert import stdoutencode
@@ -21,15 +20,15 @@ def getUnicode(value,encoding=None,noneToNull=False):
 		return "NULL"
 
 	#value 是否为unicode 或者 str时
-	if isinstance(value,str): 
+	if isinstance(value,unicode): 
 		return value
 	elif isinstance(value,basestring):
 		while True:
 			try:
-				return str(value,encoding or "utf-8")
-			except UnicodeDecodeError as ex:
+				return unicode(value,encoding or "utf-8")
+			except UnicodeDecodeError , ex:
 				try:
-					return str(value,"utf-8")
+					return unicode(value,"utf-8")
 				except:
 					value = value[:ex.start] + "".join(INVALID_UNICODE_CHAR_FORMAT % ord(_) for _ in value[ex.start:ex.end]) + value[ex.end:]
 	elif isListLike(value): #value 为list时
@@ -37,9 +36,9 @@ def getUnicode(value,encoding=None,noneToNull=False):
 		return value
 	else:
 		try:
-			return str(value)
-		except Exception as e:
-			return str(str(value),errors="ignore")
+			return unicode(value)
+		except Exception , e:
+			return unicode(str(value),errors="ignore")
 
 def setPaths(rootPath):
 	paths.Ajatar_ROOT_PATH = rootPath
@@ -69,11 +68,11 @@ def parser():
 def dataToStdout(data,forceOutput=False,bold=False,content_type=None):
 	#处理输出到命令行
 
-	if isinstance(data,str):
+	if isinstance(data,unicode):
 		message = stdoutencode(data)
 	else:
 		message = data
-	sys.stdout.write(setColor(message.decode(), bold))
+	sys.stdout.write(setColor(message, bold))
 	try:
 		sys.stdout.flush()
 	except IOError:
@@ -166,7 +165,7 @@ def makeurl(url):
 		prox = "https://"
 	if not (url.startswith("http://") or url.startswith("https://")):
 		url = prox + url
-	url_info = urlparse(url)
+	url_info = urlparse.urlparse(url)
 
 	if url_info.path:
 		#scheme='http', netloc='www.cwi.nl:80', path='/xxxx/Python.html

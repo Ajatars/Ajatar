@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 # refer:http://www.wooyun.org/bugs/wooyun-2010-0144595
 
-from urllib.parse import urlparse
+import urlparse
 def assign(service, arg):
     if service == "www":
-        r = urlparse(arg)
+        r = urlparse.urlparse(arg)
         return True, 'https://%s:4848/' %(r.netloc)
 
 def audit(arg):

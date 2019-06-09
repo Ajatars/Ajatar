@@ -2,12 +2,12 @@
 #-*- coding:utf-8 -*-
 #From:https://github.com/secfree/bcrpscan/blob/master/py_unittest.py
 
-from urllib.parse import urlparse
+import urlparse
 import hashlib
 
 DIR_PROBE_EXTS = ['.tar.gz', '.zip', '.rar', '.tar.bz2']
 FILE_PROBE_EXTS = ['.bak', '.swp', '.1']
-#NOT_EXIST = hashlib.md5("not_exist").hexdigest()[8:16]
+NOT_EXIST = hashlib.md5("not_exist").hexdigest()[8:16]
 
 
 def assign(service, arg):
@@ -30,7 +30,7 @@ def probe_url(url):
     if url.count('/') == 2:
         url = '%s/' % url
 
-    pr = urlparse(url)
+    pr = urlparse.urlparse(url)
     paths = get_parent_paths(pr.path)
     for p in paths:
         if p == "/":

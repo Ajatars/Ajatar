@@ -1,6 +1,0 @@
-[17:30:10] [*] Set threadnum:10
-[17:30:10] [*] ScanStart Target:http://www.baidu.com/
-[17:30:10] [-] load plugin error:cannot import name 'quote' from 'urllib' (C:\Users\admin\AppData\Local\Programs\Python\Python37\lib\urllib\__init__.py) service:www filename:Error_sqlinj.py
-[17:30:10] [-] load plugin error:cannot import name 'quote' from 'urllib' (C:\Users\admin\AppData\Local\Programs\Python\Python37\lib\urllib\__init__.py) service:www filename:Str_sqlinj.py
-[17:30:10] [-] load plugin error:'str' object has no attribute 'decode' service:www filename:heartbeat.py
-[17:30:15] [-] Running plugin error:sequence item 0: expected str instance, bytes found service:www filename:411.py

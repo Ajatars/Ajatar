@@ -1,13 +1,15 @@
 #!/usr/bin/evn python
 # -*- coding: utf-8 -*-
 import socket
-from urllib.parse import urlparse
+import urlparse
 import json
 import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
 
 def assign(service, arg):
     if service == 'www' and _G["find_service"]:
-        url_info = urlparse(arg)
+        url_info = urlparse.urlparse(arg)
         try:
             hostname = socket.gethostbyname(url_info.netloc)
             return True, hostname

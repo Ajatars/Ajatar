@@ -1,0 +1,232 @@
+[19:37:18] [*] Set threadnum:10
+[19:37:18] [*] ScanStart Target:http://www.baidu.com/
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your 1674.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your 1674.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:1674.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your bcrpscan.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your bcrpscan.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:bcrpscan.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your Collect_info.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your Collect_info.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:Collect_info.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your Error_sqlinj.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your Error_sqlinj.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:Error_sqlinj.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your fclude.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your fclude.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:fclude.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your Integer_sqlinj.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your Integer_sqlinj.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:Integer_sqlinj.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your spider_struts.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your spider_struts.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:spider_struts.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your Str_sqlinj.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your Str_sqlinj.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:Str_sqlinj.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your w9_errorFound.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your w9_errorFound.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:w9_errorFound.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your w9_phpconfigproblem.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your w9_phpconfigproblem.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:w9_phpconfigproblem.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your Xss_scan.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your Xss_scan.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:Xss_scan.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your 1.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your 1.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:1.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your 1076.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your 1076.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:1076.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your 1233.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your 1233.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:1233.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your 139.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your 139.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:139.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your 1424.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your 1424.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:1424.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your 181.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your 181.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:181.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your 1826.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your 1826.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:1826.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your 1861.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your 1861.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:1861.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your 1864.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your 1864.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:1864.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your 2047.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your 2047.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:2047.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your 2426.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your 2426.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:2426.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your 253.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your 253.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:253.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your 299.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your 299.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:299.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your 2a654302-1596.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your 2a654302-1596.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:2a654302-1596.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your 2b44e822-1596.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your 2b44e822-1596.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:2b44e822-1596.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your 2beb7066-1596.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your 2beb7066-1596.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:2beb7066-1596.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your 2f29d286-1596.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your 2f29d286-1596.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:2f29d286-1596.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your 2f2a06b6-1596.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your 2f2a06b6-1596.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:2f2a06b6-1596.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your 319.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your 319.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:319.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your 3231.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your 3231.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:3231.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your 3338.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your 3338.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:3338.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your 342.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your 342.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:342.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your 387.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your 387.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:387.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your 41.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your 41.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:41.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your 52.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your 52.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:52.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your 631.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your 631.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:631.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your 683.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your 683.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:683.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your 687.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your 687.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:687.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your 689.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your 689.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:689.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your 744.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your 744.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:744.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your 745.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your 745.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:745.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your 755.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your 755.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:755.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your 802.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your 802.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:802.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your 806.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your 806.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:806.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your 807.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your 807.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:807.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your 875.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your 875.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:875.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your 878.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your 878.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:878.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your 946.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your 946.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:946.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your cookie.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your cookie.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:cookie.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your cst.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your cst.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:cst.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your framework.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your framework.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:framework.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your heartbeat.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your heartbeat.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:heartbeat.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your identifyscript.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your identifyscript.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:identifyscript.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your iis7.5parse.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your iis7.5parse.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:iis7.5parse.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your phpinfo.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your phpinfo.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:phpinfo.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your w9_backfile.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your w9_backfile.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:w9_backfile.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your w9_backup.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your w9_backup.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:w9_backup.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your w9_buildtwith.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your w9_buildtwith.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:w9_buildtwith.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your w9_compressed.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your w9_compressed.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:w9_compressed.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your w9_crossdomain.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your w9_crossdomain.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:w9_crossdomain.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your w9_ctf.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your w9_ctf.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:w9_ctf.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your w9_dotnet.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your w9_dotnet.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:w9_dotnet.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your w9_gitleak.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your w9_gitleak.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:w9_gitleak.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your w9_iisput.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your w9_iisput.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:w9_iisput.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your w9_magento.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your w9_magento.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:w9_magento.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your w9_nginx.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your w9_nginx.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:w9_nginx.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your w9_padding_oracle.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your w9_padding_oracle.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:w9_padding_oracle.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your w9_robots.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your w9_robots.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:w9_robots.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your w9_sfi.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your w9_sfi.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:w9_sfi.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your w9_svncheck.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your w9_svncheck.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:w9_svncheck.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your w9_urlredict.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your w9_urlredict.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:w9_urlredict.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your w9_xss.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your w9_xss.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:w9_xss.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your waf_identify.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your waf_identify.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:waf_identify.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your web_xml_leak.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your web_xml_leak.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:web_xml_leak.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your whatcms.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your whatcms.py.
+[19:37:18] [-] load plugin error:module '<Ajatar>' has no attribute 'assign' service:www filename:whatcms.py
+[19:37:18] [-] Can't find essential method:'assign' in current script£¬Please modify your 1674.py.
+[19:37:18] [-] Can't find essential method:'audit' in current script£¬Please modify your 1674.py.

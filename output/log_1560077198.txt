@@ -1,0 +1,12 @@
+[18:46:38] [*] Set threadnum:10
+[18:46:38] [*] ScanStart Target:http://www.baidu.com/
+[18:46:50] [-] Running plugin error:cannot use a string pattern on a bytes-like object service:www filename:w9_buildtwith.py
+[18:46:52] [-] Running plugin error:sequence item 0: expected str instance, bytes found service:www filename:w9_gitleak.py
+[18:46:54] [-] Running plugin error:Request-sent service:www filename:w9_svncheck.py
+[18:46:55] [-] Running plugin error:sequence item 0: expected str instance, bytes found service:www filename:waf_identify.py
+[18:46:55] [-] Running plugin error:'dict_keys' object has no attribute 'sort' service:www filename:whatcms.py
+[18:52:47] [-] spider plugin:1674.py errinfo:cannot use a string pattern on a bytes-like object url:http://www.baidu.com/
+[18:52:47] [-] spider plugin:Collect_info.py errinfo:cannot use a string pattern on a bytes-like object url:http://www.baidu.com/
+[18:52:47] [-] spider plugin:spider_struts.py errinfo:cannot use a string pattern on a bytes-like object url:http://www.baidu.com/
+[18:52:47] [-] spider plugin:w9_errorFound.py errinfo:a bytes-like object is required, not 'str' url:http://www.baidu.com/
+[18:52:47] [-] spider plugin:w9_phpconfigproblem.py errinfo:cannot use a string pattern on a bytes-like object url:http://www.baidu.com/

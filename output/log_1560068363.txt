@@ -1,0 +1,27 @@
+[16:19:23] [*] Set threadnum:10
+[16:19:23] [*] ScanStart Target:http://www.baidu.com/
+[16:19:23] [-] load plugin error:Unicode-objects must be encoded before hashing service:www filename:bcrpscan.py
+[16:19:23] [-] load plugin error:Missing parentheses in call to 'print'. Did you mean print(e)? (<string>, line 58) service:www filename:Error_sqlinj.py
+[16:19:23] [-] load plugin error:invalid syntax (<string>, line 39) service:www filename:Integer_sqlinj.py
+[16:19:23] [-] load plugin error:Missing parentheses in call to 'print'. Did you mean print("Hello")? (<string>, line 40) service:www filename:spider_struts.py
+[16:19:23] [-] load plugin error:invalid syntax (<string>, line 46) service:www filename:Str_sqlinj.py
+[16:19:23] [-] load plugin error:Missing parentheses in call to 'print'. Did you mean print("1")? (<string>, line 32) service:www filename:w9_errorFound.py
+[16:19:23] [-] load plugin error:cannot import name 'quote' from 'urllib' (C:\Users\admin\AppData\Local\Programs\Python\Python37\lib\urllib\__init__.py) service:www filename:Xss_scan.py
+[16:19:23] [-] load plugin error:invalid character in identifier (<string>, line 1) service:www filename:1182.py
+[16:19:23] [-] load plugin error:No module named 'md5' service:www filename:299.py
+[16:19:23] [-] load plugin error:No module named 'Queue' service:www filename:3231.py
+[16:19:23] [-] load plugin error:name 'reload' is not defined service:www filename:3338.py
+[16:19:23] [-] load plugin error:Missing parentheses in call to 'print'. Did you mean print(s)? (<string>, line 47) service:www filename:heartbeat.py
+[16:19:23] [-] load plugin error:invalid syntax (<string>, line 42) service:www filename:w9_buildtwith.py
+[16:19:23] [-] load plugin error:'function' object has no attribute 'parse_qsl' service:www filename:w9_sfi.py
+[16:19:23] [-] load plugin error:'function' object has no attribute 'parse_qsl' service:www filename:w9_urlredict.py
+[16:19:23] [-] load plugin error:'function' object has no attribute 'parse_qsl' service:www filename:w9_xss.py
+[16:19:23] [-] load plugin error:No module named 'urlparse' service:www filename:whatcms.py
+[16:19:28] [-] Running plugin error:name 'unicode' is not defined service:www filename:411.py
+[16:19:33] [-] Running plugin error:name 'unicode' is not defined service:www filename:fingeros.py
+[16:19:33] [-] Running plugin error:a bytes-like object is required, not 'str' service:www filename:cve-2017-7269.py
+[16:19:33] [-] Running plugin error:name 'unicode' is not defined service:www filename:struts.py
+[16:19:33] [*] ('www.a.shifen.com', ['www.baidu.com'], ['112.80.248.76', '112.80.248.75'])
+[16:19:34] [*] ('mail.maillb.baidu.com', ['mail.baidu.com'], ['111.202.115.87'])
+[16:19:34] [*] ('pop.baidu.com', [], ['10.99.145.36'])
+[16:19:34] [*] ('wap.n.shifen.com', ['m.baidu.com'], ['163.177.151.99', '163.177.151.98'])

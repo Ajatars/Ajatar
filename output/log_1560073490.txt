@@ -1,0 +1,25 @@
+[17:44:50] [*] Set threadnum:10
+[17:44:50] [*] ScanStart Target:http://www.baidu.com/
+[17:44:55] [-] Running plugin error:sequence item 0: expected str instance, bytes found service:www filename:411.py
+[17:45:01] [-] Running plugin error:a bytes-like object is required, not 'str' service:www filename:cve-2017-7269.py
+[17:45:01] [-] Running plugin error:Request-sent service:www filename:fingeros.py
+[17:45:02] [*] ('www.a.shifen.com', ['www.baidu.com'], ['112.80.248.76', '112.80.248.75'])
+[17:45:02] [-] Running plugin error:Request-sent service:www filename:struts.py
+[17:45:02] [*] ('mail.maillb.baidu.com', ['mail.baidu.com'], ['111.202.115.87'])
+[17:45:02] [*] ('pop.baidu.com', [], ['10.99.145.36'])
+[17:45:02] [*] ('wap.n.shifen.com', ['m.baidu.com'], ['163.177.151.98', '163.177.151.99'])
+[17:45:02] [*] ('mail.maillb.baidu.com', ['autodiscover.baidu.com', 'email.baidu.com'], ['111.202.115.87'])
+[17:45:02] [*] ('admin.baidu.com', [], ['10.26.109.19'])
+[17:45:03] [*] ('post.n.shifen.com', ['bbs.baidu.com', 'post.baidu.com'], ['163.177.151.76'])
+[17:45:03] [*] ('crowdtestatmp.n.shifen.com', ['test.baidu.com'], ['61.135.185.109'])
+[17:45:03] [*] ('mx.baidu.com', [], ['61.135.163.61'])
+[17:45:03] [*] ('mail.maillb.baidu.com', ['email.baidu.com'], ['111.202.115.87'])
+[17:45:03] [*] ('wap.n.shifen.com', ['wap.baidu.com'], ['163.177.151.98', '163.177.151.99'])
+[17:45:03] [*] ('ns1.baidu.com', [], ['202.108.22.220'])
+[17:45:03] [*] ('vpn.n.shifen.com', ['vpn.baidu.com'], ['61.135.165.126'])
+[17:45:03] [*] ('ns2.baidu.com', [], ['220.181.33.31'])
+[17:45:03] [*] ('www2.e.shifen.com', ['www2.baidu.com'], ['111.206.37.231'])
+[17:45:03] [*] ('mysql.baidu.com', [], ['10.105.97.153'])
+[17:45:03] [*] ('developer-portal.n.shifen.com', ['dev.baidu.com'], ['112.34.111.60'])
+[17:45:04] [*] ('news.n.shifen.com', ['news.baidu.com'], ['123.125.115.141', '111.202.114.151', '153.3.236.50', '202.108.23.82'])
+[17:45:04] [*] ('orp.n.shifen.com', ['shop.baidu.com'], ['123.125.115.15'])

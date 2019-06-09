@@ -1,0 +1,10 @@
+[19:56:29] [*] Set threadnum:10
+[19:56:29] [*] ScanStart Target:http://www.baidu.com/
+[19:56:40] [*] ('www.a.shifen.com', ['www.baidu.com'], ['112.80.248.76', '112.80.248.75'])
+[19:56:41] [*] ('mail.maillb.baidu.com', ['mail.baidu.com'], ['111.202.115.87'])
+[19:56:41] [*] ('pop.baidu.com', [], ['10.99.145.36'])
+[19:56:41] [*] ('wap.n.shifen.com', ['m.baidu.com'], ['163.177.151.99', '163.177.151.98'])
+[19:56:42] [*] ('mail.maillb.baidu.com', ['autodiscover.baidu.com', 'email.baidu.com'], ['111.202.115.87'])
+[19:56:43] [*] ('admin.baidu.com', [], ['10.26.109.19'])
+[19:56:43] [*] ('post.n.shifen.com', ['bbs.baidu.com', 'post.baidu.com'], ['163.177.151.76'])
+[19:56:43] [-] Running plugin error:cannot use a string pattern on a bytes-like object service:www filename:w9_buildtwith.py

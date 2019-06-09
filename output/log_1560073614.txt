@@ -1,0 +1,17 @@
+[17:46:54] [*] Set threadnum:10
+[17:46:54] [*] ScanStart Target:http://www.baidu.com/
+[17:47:05] [-] Running plugin error:a bytes-like object is required, not 'str' service:www filename:cve-2017-7269.py
+[17:47:05] [-] Running plugin error:sequence item 0: expected str instance, bytes found service:www filename:fingeros.py
+[17:47:06] [*] ('www.a.shifen.com', ['www.baidu.com'], ['112.80.248.76', '112.80.248.75'])
+[17:47:06] [-] Running plugin error:sequence item 0: expected str instance, bytes found service:www filename:struts.py
+[17:47:06] [*] ('mail.maillb.baidu.com', ['mail.baidu.com'], ['111.202.115.87'])
+[17:47:06] [*] ('pop.baidu.com', [], ['10.99.145.36'])
+[17:47:06] [*] ('wap.n.shifen.com', ['m.baidu.com'], ['163.177.151.98', '163.177.151.99'])
+[17:47:06] [*] ('mail.maillb.baidu.com', ['autodiscover.baidu.com', 'email.baidu.com'], ['111.202.115.87'])
+[17:47:06] [*] ('admin.baidu.com', [], ['10.26.109.19'])
+[17:47:06] [*] ('post.n.shifen.com', ['bbs.baidu.com', 'post.baidu.com'], ['163.177.151.76'])
+[17:47:06] [*] ('crowdtestatmp.n.shifen.com', ['test.baidu.com'], ['61.135.185.109'])
+[17:47:07] [*] ('mx.baidu.com', [], ['61.135.163.61'])
+[17:47:07] [*] ('mail.maillb.baidu.com', ['email.baidu.com'], ['111.202.115.87'])
+[17:47:07] [*] ('wap.n.shifen.com', ['wap.baidu.com'], ['163.177.151.98', '163.177.151.99'])
+[17:47:07] [*] ('ns1.baidu.com', [], ['202.108.22.220'])

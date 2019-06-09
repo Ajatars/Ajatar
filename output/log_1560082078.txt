@@ -1,0 +1,7 @@
+[20:07:58] [*] Set threadnum:10
+[20:07:58] [*] ScanStart Target:http://www.baidu.com/
+[20:08:20] [-] spider plugin:1674.py errinfo:cannot use a string pattern on a bytes-like object url:http://www.baidu.com/
+[20:08:20] [-] spider plugin:Collect_info.py errinfo:cannot use a string pattern on a bytes-like object url:http://www.baidu.com/
+[20:08:20] [-] spider plugin:spider_struts.py errinfo:cannot use a string pattern on a bytes-like object url:http://www.baidu.com/
+[20:08:20] [-] spider plugin:w9_errorFound.py errinfo:a bytes-like object is required, not 'str' url:http://www.baidu.com/
+[20:08:20] [-] spider plugin:w9_phpconfigproblem.py errinfo:cannot use a string pattern on a bytes-like object url:http://www.baidu.com/

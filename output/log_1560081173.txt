@@ -1,0 +1,4 @@
+[19:52:53] [*] Set threadnum:10
+[19:52:53] [*] ScanStart Target:http://www.baidu.com/
+[19:53:05] [-] Running plugin error:cannot use a string pattern on a bytes-like object service:www filename:w9_buildtwith.py
+[19:53:06] [-] Running plugin error:Request-sent service:www filename:w9_gitleak.py

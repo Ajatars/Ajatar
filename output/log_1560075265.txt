@@ -1,0 +1,32 @@
+[18:14:25] [*] Set threadnum:10
+[18:14:25] [*] ScanStart Target:http://www.baidu.com/
+[18:14:25] [-] Running plugin error:'str' object has no attribute 'decode' service:www filename:1.py
+[18:14:25] [-] Running plugin error:'str' object has no attribute 'decode' service:www filename:1076.py
+[18:14:25] [-] Running plugin error:'str' object has no attribute 'decode' service:www filename:1233.py
+[18:14:25] [-] Running plugin error:'str' object has no attribute 'decode' service:www filename:1424.py
+[18:14:25] [-] Running plugin error:'str' object has no attribute 'decode' service:www filename:181.py
+[18:14:25] [-] Running plugin error:'str' object has no attribute 'decode' service:www filename:1861.py
+[18:14:25] [-] Running plugin error:'str' object has no attribute 'decode' service:www filename:2426.py
+[18:14:25] [-] Running plugin error:'str' object has no attribute 'decode' service:www filename:1864.py
+[18:14:25] [-] Running plugin error:'str' object has no attribute 'decode' service:www filename:2047.py
+[18:14:25] [-] Running plugin error:'str' object has no attribute 'decode' service:www filename:1826.py
+[18:14:26] [-] Running plugin error:'str' object has no attribute 'decode' service:www filename:253.py
+[18:14:26] [-] Running plugin error:'str' object has no attribute 'decode' service:www filename:299.py
+[18:14:26] [-] Running plugin error:'str' object has no attribute 'decode' service:www filename:2beb7066-1596.py
+[18:14:26] [-] Running plugin error:'str' object has no attribute 'decode' service:www filename:2a654302-1596.py
+[18:14:26] [-] Running plugin error:'str' object has no attribute 'decode' service:www filename:319.py
+[18:14:26] [-] Running plugin error:'str' object has no attribute 'decode' service:www filename:2f2a06b6-1596.py
+[18:14:26] [-] Running plugin error:'str' object has no attribute 'decode' service:www filename:3231.py
+[18:14:26] [-] Running plugin error:'str' object has no attribute 'decode' service:www filename:2f29d286-1596.py
+[18:14:26] [-] Running plugin error:'str' object has no attribute 'decode' service:www filename:2b44e822-1596.py
+[18:14:26] [-] Running plugin error:'str' object has no attribute 'decode' service:www filename:342.py
+[18:14:26] [-] Running plugin error:'str' object has no attribute 'decode' service:www filename:387.py
+[18:14:26] [-] Running plugin error:'str' object has no attribute 'decode' service:www filename:41.py
+[18:14:26] [-] Running plugin error:'str' object has no attribute 'decode' service:www filename:52.py
+[18:14:26] [-] Running plugin error:'str' object has no attribute 'decode' service:www filename:631.py
+[18:14:26] [-] Running plugin error:'str' object has no attribute 'decode' service:www filename:687.py
+[18:14:26] [-] Running plugin error:'str' object has no attribute 'decode' service:www filename:683.py
+[18:14:26] [-] Running plugin error:'str' object has no attribute 'decode' service:www filename:689.py
+[18:14:26] [-] Running plugin error:'str' object has no attribute 'decode' service:www filename:744.py
+[18:14:26] [-] Running plugin error:'str' object has no attribute 'decode' service:www filename:745.py
+[18:14:26] [-] Running plugin error:'str' object has no attribute 'decode' service:www filename:755.py

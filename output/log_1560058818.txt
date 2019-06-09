@@ -1,0 +1,1 @@
+[13:40:18] [*] Found:zzcms    Total:1    Files:['zzcms8.2sqli.py']

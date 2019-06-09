@@ -1,0 +1,7 @@
+[20:01:44] [*] Set threadnum:10
+[20:01:44] [*] ScanStart Target:http://www.baidu.com/
+[20:01:56] [-] Running plugin error:cannot use a string pattern on a bytes-like object service:www filename:w9_buildtwith.py
+[20:01:58] [-] Running plugin error:Request-sent service:www filename:w9_gitleak.py
+[20:02:00] [-] Running plugin error:Request-sent service:www filename:w9_svncheck.py
+[20:02:00] [-] Running plugin error:sequence item 0: expected str instance, bytes found service:www filename:waf_identify.py
+[20:02:01] [-] Running plugin error:'dict_keys' object has no attribute 'sort' service:www filename:whatcms.py

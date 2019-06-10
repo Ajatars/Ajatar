@@ -1,4 +1,4 @@
-# Ajatar 一个学习大佬练手的扫描器，努力使它兼容双python
+# Ajatar 一个学习大佬的练手的扫描器，努力使它兼容双python
 目前只能用python2.7
 
 ### Ajatar所有功能基于插件
